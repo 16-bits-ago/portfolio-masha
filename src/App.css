@@ -7,17 +7,19 @@ ul {
   padding: 0;
 }
 
+.container {
+  margin: 0 100px;
+}
 
 .App-header {
   min-height: 85px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  margin: 0 100px;
 }
 
 .header-link {
@@ -36,6 +38,81 @@ ul {
 .active-link-border {
   border-bottom: 2px solid #FB7756;
   padding-top: 10px;
+}
+
+.span-orange {
+  color: #FB7756;
+}
+
+.span-orange-background {
+  background-color: #f8d7ce;
+}
+
+.home-intro-block {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.home-intro-logo {
+  margin-right: 20%;
+}
+
+.home-intro-block p {
+  max-width: 680px;
+  text-align: left;
+}
+
+.home-intro-block-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 105px 0 60px;
+}
+
+.home-intro-block-footer span{
+  min-width: 115px;
+  text-align: start;
+}
+
+.home-cards {
+  min-height: 400px;
+  width: 100%;
+  background-color: #FB7756;
+}
+.home-cards2 {
+  min-height: 400px;
+  width: 100%;
+  background-color: #f8d7ce;
+}
+
+.card-border {
+  border: 2px solid #D9D9D9;
+}
+
+.footer {
+  height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow-img {
+  max-width: 50px;
+  max-height: 24px;
 }
 
 .App-link {
