@@ -8,7 +8,7 @@ const HeaderLayout = () => {
         <div>
           <span className="header-link">
             <NavLink
-              to="/"
+              to="/portfolio-masha"
               className={({ isActive }) =>
                 isActive ? 'active-link-border' : ''
               }

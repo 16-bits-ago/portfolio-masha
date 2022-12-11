@@ -13,7 +13,7 @@ const FooterLayout = () => {
                 MENU
               </span>
               <span className="header-link">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/portfolio-masha">Home</NavLink>
               </span>
 
               <span className="header-link">
