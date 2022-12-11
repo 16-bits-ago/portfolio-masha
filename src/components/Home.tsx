@@ -4,9 +4,8 @@ import Typography from '@mui/material/Typography'
 import Modal from '@mui/material/Modal'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
-import { ReactComponent as ZernoFrame } from '../assets/zernoFrame.svg'
-import { ImageList, ImageListItem } from '@mui/material'
-import { itemData } from '../data/imageHomeData'
+import zernoFrame from '../assets/zerno.png'
+import FooterLayout from './footer/FooterLayout'
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -18,15 +17,6 @@ const style = {
   border: '2px solid #000',
   boxShadow: 24,
   p: 4
-}
-
-function srcset(image: string, size: number, rows = 1, cols = 1) {
-  return {
-    src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
-  };
 }
 
 const Home = () => {
@@ -78,35 +68,62 @@ const Home = () => {
           <span>Cyprus. Limassol</span>
         </div>
       </div>
-      <ImageList
-      sx={{ width: '100%'}}
-      variant="quilted"
-      cols={4}
-      rowHeight={200}
-      style={{gap: 0}}
-    >
-      {itemData.map((item) => (
-        <ImageListItem className='card-border' key={item.title} cols={item.cols || 1} rows={item.rows || 1}>
-          <img
-            {...srcset(item.img, 121, item.rows, item.cols)}
-            alt={item.title}
-            loading="lazy"
-            
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
-    <div className='container'>
-      <div className='footer'>
-        <div className='footer-left'>
-          <ReactLogo style={{paddingRight: 150}}/>
-          <span className="span-orange-background">MENU</span>
+      <div className="home-card-block">
+        <div className="home-cards">
+          <div className="card-img-border">
+            <img className='card-img-size' src={zernoFrame} alt="" />
+          </div>
         </div>
-        <div>
-        <span className="span-orange-background">SOCIAL</span>
+        <div className="home-cards-text">
+          <div className="card-content-text">
+            <div className='card-content-text-block'>
+              <h1>E-Commerce</h1>
+              <div className='card-content-tag-block'>
+                <span className='card-content-tag'>UX research</span>
+                <span className='card-content-tag2'>Redesign</span>
+                <span className='card-content-tag3'>User Interface</span>
+              </div>
+              <p>
+                Scrutiny careful research, deep analysis and creating beautiful
+                minimalistic website for an online store of Ukrainian clothes.
+              </p>
+              <span className='tap-button-block'>
+                TAP TO EXPLORE
+              </span>
+              
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      
+      <div className="home-card-block">
+        <div className="home-cards-text">
+          <div className="card-content-text">
+            <div className='card-content-text-block'>
+              <h1>E-Commerce</h1>
+              <div className='card-content-tag-block'>
+                <span className='card-content-tag'>UX research</span>
+                <span className='card-content-tag2'>Redesign</span>
+                <span className='card-content-tag3'>User Interface</span>
+              </div>
+              <p>
+                Scrutiny careful research, deep analysis and creating beautiful
+                minimalistic website for an online store of Ukrainian clothes.
+              </p>
+              <span className='tap-button-block'>
+                TAP TO EXPLORE
+              </span>
+              
+            </div>
+          </div>
+        </div>
+        <div className="home-cards">
+          <div className="card-img-border">
+            <img className='card-img-size' src={zernoFrame} alt="" />
+          </div>
+        </div>
+      </div> 
+      <FooterLayout />
     </React.Fragment>
   )
 }
