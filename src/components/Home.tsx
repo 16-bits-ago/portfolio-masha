@@ -5,6 +5,7 @@ import Modal from '@mui/material/Modal'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zerno.png'
+import projectorFrame from '../assets/projectorFrame.png'
 import FooterLayout from './footer/FooterLayout'
 
 const style = {
@@ -71,58 +72,52 @@ const Home = () => {
       <div className="home-card-block">
         <div className="home-cards">
           <div className="card-img-border">
-            <img className='card-img-size' src={zernoFrame} alt="" />
+            <img className="card-img-size" src={zernoFrame} alt="" />
           </div>
         </div>
         <div className="home-cards-text">
           <div className="card-content-text">
-            <div className='card-content-text-block'>
+            <div className="card-content-text-block">
               <h1>E-Commerce</h1>
-              <div className='card-content-tag-block'>
-                <span className='card-content-tag'>UX research</span>
-                <span className='card-content-tag2'>Redesign</span>
-                <span className='card-content-tag3'>User Interface</span>
+              <div className="card-content-tag-block">
+                <span className="card-content-tag">UX research</span>
+                <span className="card-content-tag2">Redesign</span>
+                <span className="card-content-tag3">User Interface</span>
               </div>
               <p>
                 Scrutiny careful research, deep analysis and creating beautiful
                 minimalistic website for an online store of Ukrainian clothes.
               </p>
-              <span className='tap-button-block'>
-                TAP TO EXPLORE
-              </span>
-              
+              <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div className="home-card-block">
         <div className="home-cards-text">
           <div className="card-content-text">
-            <div className='card-content-text-block'>
-              <h1>E-Commerce</h1>
-              <div className='card-content-tag-block'>
-                <span className='card-content-tag'>UX research</span>
-                <span className='card-content-tag2'>Redesign</span>
-                <span className='card-content-tag3'>User Interface</span>
+            <div className="card-content-text-block">
+              <h1>Landing Page</h1>
+              <div className="card-content-tag-block">
+                <span className="card-content-tag">User Interface</span>
+                <span className="card-content-tag2">Stylish</span>
+                <span className="card-content-tag3">User Experience</span>
               </div>
               <p>
-                Scrutiny careful research, deep analysis and creating beautiful
-                minimalistic website for an online store of Ukrainian clothes.
+                Crafting redesign of page of faculty for an online university
+                with its own taste and unique style.
               </p>
-              <span className='tap-button-block'>
-                TAP TO EXPLORE
-              </span>
-              
+              <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
         </div>
         <div className="home-cards">
           <div className="card-img-border">
-            <img className='card-img-size' src={zernoFrame} alt="" />
+            <img className="card-img-size" src={projectorFrame} alt="" />
           </div>
         </div>
-      </div> 
+      </div>
       <FooterLayout />
     </React.Fragment>
   )
