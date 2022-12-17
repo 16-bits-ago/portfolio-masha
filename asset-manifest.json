@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.b8c0100a.css",
-    "main.js": "/portfolio-masha/static/js/main.2693a529.js",
+    "main.css": "/portfolio-masha/static/css/main.c62a9b13.css",
+    "main.js": "/portfolio-masha/static/js/main.995d1032.js",
+    "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.4f38c56c8caf0d715246.pdf",
     "static/media/zerno.png": "/portfolio-masha/static/media/zerno.fe4dc3ecf88928124ae5.png",
     "static/media/avatar.png": "/portfolio-masha/static/media/avatar.8081991b226819e060c8.png",
     "static/media/projectorFrame.png": "/portfolio-masha/static/media/projectorFrame.ef3383acdb0b867a6e38.png",
@@ -9,11 +10,11 @@
     "static/media/🦆 emoji _red heart_.svg": "/portfolio-masha/static/media/🦆 emoji _red heart_.2892249a685fffef8701aea539576e2b.svg",
     "index.html": "/portfolio-masha/index.html",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.b8c0100a.css.map": "/portfolio-masha/static/css/main.b8c0100a.css.map",
-    "main.2693a529.js.map": "/portfolio-masha/static/js/main.2693a529.js.map"
+    "main.c62a9b13.css.map": "/portfolio-masha/static/css/main.c62a9b13.css.map",
+    "main.995d1032.js.map": "/portfolio-masha/static/js/main.995d1032.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c0100a.css",
-    "static/js/main.2693a529.js"
+    "static/css/main.c62a9b13.css",
+    "static/js/main.995d1032.js"
   ]
 }
