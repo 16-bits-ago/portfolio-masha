@@ -1,11 +1,10 @@
-import { Link, Outlet } from 'react-router-dom'
-import { ReactComponent as RedHeart } from '../../assets/🦆 emoji _red heart_.svg'
+import { ReactComponent as RedHeart } from '../../../assets/🦆 emoji _red heart_.svg'
 
 const FooterLayout = () => {
   return (
     <>
-      <footer className="container">
-        <div className="footer">
+      <footer className="footer-border">
+        <div className="container footer">
           <div className="footer-left">
             <span>
               Shoot me an email! <RedHeart />
@@ -32,8 +31,6 @@ const FooterLayout = () => {
           </div>
         </div>
       </footer>
-
-      <Outlet />
     </>
   )
 }

@@ -6,7 +6,6 @@ import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zerno.png'
 import projectorFrame from '../assets/projectorFrame.png'
-import FooterLayout from './footer/FooterLayout'
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -118,7 +117,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <FooterLayout />
     </React.Fragment>
   )
 }
