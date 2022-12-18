@@ -5,7 +5,7 @@ import Modal from '@mui/material/Modal'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zernoHighRes.png'
-import projectorFrame from '../assets/projectorFrame.png'
+import projectorFrame from '../assets/projectorHighRes.png'
 import { NavLink } from 'react-router-dom'
 
 const style = {
@@ -73,11 +73,10 @@ const Home = () => {
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={zernoFrame} alt="" />
-            {/* <ZERNO className="card-img-size"/> */}
           </div>
         </div>
         
-        <NavLink to="/zernoEcomers" className="home-cards-text ">
+        <NavLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
               <h1>E-Commerce</h1>
@@ -117,7 +116,6 @@ const Home = () => {
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={projectorFrame} alt="" />
-            {/* <PROJECTOR className="card-img-size"/> */}
           </div>
         </div>
       </div>

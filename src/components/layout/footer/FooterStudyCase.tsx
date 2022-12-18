@@ -5,22 +5,22 @@ const FooterStudyCase = () => {
     <>
       <footer className="footer-border-studycase">
         <div className="container footer-studycase">
-          <Link to="/zernoEcomers#start">
+          <Link className="footer-studycase-link" to="/zernoEcomers#start">
             <span>START</span>
           </Link>
-          <Link to="/zernoEcomers#emphathize">
+          <Link className="footer-studycase-link" to="/zernoEcomers#emphathize">
             <span>1/ EMPHATHIZE</span>
           </Link>
-          <Link to="/zernoEcomers#define">
+          <Link className="footer-studycase-link" to="/zernoEcomers#define">
             <span>2/ DEFINE</span>
           </Link>
-          <Link to="/zernoEcomers#ideate">
+          <Link className="footer-studycase-link" to="/zernoEcomers#ideate">
             <span>3/ IDEATE</span>
           </Link>
-          <Link to="/zernoEcomers#prototype">
+          <Link className="footer-studycase-link" to="/zernoEcomers#prototype">
             <span>4/ PROTOTYPE</span>
           </Link>
-          <Link to="/zernoEcomers#test">
+          <Link className="footer-studycase-link" to="/zernoEcomers#test">
             <span>5/ TEST</span>
           </Link>
         </div>
