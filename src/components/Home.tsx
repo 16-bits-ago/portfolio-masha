@@ -6,8 +6,9 @@ import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import { ReactComponent as ZERNO } from '../assets/ZERNO.svg'
 import { ReactComponent as PROJECTOR } from '../assets/PROJECTOR.svg'
-import zernoFrame from '../assets/zerno.png'
+import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorFrame.png'
+import { NavLink } from 'react-router-dom'
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -77,9 +78,10 @@ const Home = () => {
             {/* <ZERNO className="card-img-size"/> */}
           </div>
         </div>
-        <div className="home-cards-text">
-          <div className="card-content-text">
-            <div className="card-content-text-block">
+        
+        <NavLink to="/zernoEcomers" className="home-cards-text ">
+          <div className="card-content-text ">
+            <div className="card-content-text-block ">
               <h1>E-Commerce</h1>
               <div className="card-content-tag-block">
                 <span className="card-content-tag">UX research</span>
@@ -93,7 +95,7 @@ const Home = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </div>
+        </NavLink>
       </div>
 
       <div className="home-card-block">

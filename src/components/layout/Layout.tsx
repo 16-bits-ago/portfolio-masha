@@ -1,14 +1,17 @@
-import { Outlet } from 'react-router-dom'
-import FooterLayout from './footer/FooterLayout'
+import { Outlet, useLocation } from 'react-router-dom'
+import FooterMainPages from './footer/FooterMainPages'
+import FooterStudyCase from './footer/FooterStudyCase'
 import HeaderLayout from './header/HeaderLayout'
 
-
 const Layout = () => {
+  const { pathname } = useLocation()
   return (
     <>
       <HeaderLayout />
-        <Outlet />
-      <FooterLayout />
+      <Outlet />
+      {(pathname === '/about' || pathname === '/portfolio-masha') ? 
+        <FooterMainPages /> : <FooterStudyCase/>
+      }
     </>
   )
 }

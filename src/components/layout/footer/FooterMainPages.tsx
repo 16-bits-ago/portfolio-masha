@@ -1,6 +1,6 @@
 import { ReactComponent as RedHeart } from '../../../assets/🦆 emoji _red heart_.svg'
 
-const FooterLayout = () => {
+const FooterMainPages = () => {
   return (
     <>
       <footer className="footer-border">
@@ -35,4 +35,4 @@ const FooterLayout = () => {
   )
 }
 
-export default FooterLayout
+export default FooterMainPages

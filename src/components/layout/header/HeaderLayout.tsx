@@ -8,7 +8,7 @@ const HeaderLayout = () => {
     <>
       <header
         className={
-          pathname === '/about' || '/portfolio-masha'
+          pathname === '/about' || pathname === '/portfolio-masha'
             ? 'header-border-sticky'
             : 'header-border'
         }
