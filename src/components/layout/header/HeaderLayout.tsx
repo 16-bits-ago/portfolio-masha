@@ -1,10 +1,18 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import resume from '../../../assets/Resume.pdf'
 
 const HeaderLayout = () => {
+  const { pathname } = useLocation()
+
   return (
     <>
-      <header className="header-border">
+      <header
+        className={
+          pathname === '/about' || '/portfolio-masha'
+            ? 'header-border-sticky'
+            : 'header-border'
+        }
+      >
         <div className="container App-header">
           <span>Mariia Mykhailovska</span>
           <div className="header-right-wrap">
@@ -35,7 +43,7 @@ const HeaderLayout = () => {
               href={resume}
               download="CV_Mariia_Mykhailovska.pdf"
             >
-              <span style={{paddingRight: 5}}>Resume</span>
+              <span style={{ paddingRight: 5 }}>Resume</span>
               <div className="cloud">
                 <div className="arrow"></div>
               </div>

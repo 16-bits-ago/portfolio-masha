@@ -4,6 +4,8 @@ import Typography from '@mui/material/Typography'
 import Modal from '@mui/material/Modal'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
+import { ReactComponent as ZERNO } from '../assets/ZERNO.svg'
+import { ReactComponent as PROJECTOR } from '../assets/PROJECTOR.svg'
 import zernoFrame from '../assets/zerno.png'
 import projectorFrame from '../assets/projectorFrame.png'
 
@@ -72,6 +74,7 @@ const Home = () => {
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={zernoFrame} alt="" />
+            {/* <ZERNO className="card-img-size"/> */}
           </div>
         </div>
         <div className="home-cards-text">
@@ -114,6 +117,7 @@ const Home = () => {
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={projectorFrame} alt="" />
+            {/* <PROJECTOR className="card-img-size"/> */}
           </div>
         </div>
       </div>
