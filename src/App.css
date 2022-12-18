@@ -509,7 +509,7 @@ ul {
 }
 
 .zerno-start-img {
-  height: 630px;
+  height: 700px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 80px;
@@ -592,6 +592,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .zerno-start-block3-card {

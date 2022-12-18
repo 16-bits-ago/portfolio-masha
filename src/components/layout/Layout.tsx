@@ -9,9 +9,13 @@ const Layout = () => {
     <>
       <HeaderLayout />
       <Outlet />
-      {(pathname === '/about' || pathname === '/portfolio-masha') ? 
-        <FooterMainPages /> : <FooterStudyCase/>
-      }
+      {pathname === '/about' ||
+      pathname === '/portfolio-masha' ||
+      pathname === '/portfolio-masha/' ? (
+        <FooterMainPages />
+      ) : (
+        <FooterStudyCase />
+      )}
     </>
   )
 }
