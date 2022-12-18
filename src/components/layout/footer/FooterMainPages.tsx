@@ -1,4 +1,4 @@
-import { ReactComponent as RedHeart } from '../../../assets/🦆 emoji _red heart_.svg'
+import { ReactComponent as RedHeart } from '../../../assets/redHeart.svg'
 
 const FooterMainPages = () => {
   return (
