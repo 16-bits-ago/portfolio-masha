@@ -1,8 +1,300 @@
+import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
+import empatizeCard1 from '../../assets/empatizeCard1.png'
+import empatizeCard2 from '../../assets/empatizeCard2.png'
+import empatizeCard3 from '../../assets/empatizeCard3.png'
+import empatizeCard4 from '../../assets/empatizeCard4.png'
+import empatizeCard5 from '../../assets/empatizeCard5.png'
+import empatizeCard6 from '../../assets/empatizeCard6.png'
+
+import empatizeTable1 from '../../assets/empatizeTable1.png'
+import empatizeTable2 from '../../assets/empatizeTable2.png'
+import empatizeTable3 from '../../assets/empatizeTable3.png'
+
 const ZernoEmphathize = () => {
   return (
-    <div id="emphathize">
-      <h1 style={{ minHeight: 350 }}>ZernoEmphathize</h1>
-    </div>
+    <>
+      <div className="container emphathize-wrapper" id="emphathize">
+        <div className="emphathize-title">
+          <CircleTitle />
+          <h1>1 / EMPATHIZE</h1>
+          <CircleTitle />
+        </div>
+        <div className="emphathize-block1">
+          <div className="emphathize-block1-left">
+            <span>1 / EMPATHIZE</span>
+            <h3>Current state evaluation</h3>
+          </div>
+          <div className="emphathize-block1-right">
+            <span>
+              Before diving into full research process, I've made a heuristic
+              evaluation of the old website in order to identify the main
+              problems of design and provide the correct solutions.
+            </span>
+          </div>
+        </div>
+        <div className="emphathize-block2">
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard1} alt="" />
+            <div className="empatize-block2-list">
+              <li>Ineffective UI of cart page</li>
+              <li>No recomendations</li>
+              <li>No price for Delivery</li>
+            </div>
+          </div>
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard2} alt="" />
+            <div className="empatize-block2-list">
+              <li>No bread crumps</li>
+              <li>Big distances between photos</li>
+              <li>Line height more than 150%</li>
+            </div>
+          </div>
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard3} alt="" />
+            <div className="empatize-block2-list">
+              <li>Absence of icons</li>
+              <li>Imperfections in details</li>
+              <li>No search field</li>
+            </div>
+          </div>
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard4} alt="" />
+            <div className="empatize-block2-list">
+              <li>Poor readability of the fonts</li>
+              <li>Inappropriate colour combinations</li>
+            </div>
+          </div>
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard5} alt="" />
+            <div className="empatize-block2-list">
+              <li>Slide out filtration is very long</li>
+              <li>The number of products in catalogue is too much </li>
+              <li>Reset filtration is a good UX solution</li>
+            </div>
+          </div>
+          <div className="emphathize-block2-card">
+            <img src={empatizeCard6} alt="" />
+            <div className="empatize-block2-list">
+              <li>Inconsistency in details</li>
+              <li>Information-rich checkout</li>
+              <li>Different sizes of buttons</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            At this stage, it is important to make a list of "WHAT" questions.
+            What specifically repels new customers? What's wrong with the visual
+            part? How is site navigation arranged? What can be added? What is
+            better to remove? After identifying such questions, we begin to ask
+            questions "HOW"
+          </span>
+        </div>
+      </div>
+      <div className="container">
+        <div className="empatize-line"></div>
+        <div className="emphathize-block1-margin40">
+          <div className="emphathize-block1-left">
+            <span>1 / EMPATHIZE</span>
+            <h3>Brief of the client</h3>
+          </div>
+          <div className="emphathize-block1-right">
+            <span>
+              As a first important step, for better understanding of client's
+              objectives, limitations and potential of the project , I've
+              prepared list of questions, after was created UX brief based on
+              the answers.
+            </span>
+          </div>
+        </div>
+        <div className="empatize-block4">
+          <div className="empatize-block4-left">
+            <button>Full brief</button>
+          </div>
+          <div className="empatize-block4-right">
+            <span>
+              As a result, a summary of the main information, requirements and
+              needs were established, such as:
+            </span>
+            <div className="empatize-block4-li-wrapper">
+              <div>
+                <li>Field of activity</li>
+                <li>History of brand creation</li>
+                <li>Brand philosophy</li>
+                <li>Brand mission</li>
+                <li>Goods and services</li>
+              </div>
+              <div>
+                <li>Target Audience</li>
+                <li>Key needs of CA</li>
+                <li>Desired structure</li>
+                <li>Basic Design tasks</li>
+                <li>Overal wishes</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            One of the main advantages to make Brief is the possibility to bring
+            clarity, to find the right direction faster and to make the process
+            more efficient, find answers to questions about what we are trying
+            to improve/fix/solve? For whom?
+          </span>
+        </div>
+      </div>
+      <div className="container empatize-block5">
+        <div className="empatize-line"></div>
+        <div className="emphathize-block1">
+          <div className="emphathize-block1-left">
+            <span>1 / EMPATHIZE</span>
+            <h3>Competetive analysist</h3>
+          </div>
+          <div className="emphathize-block1-right">
+            <span>
+              Initially gathering an information about main competitors is an
+              essential step in order to create qualitative, valuable product.
+              Here is all the summary of all the pros and cons among the direct
+              competitors of my client:
+            </span>
+          </div>
+        </div>
+        <div className="empatize-block5-table">
+          <div className="empatize-block5-table-sides">
+            <div className="empatize-block5-table-header">
+              <img src={empatizeTable1} alt="" />
+            </div>
+            <div className="empatize-block5-table-content">
+              <div>
+                <span className="empatize-block5-table-content-title1">
+                  Strengths
+                </span>
+                <li>Large, good quality photos</li>
+                <li>Clear, minimalistic design</li>
+                <li>Convenient navigation</li>
+                <li>Fast loading of the website</li>
+              </div>
+              <div>
+                <span className="empatize-block5-table-content-title2">
+                  Weaknesses
+                </span>
+                <li>Not convenient filtration</li>
+                <li>No customer reviews</li>
+                <li>No size table</li>
+                <li>Not responsive website</li>
+              </div>
+            </div>
+          </div>
+          <div className="empatize-block5-table-center">
+            <div className="empatize-block5-table-header">
+              <img src={empatizeTable2} alt="" />
+            </div>
+            <div className="empatize-block5-table-content">
+              <div>
+                <span className="empatize-block5-table-content-title1">
+                  Strengths
+                </span>
+                <li>high-quality cropped png photos</li>
+                <li>Promiment search field</li>
+                <li>blog session</li>
+              </div>
+              <div>
+                <span className="empatize-block5-table-content-title2">
+                  Weaknesses
+                </span>
+                <li>No wish list</li>
+                <li>obsolete design</li>
+                <li>jagged text indents</li>
+                <li>overloaded text blocks</li>
+              </div>
+            </div>
+          </div>
+          <div className="empatize-block5-table-sides">
+            <div className="empatize-block5-table-header">
+              <img src={empatizeTable3} alt="" />
+            </div>
+            <div className="empatize-block5-table-content">
+              <div>
+                <span className="empatize-block5-table-content-title1">
+                  Strengths
+                </span>
+                <li>Distinctive search field</li>
+                <li>High quality photos</li>
+                <li>Consistent icons</li>
+              </div>
+              <div>
+                <span className="empatize-block5-table-content-title2">
+                  Weaknesses
+                </span>
+                <li>Slow loading of the website</li>
+                <li>Uneven visual</li>
+                <li>Different size of elements</li>
+                <li>No “bread crumps”</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            As soon as the client named his three main competitors, I used this
+            user experience analysis method to understand, estimate and point
+            out all advantages and misadvantage which competitors have. If
+            conducted thoroughly, considering the needs of the audience and the
+            goals of the organization, such an analysis can bring great value to
+            the design of any product or service.
+          </span>
+        </div>
+      </div>
+      <div className="container empatize-block6">
+        <div className="empatize-line"></div>
+        <div className="emphathize-block1">
+          <div className="emphathize-block1-left">
+            <span>1 / EMPATHIZE</span>
+            <h3>User Interview</h3>
+          </div>
+          <div className="emphathize-block1-right">
+            <span>
+              Exploring patterns of how users shop online. Identifying needs and
+              pain points of the clients when shopping online
+            </span>
+          </div>
+        </div>
+        <div className="empatize-block4">
+          <div className="empatize-block4-left">
+            <button>Interview guide</button>
+          </div>
+          <div className="empatize-block4-right">
+            <span>
+              As a result, a summary of the main information, requirements and
+              needs were established, such as:
+            </span>
+            <span style={{paddingBottom: 20}}>
+              Was used “think aloud” method for the interviews. I've asked the
+              participants to share their screen and tell me their thoughts and
+              explain me their decisions during completing tasks. To conduct the
+              tasks, we've used the websites of main competitors of our client,
+              including the website of ZERNO. After tasks were completed, users
+              were asked with a list of questions from the interview guide.
+            </span>
+            <span>
+              After defining the target audience, I've prepared an interview
+              guide and conducted an interviews with 5 participants in age 25-45
+              years who often buy things online and fit a description of TA
+              (brief: age, motivations, goals, pain points). Based on it were
+              created tasks for users (registration on the platfrom, buy some
+              special clothes, find a discount page, filter the products by
+              price)
+            </span>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
