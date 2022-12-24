@@ -26,9 +26,10 @@ const ZernoEmphathize = () => {
           </div>
           <div className="emphathize-block1-right">
             <span>
-              Before diving into full research process, I've made a heuristic
-              evaluation of the old website in order to identify the main
-              problems of design and provide the correct solutions.
+              Before diving into full research process, I've made a
+              <span className="bold-text"> heuristice valuation </span>
+              of the old website in order to identify the main problems of
+              design and provide the correct solutions.
             </span>
           </div>
         </div>
@@ -84,7 +85,7 @@ const ZernoEmphathize = () => {
       </div>
       <div className="empatize-block3">
         <div className="container">
-          <span>
+          <span className="bold-text">
             At this stage, it is important to make a list of "WHAT" questions.
             What specifically repels new customers? What's wrong with the visual
             part? How is site navigation arranged? What can be added? What is
@@ -103,9 +104,12 @@ const ZernoEmphathize = () => {
           <div className="emphathize-block1-right">
             <span>
               As a first important step, for better understanding of client's
-              objectives, limitations and potential of the project , I've
-              prepared list of questions, after was created UX brief based on
-              the answers.
+              <span className="bold-text">
+                {' '}
+                objectives, limitations and potential of the project
+              </span>
+              , I've prepared list of questions, after was created UX brief
+              based on the answers.
             </span>
           </div>
         </div>
@@ -115,8 +119,9 @@ const ZernoEmphathize = () => {
           </div>
           <div className="empatize-block4-right">
             <span>
-              As a result, a summary of the main information, requirements and
-              needs were established, such as:
+              As a result, a summary of the main information,
+              <span className="bold-text"> requirements and needs </span>
+              were established, such as:
             </span>
             <div className="empatize-block4-li-wrapper">
               <div>
@@ -156,10 +161,12 @@ const ZernoEmphathize = () => {
           </div>
           <div className="emphathize-block1-right">
             <span>
-              Initially gathering an information about main competitors is an
+              Initially gathering an information about
+              <span className="bold-text"> main competitors </span>is an
               essential step in order to create qualitative, valuable product.
-              Here is all the summary of all the pros and cons among the direct
-              competitors of my client:
+              Here is all the summary of
+              <span className="bold-text"> all the pros and cons </span>among
+              the direct competitors of my client:
             </span>
           </div>
         </div>
@@ -260,8 +267,12 @@ const ZernoEmphathize = () => {
           </div>
           <div className="emphathize-block1-right">
             <span>
-              Exploring patterns of how users shop online. Identifying needs and
-              pain points of the clients when shopping online
+              Exploring patterns of how users shop online.
+              <span className="bold-text">
+                {' '}
+                Identifying needs and pain points{' '}
+              </span>
+              of the clients when shopping online
             </span>
           </div>
         </div>
@@ -274,24 +285,120 @@ const ZernoEmphathize = () => {
               As a result, a summary of the main information, requirements and
               needs were established, such as:
             </span>
-            <span style={{paddingBottom: 20}}>
+            <span style={{ paddingBottom: 20 }}>
               Was used “think aloud” method for the interviews. I've asked the
               participants to share their screen and tell me their thoughts and
-              explain me their decisions during completing tasks. To conduct the
-              tasks, we've used the websites of main competitors of our client,
-              including the website of ZERNO. After tasks were completed, users
-              were asked with a list of questions from the interview guide.
+              <span className="bold-text"> explain me their decisions </span>
+              during completing tasks. To conduct the tasks, we've used
+              <span className="bold-text">
+                {' '}
+                the websites of main competitors{' '}
+              </span>
+              of our client, including the website of ZERNO. After tasks were
+              completed, users were asked with a list of questions from the
+              interview guide.
             </span>
             <span>
               After defining the target audience, I've prepared an interview
-              guide and conducted an interviews with 5 participants in age 25-45
-              years who often buy things online and fit a description of TA
+              guide and conducted an interviews with
+              <span className="bold-text"> 5 participants in age 25-45 </span>
+              years who often buy things online and
+              <span className="bold-text"> fit a description of TA </span>
               (brief: age, motivations, goals, pain points). Based on it were
-              created tasks for users (registration on the platfrom, buy some
-              special clothes, find a discount page, filter the products by
-              price)
+              created tasks for users
+              <span className="bold-text">
+                {' '}
+                (registration on the platfrom, buy some special clothes, find a
+                discount page, filter the products by price){' '}
+              </span>
             </span>
           </div>
+        </div>
+      </div>
+      <div className="container empatize-block7">
+        <div className="empatize-block7-title">Insights:</div>
+        <div className="empatize-block7-card-wrap">
+          <div className="empatize-block7-card">
+            <div className="empatize-block7-card-content-title">
+              <span className="bold-text">
+                1. People assume familiar ways to make an order in online stores
+              </span>
+            </div>
+            <div className="empatize-block7-card-content-body">
+              <span>
+                When choosing between intuition and beauty, users prefer a
+                visually simple website with predictable patterns to visually
+                catchy but unpredictable navigation.
+              </span>
+            </div>
+          </div>
+          <div className="empatize-block7-card">
+            <div className="empatize-block7-card-content-title">
+              <span className="bold-text">
+                2. Preservation of traditions and customs as a driving motive
+              </span>
+            </div>
+            <div className="empatize-block7-card-content-body">
+              <span>
+                People who turn to the online store for national clothes want to
+                declare themselves as part of the national identity.
+              </span>
+            </div>
+          </div>
+          <div className="empatize-block7-card">
+            <div className="empatize-block7-card-content-title">
+              <span className="bold-text">
+                3. People mostly avoid filling the sign up form
+              </span>
+            </div>
+            <div className="empatize-block7-card-content-body">
+              <span>
+                Most of the participants mentioned that they are afraid to leave
+                their personal information or do not want to waste their time on
+                it.
+              </span>
+            </div>
+          </div>
+          <div className="empatize-block7-card">
+            <div className="empatize-block7-card-content-title">
+              <span className="bold-text">
+                4. People search for product categories in the header
+              </span>
+            </div>
+            <div className="empatize-block7-card-content-body">
+              <span>
+                Users who can initially name the type of product they plan to
+                buy don't want to flip through a long homepage, they expect to
+                see the categories right in the navigation menu.
+              </span>
+            </div>
+          </div>
+          <div className="empatize-block7-card">
+            <div className="empatize-block7-card-content-title">
+              <span className="bold-text">
+                5. Size guide must be clearly visible
+              </span>
+            </div>
+            <div className="empatize-block7-card-content-body">
+              <span>
+                Most of participants mentioned the importance of the size guide
+                and indicating which product sizes are available and which are
+                not.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            The user interviews helped me to identify consumer need states and
+            barriers, lifestyle realities and cultural influences. As a
+            conclusion of an interview, participants described their's overall
+            experience of using the old website of our client, voiced the
+            objections and told what was missing on the site to complete the
+            tasks.
+          </span>
         </div>
       </div>
     </>
