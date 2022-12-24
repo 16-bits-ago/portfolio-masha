@@ -14,7 +14,7 @@ const ZernoEmphathize = () => {
   return (
     <>
       <div className="container emphathize-wrapper" id="emphathize">
-        <div className="emphathize-title">
+        <div className="frame-block-title">
           <CircleTitle />
           <h1>1 / EMPATHIZE</h1>
           <CircleTitle />
