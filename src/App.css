@@ -872,6 +872,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
 .define-block1-border {
@@ -962,17 +963,56 @@ ul {
 
 .define-block1-content2-up {}
 
+.define-block1-content2-text-block2-left {
+  padding: 10px 17px;
+}
+
+.define-block1-content2-text-block3-right {
+  padding: 14px 17px;
+}
+
 .define-block1-content2-down {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  text-align: start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .define-block1-content2-text-block1 {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
   width: calc(100%-4px);
+  max-height: 160px;
   height: 180px;
+  padding: 17px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.define-block1-content2-text-block1-left {
+  width: 270px;
+  max-width: 320px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.define-block1-content2-text-block1-right {
+  width: 270px;
+  max-width: 320px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .define-block1-content2-text-block2 {
@@ -1014,13 +1054,43 @@ ul {
 .define-block1-content3-card1-wrap {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
-  height: 190px;
+  height: 160px;
+  text-align: start;
+  padding: 10px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .define-block1-content3-card2 {
   width: 30%;
-  border: 2px solid #D9D9D9;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  background: #f2b29f;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.define-block1-content3-card2-wrap-content {
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.define-block1-content3-card2-wrap-content-text {
+  padding: 0 10px;
 }
 
 .define-block1-content3-card3 {
@@ -1041,5 +1111,13 @@ ul {
 .define-block1-content3-card3-wrap {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
-  height: 190px;
+  height: 160px;
+  text-align: start;
+  padding: 10px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
