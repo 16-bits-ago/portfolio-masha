@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.fda89a71.css",
-    "main.js": "/portfolio-masha/static/js/main.70c8512f.js",
+    "main.css": "/portfolio-masha/static/css/main.8ce27c12.css",
+    "main.js": "/portfolio-masha/static/js/main.b52d967d.js",
     "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.4f38c56c8caf0d715246.pdf",
     "static/media/zernoHighRes.png": "/portfolio-masha/static/media/zernoHighRes.58772b8dbdbdd934f6e0.png",
     "static/media/projectorHighRes.png": "/portfolio-masha/static/media/projectorHighRes.f3904693dba4c233a976.png",
@@ -15,15 +15,16 @@
     "static/media/empatizeCard4.png": "/portfolio-masha/static/media/empatizeCard4.91ccacd72631f4845ba3.png",
     "static/media/empatizeCard1.png": "/portfolio-masha/static/media/empatizeCard1.08c79a50394dbafef360.png",
     "static/media/mashaLogo.svg": "/portfolio-masha/static/media/mashaLogo.a38882dca647b86b014429f1f574ae35.svg",
+    "static/media/Commas.svg": "/portfolio-masha/static/media/Commas.0c3bd89c3fb221de62b1f719b06faaa6.svg",
     "static/media/redHeart.svg": "/portfolio-masha/static/media/redHeart.2892249a685fffef8701aea539576e2b.svg",
     "static/media/circleTitle.svg": "/portfolio-masha/static/media/circleTitle.8ab53b4408f597a1bff448ffda9fcdf9.svg",
     "index.html": "/portfolio-masha/index.html",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.fda89a71.css.map": "/portfolio-masha/static/css/main.fda89a71.css.map",
-    "main.70c8512f.js.map": "/portfolio-masha/static/js/main.70c8512f.js.map"
+    "main.8ce27c12.css.map": "/portfolio-masha/static/css/main.8ce27c12.css.map",
+    "main.b52d967d.js.map": "/portfolio-masha/static/js/main.b52d967d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fda89a71.css",
-    "static/js/main.70c8512f.js"
+    "static/css/main.8ce27c12.css",
+    "static/js/main.b52d967d.js"
   ]
 }
