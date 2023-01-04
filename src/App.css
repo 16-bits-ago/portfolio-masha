@@ -1121,3 +1121,148 @@ ul {
   font-size: 14px;
   line-height: 17px;
 }
+
+.define-block2 {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  margin-bottom: 80px;
+}
+
+.define-block2-left {
+  width: 400px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.define-block2-right {
+  width: 400px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.define-block2-card {
+  border-radius: 20px;
+  background-color: #f2b29f;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.define-block2-card-white-border {
+  border: 2px solid #FFFFFF;
+  width: calc(100% - 26px);
+  height: calc(100% - 20px);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.define-block2-card-white-border-content li {
+  margin: 10px;
+}
+
+.define-block2-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FB7756;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.define-block3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: start;
+}
+
+.define-block3-left {
+  width: 650px;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.define-block3-left-orange-border {
+  border: 2px solid #f2b29f;
+  width: 200px;
+  height: 190px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.define-block3-left-content {
+  padding: 0 20px;
+}
+
+.define-block3-left-content:first-child {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.define-block3-left-content:last-child {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.define-block3-right {
+  width: 200px;
+  height: 190px;
+  background-color: #f2b29f;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.define-block3-right-white-border {
+  border: 2px solid #FFFFFF;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.define-block3-right-content {
+  padding: 0 20px;
+}
+
+.define-block3-right-content:first-child {
+  padding-top: 20px;
+}
+
+.define-block3-right-content:last-child {
+  padding-bottom: 20px;
+}

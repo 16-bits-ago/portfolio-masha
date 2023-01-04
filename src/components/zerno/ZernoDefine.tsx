@@ -1,5 +1,6 @@
 import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
 import { ReactComponent as Commas } from '../../assets/Commas.svg'
+import { ReactComponent as Arrow } from '../../assets/ArrowDefine.svg'
 
 import definePhoto from '../../assets/defineBlockPhoto.png'
 
@@ -173,6 +174,7 @@ const ZernoDefine = () => {
           </div>
         </div>
       </div>
+      <div className="container empatize-line"></div>
       <div className="container emphathize-block1-margin40">
         <div className="emphathize-block1-left">
           <span>2 / DEFINE</span>
@@ -188,6 +190,280 @@ const ZernoDefine = () => {
             <span className="bold-text">
               be his ears, eyes, feelings, predict his thoughts and actions
             </span>
+          </span>
+        </div>
+      </div>
+      <div className="container define-block2">
+        <div className="define-block2-left">
+          <span className="define-block2-title">Gains:</span>
+          <div className="define-block2-card">
+            <div className="define-block2-card-white-border">
+              <div className="define-block2-card-white-border-content">
+                <li>
+                  To reduce the time spending on finding the right product
+                </li>
+                <li>
+                  Increase efficiency and save time by not going to the offline
+                  store
+                </li>
+                <li>Get compliments from friends for great outfit</li>
+                <li>Feel part of the culture and traditions of Ukraine</li>
+                <li>Return policy is easy to follow</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="define-block2-right">
+          <span className="define-block2-title">Pains:</span>
+          <div className="define-block2-card">
+            <div className="define-block2-card-white-border">
+              <div className="define-block2-card-white-border-content">
+                <li>Lots of pop-ups with unnecessary ads on the websites</li>
+                <li>Quality of the products doesn't fit the description </li>
+                <li>Navigation on the website is not convenient</li>
+                <li>
+                  Lack of time (the less time she spends searching for the right
+                  product, the better)
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            The step of creating a user persona and an empathy map is important
+            because along with a clear representation of the interests of the
+            target audience of the client, I also got a complete picture that
+            the target audience wants to see.
+          </span>
+        </div>
+      </div>
+      <div className="container empatize-line"></div>
+      <div className="container emphathize-block1-margin40 mb-80">
+        <div className="emphathize-block1-left">
+          <span>2 / DEFINE</span>
+          <h3>How Might We...</h3>
+        </div>
+        <div className="emphathize-block1-right">
+          <span>
+            <span className="bold-text"></span>
+            After all needed information about target audience and their
+            behavioral patterns was gathered, i have entered the stage of
+            <span className="bold-text">
+              {' '}
+              summarizing all the pain points and needs{' '}
+            </span>{' '}
+            detected during my research to begin{' '}
+            <span className="bold-text">
+              {' '}
+              to make sense of the landscape of solutions{' '}
+            </span>{' '}
+            I've exploring. I collected all the insights and on their basis were
+            formed <span className="bold-text"> 5 HMW questions </span>.
+          </span>
+        </div>
+      </div>
+      <div className="container define-block3 mb-20">
+        <div className="define-block3-left">
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">
+              1. People assume familiar ways to make an order in online stores
+            </div>
+            <div className="define-block3-left-content">
+              When choosing between intuition and beauty, users prefer a
+              visually simple website with predictable patterns to visually
+              catchy but unpredictable navigation.
+            </div>
+          </div>
+          <div>
+            <Arrow />
+          </div>
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">Point Of View</div>
+            <div className="define-block3-left-content">
+              Target Audience of our client are mostly busy people and they do
+              not have time to get acquainted with some new features of the site
+              that do not work in the usual way
+            </div>
+          </div>
+        </div>
+        <div className="define-block3-right">
+          <div className="define-block3-right-white-border">
+            <div className="define-block3-right-content">How Might We</div>
+            <div className="define-block3-right-content">
+              How might we reduce the amount of time spent on the site for the
+              user so that he achieves all his goals in a shortest period?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container define-block3 mb-20">
+        <div className="define-block3-left">
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">
+              2. Preservation of traditions and customs as a driving motive
+            </div>
+            <div className="define-block3-left-content">
+              People who turn to the online store for national clothes want to
+              declare themselves as part of the national identity.
+            </div>
+          </div>
+          <div>
+            <Arrow />
+          </div>
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">Point Of View</div>
+            <div className="define-block3-left-content">
+              Users don't want to just buy a thing, they want to feel part of
+              the history of culture and traditions, thus expressing their love
+              for the country they come from.
+            </div>
+          </div>
+        </div>
+        <div className="define-block3-right">
+          <div className="define-block3-right-white-border">
+            <div className="define-block3-right-content">How Might We</div>
+            <div className="define-block3-right-content">
+              Users don’t want to just buy a thing, they want to feel part of
+              the history of culture and traditions, thus expressing their love
+              for the country they come from.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container define-block3 mb-20">
+        <div className="define-block3-left">
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">
+              3. People mostly avoid filling the sign up form
+            </div>
+            <div className="define-block3-left-content">
+              Most of the participants mentioned that they are afraid to leave
+              their personal information or do not want to waste their time on
+              it.
+            </div>
+          </div>
+          <div>
+            <Arrow />
+          </div>
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">Point Of View</div>
+            <div className="define-block3-left-content">
+              People have some fears around filling sign up form and leaving the
+              personal information on the websites or just don't have a desire
+              or time for it.
+            </div>
+          </div>
+        </div>
+        <div className="define-block3-right">
+          <div className="define-block3-right-white-border">
+            <div className="define-block3-right-content">How Might We</div>
+            <div className="define-block3-right-content">
+              How might we make users feel more secure and comfortable with
+              filling personal information on the website?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container define-block3 mb-20">
+        <div className="define-block3-left">
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">
+              4. People search for product categories in the header
+            </div>
+            <div className="define-block3-left-content">
+              Users who can initially name the type of product they plan to buy
+              don't want to flip through a long homepage, they expect to see the
+              categories right in the navigation menu.
+            </div>
+          </div>
+          <div>
+            <Arrow />
+          </div>
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">Point Of View</div>
+            <div className="define-block3-left-content">
+              As lack of time is one of the main pain points of target audience
+              of our client, they exit the website page within the first 5
+              seconds if they do not find the field they are interested in.
+            </div>
+          </div>
+        </div>
+        <div className="define-block3-right">
+          <div className="define-block3-right-white-border">
+            <div className="define-block3-right-content">How Might We</div>
+            <div className="define-block3-right-content">
+              How might we make a navigation menu more convenient, so the client
+              could find the needed elements on the website faster?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container define-block3 mb-80">
+        <div className="define-block3-left">
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">
+              5. Size guide must be clearly visible
+            </div>
+            <div className="define-block3-left-content">
+              Most of participants mentioned the importance of the size guide
+              and indicating which product sizes are available and which are
+              not.
+            </div>
+          </div>
+          <div>
+            <Arrow />
+          </div>
+          <div className="define-block3-left-orange-border">
+            <div className="define-block3-left-content">Point Of View</div>
+            <div className="define-block3-left-content">
+              User's one of the highest need is to be sure that the quality of
+              the clothes is high.
+            </div>
+          </div>
+        </div>
+        <div className="define-block3-right">
+          <div className="define-block3-right-white-border">
+            <div className="define-block3-right-content">How Might We</div>
+            <div className="define-block3-right-content">
+              User's one of the highest need is to be sure that the quality of
+              the clothes is high.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            Formulation of such a HMW questions is very helpful and important
+            step to move in a right directions, and to Identify significant
+            flaws in the interface in order to find the right solutions for them
+            and to avoid confusion and blind groping.
+          </span>
+        </div>
+      </div>
+      <div className="container empatize-line"></div>
+      <div className="container emphathize-block1-margin40">
+        <div className="emphathize-block1-left">
+          <span>2 / DEFINE</span>
+          <h3>Brainstorming</h3>
+        </div>
+        <div className="emphathize-block1-right">
+          <span>
+            <span className="bold-text"></span>
+            The result of design without quality research is a ridiculous
+            attempt to solve far-fetched problems, that's why{' '}
+            <span className="bold-text"> I devote enough time </span> to this
+            stage of carefully studying my client, his competitors and target
+            audience. As a result I get a list of HMW questions (therefore all
+            detected issues) that are worthy of attention and as the next stage
+            -Brainstorming,{' '}
+            <span className="bold-text">
+              {' '}
+              I actively look for ways to solve these issues
+            </span>.
           </span>
         </div>
       </div>
