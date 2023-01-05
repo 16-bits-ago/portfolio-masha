@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.a81fe041.css",
-    "main.js": "/portfolio-masha/static/js/main.fb9a257b.js",
+    "main.css": "/portfolio-masha/static/css/main.a435ef5c.css",
+    "main.js": "/portfolio-masha/static/js/main.1bcc5e1f.js",
     "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.4f38c56c8caf0d715246.pdf",
     "static/media/zernoHighRes.png": "/portfolio-masha/static/media/zernoHighRes.58772b8dbdbdd934f6e0.png",
     "static/media/projectorHighRes.png": "/portfolio-masha/static/media/projectorHighRes.f3904693dba4c233a976.png",
     "static/media/zernoBanner.png": "/portfolio-masha/static/media/zernoBanner.868be20a65617b3e5cd5.png",
+    "static/media/brainStorm1.png": "/portfolio-masha/static/media/brainStorm1.49599ecc1f6a0754eefb.png",
+    "static/media/brainStorm2.png": "/portfolio-masha/static/media/brainStorm2.7ed73b44abdd1389a087.png",
+    "static/media/ideateBlock2BG.png": "/portfolio-masha/static/media/ideateBlock2BG.c6bdcf07c22b795a088d.png",
     "static/media/empatizeCard3.png": "/portfolio-masha/static/media/empatizeCard3.c023876399d12356c30e.png",
     "static/media/avatar.png": "/portfolio-masha/static/media/avatar.8081991b226819e060c8.png",
     "static/media/empatizeCard5.png": "/portfolio-masha/static/media/empatizeCard5.d5dda180ccba6f41cdc6.png",
@@ -21,11 +24,11 @@
     "index.html": "/portfolio-masha/index.html",
     "static/media/ArrowDefine.svg": "/portfolio-masha/static/media/ArrowDefine.f3fb70df80c9413641ce6d802d1a4ae6.svg",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.a81fe041.css.map": "/portfolio-masha/static/css/main.a81fe041.css.map",
-    "main.fb9a257b.js.map": "/portfolio-masha/static/js/main.fb9a257b.js.map"
+    "main.a435ef5c.css.map": "/portfolio-masha/static/css/main.a435ef5c.css.map",
+    "main.1bcc5e1f.js.map": "/portfolio-masha/static/js/main.1bcc5e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81fe041.css",
-    "static/js/main.fb9a257b.js"
+    "static/css/main.a435ef5c.css",
+    "static/js/main.1bcc5e1f.js"
   ]
 }
