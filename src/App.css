@@ -1266,3 +1266,36 @@ ul {
 .define-block3-right-content:last-child {
   padding-bottom: 20px;
 }
+
+.define-block4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.define-block4-left {
+  width: 450px;
+  height: 1000px;
+}
+
+.define-block4-right {
+  width: 450px;
+  height: 1000px;
+}
+
+.define-block4-img {
+  width: 450px;
+  height: 600px;
+  margin-bottom: 40px;
+}
+
+.define-block4-content {
+  text-align: start;
+}
+
+.define-block4-content-row {
+  min-height: 50px;
+  height: 100%;
+  border-bottom: 1px solid #7B7878;
+  margin-bottom: 20px;
+}

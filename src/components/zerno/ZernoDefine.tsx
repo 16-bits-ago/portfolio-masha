@@ -3,6 +3,8 @@ import { ReactComponent as Commas } from '../../assets/Commas.svg'
 import { ReactComponent as Arrow } from '../../assets/ArrowDefine.svg'
 
 import definePhoto from '../../assets/defineBlockPhoto.png'
+import brainStorm1 from '../../assets/brainStorm1.png'
+import brainStorm2 from '../../assets/brainStorm2.png'
 
 const ZernoDefine = () => {
   return (
@@ -445,7 +447,7 @@ const ZernoDefine = () => {
         </div>
       </div>
       <div className="container empatize-line"></div>
-      <div className="container emphathize-block1-margin40">
+      <div className="container emphathize-block1-margin40 mb-80">
         <div className="emphathize-block1-left">
           <span>2 / DEFINE</span>
           <h3>Brainstorming</h3>
@@ -463,7 +465,60 @@ const ZernoDefine = () => {
             <span className="bold-text">
               {' '}
               I actively look for ways to solve these issues
-            </span>.
+            </span>
+            .
+          </span>
+        </div>
+      </div>
+      <div className="container define-block4">
+        <div className="define-block4-left">
+          <img className="define-block4-img" src={brainStorm1} alt="" />
+          <div className="define-block4-content ">
+            <div className="define-block4-content-row">
+              <span>
+                1. How might we help users to know each product better?
+              </span>
+            </div>
+            <div className="define-block4-content-row">
+              <span>
+                2. How might we make a navigation menu more convenient, so the
+                client could find the needed elements of the pages faster?
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="define-block4-right">
+          <img className="define-block4-img" src={brainStorm2} alt="" />
+          <div className="define-block4-content ">
+            <div className="define-block4-content-row">
+              <span>
+                3. How might we make users feel more secure and comfortable with
+                filling personal information on the website?
+              </span>
+            </div>
+            <div className="define-block4-content-row">
+              <span>
+                4. How might we show the Ukrainian atmosphere through design?
+                What exactly would evoke the necessary associations?
+              </span>
+            </div>
+            <div className="define-block4-content-row">
+              <span>
+                5. how can we reduce the amount of time spent on the site for
+                the user so that he achieves all his goals in a shortest period?
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="empatize-block3">
+        <div className="container">
+          <span>
+            Brainstorming is a very necessary option when all the issues and
+            shortcomings of the old design are identified, and competitors and
+            the target audience of the client are studied. Only in this case, we
+            can be sure that the decisions we receive in the end will be useful
+            and meaningful.
           </span>
         </div>
       </div>
