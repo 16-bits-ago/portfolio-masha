@@ -1299,3 +1299,37 @@ ul {
   border-bottom: 1px solid #7B7878;
   margin-bottom: 20px;
 }
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.ideate-block2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ideate-block2-wrap {
+  width: 1440px;
+  height: 880px;
+}
+
+.ideate-block2-wrap img {
+ width: 100%;
+ height: 100%;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.m-none {
+  margin: 0 !important;
+}
+
+.h-30 {
+  height: 30px !important;
+}
