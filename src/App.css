@@ -1185,6 +1185,10 @@ ul {
   margin-bottom: 80px !important;
 }
 
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -1318,8 +1322,8 @@ ul {
 }
 
 .ideate-block2-wrap img {
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .mb-0 {
@@ -1332,4 +1336,103 @@ ul {
 
 .h-30 {
   height: 30px !important;
+}
+
+.space-between-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ideate-block3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 80px;
+}
+
+.ideate-block3-row {
+  height: 460px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.ideate-block3-row-block {
+  height: 100%;
+  width: 300px;
+}
+
+.ideate-block3-row-block span {
+  height: 36px;
+}
+
+.ideate-block3-row-block-img {
+  height: 100%;
+  width: 100%;
+}
+
+.ideate-block3-row-block-card-wrap {
+  height: 100%;
+}
+
+.ideate-block3-row-block-card-up {
+  height: calc(200px - 20px);
+  width: calc(100% - 20px);
+  background-color: #f2b29f;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.ideate-block3-row-block-card-up-white {
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ideate-block3-row-block-card-up-white span {
+  height: 100px;
+  width: 100%;
+}
+
+.ideate-block3-row-block-card-down {
+  height: calc(200px - 20px);
+  width: calc(100% - 20px);
+  background-color: #F9E3B8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.ideate-block3-row-block-card-down-black {
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  border: 2px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ideate-block3-row-block-card-down-black span {
+  height: 100px;
+  width: 100%;
+}
+
+.ideate-block4-img-height {
+  height: 1250px !important;
+}
+
+.ideate-block5-wrap img{
+  height: 590px;
+  width: 100%;
+}
+
+.ideate-block6-wrap {
+  height: 250px;
+  text-align: start;
 }
