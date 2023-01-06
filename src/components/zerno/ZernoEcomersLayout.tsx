@@ -3,7 +3,6 @@ import ZernoEmphathize from './ZernoEmphathize'
 import ZernoIdeate from './ZernoIdeate'
 import ZernoPrototype from './ZernoPrototype'
 import ZernoStart from './ZernoStart'
-import ZernoTest from './ZernoTest'
 
 const ZernoEcomers = () => {
   return (
@@ -13,7 +12,6 @@ const ZernoEcomers = () => {
       <ZernoDefine />
       <ZernoIdeate />
       <ZernoPrototype />
-      <ZernoTest />
     </>
   )
 }
