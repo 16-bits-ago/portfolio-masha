@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.a435ef5c.css",
-    "main.js": "/portfolio-masha/static/js/main.1bcc5e1f.js",
+    "main.css": "/portfolio-masha/static/css/main.81447608.css",
+    "main.js": "/portfolio-masha/static/js/main.7da1e6c5.js",
     "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.4f38c56c8caf0d715246.pdf",
     "static/media/zernoHighRes.png": "/portfolio-masha/static/media/zernoHighRes.58772b8dbdbdd934f6e0.png",
     "static/media/projectorHighRes.png": "/portfolio-masha/static/media/projectorHighRes.f3904693dba4c233a976.png",
     "static/media/zernoBanner.png": "/portfolio-masha/static/media/zernoBanner.868be20a65617b3e5cd5.png",
+    "static/media/prototypeBG1.png": "/portfolio-masha/static/media/prototypeBG1.5024339bd14af4f890df.png",
+    "static/media/ideateBlock4BG.png": "/portfolio-masha/static/media/ideateBlock4BG.49e589d3fe7c527158d8.png",
     "static/media/brainStorm1.png": "/portfolio-masha/static/media/brainStorm1.49599ecc1f6a0754eefb.png",
     "static/media/brainStorm2.png": "/portfolio-masha/static/media/brainStorm2.7ed73b44abdd1389a087.png",
     "static/media/ideateBlock2BG.png": "/portfolio-masha/static/media/ideateBlock2BG.c6bdcf07c22b795a088d.png",
+    "static/media/ideateSketch2.png": "/portfolio-masha/static/media/ideateSketch2.9eace75c9ca45c4caafa.png",
+    "static/media/ideateSketch4.png": "/portfolio-masha/static/media/ideateSketch4.62e657d06bca3a076098.png",
+    "static/media/ideateSketch3.png": "/portfolio-masha/static/media/ideateSketch3.f64bbfd8665815339802.png",
+    "static/media/ideateSketch1.png": "/portfolio-masha/static/media/ideateSketch1.5ad97f494004e7a2bfbb.png",
+    "static/media/ideateSketch5.png": "/portfolio-masha/static/media/ideateSketch5.0f6334d6e3d403ef9dca.png",
     "static/media/empatizeCard3.png": "/portfolio-masha/static/media/empatizeCard3.c023876399d12356c30e.png",
     "static/media/avatar.png": "/portfolio-masha/static/media/avatar.8081991b226819e060c8.png",
     "static/media/empatizeCard5.png": "/portfolio-masha/static/media/empatizeCard5.d5dda180ccba6f41cdc6.png",
+    "static/media/ideateBlock5Table.png": "/portfolio-masha/static/media/ideateBlock5Table.dc6357c368a8d26e63f4.png",
     "static/media/empatizeCard2.png": "/portfolio-masha/static/media/empatizeCard2.659c62bc06f6b60995f4.png",
     "static/media/defineBlockPhoto.png": "/portfolio-masha/static/media/defineBlockPhoto.0e0e0d51e477a5da462b.png",
     "static/media/empatizeCard6.png": "/portfolio-masha/static/media/empatizeCard6.46ad568ce8294a47c594.png",
@@ -24,11 +32,11 @@
     "index.html": "/portfolio-masha/index.html",
     "static/media/ArrowDefine.svg": "/portfolio-masha/static/media/ArrowDefine.f3fb70df80c9413641ce6d802d1a4ae6.svg",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.a435ef5c.css.map": "/portfolio-masha/static/css/main.a435ef5c.css.map",
-    "main.1bcc5e1f.js.map": "/portfolio-masha/static/js/main.1bcc5e1f.js.map"
+    "main.81447608.css.map": "/portfolio-masha/static/css/main.81447608.css.map",
+    "main.7da1e6c5.js.map": "/portfolio-masha/static/js/main.7da1e6c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a435ef5c.css",
-    "static/js/main.1bcc5e1f.js"
+    "static/css/main.81447608.css",
+    "static/js/main.7da1e6c5.js"
   ]
 }
