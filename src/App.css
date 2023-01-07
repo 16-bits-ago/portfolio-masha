@@ -1427,7 +1427,7 @@ ul {
   height: 1250px !important;
 }
 
-.ideate-block5-wrap img{
+.ideate-block5-wrap img {
   height: 590px;
   width: 100%;
 }
@@ -1435,4 +1435,23 @@ ul {
 .ideate-block6-wrap {
   height: 250px;
   text-align: start;
+}
+
+.prototype-outcome {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.prototype-outcome-row-content {
+  width: 500px;
+  height: 100%;
+  margin: 0 0 20px 0;
+}
+
+.prototype-outcome-row-content span {
+  padding: 0 0 20px 0;
 }
