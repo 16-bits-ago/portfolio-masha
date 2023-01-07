@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_masha=self.webpackChunkportfolio_masha||[]).push([[68],{6068:function(r,e,a){a.r(e);var t=a(2791);e.default=function(r){var e=r.id;return(0,r.renderWrap)(t.createElement("iframe",{src:"https://gfycat.com/ifr/".concat(e),width:"100%",height:"500px",frameBorder:"0",scrolling:"no",allowFullScreen:!0}))}}}]);
+//# sourceMappingURL=68.1bedc84c.chunk.js.map

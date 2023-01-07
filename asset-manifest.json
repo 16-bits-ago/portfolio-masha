@@ -1,7 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.81447608.css",
-    "main.js": "/portfolio-masha/static/js/main.7da1e6c5.js",
+    "main.css": "/portfolio-masha/static/css/main.bce18b62.css",
+    "main.js": "/portfolio-masha/static/js/main.cb39f626.js",
+    "static/js/696.36821fe7.chunk.js": "/portfolio-masha/static/js/696.36821fe7.chunk.js",
+    "static/js/409.d9581ecd.chunk.js": "/portfolio-masha/static/js/409.d9581ecd.chunk.js",
+    "static/js/68.1bedc84c.chunk.js": "/portfolio-masha/static/js/68.1bedc84c.chunk.js",
+    "static/js/165.d2f143f8.chunk.js": "/portfolio-masha/static/js/165.d2f143f8.chunk.js",
+    "static/js/272.f262c403.chunk.js": "/portfolio-masha/static/js/272.f262c403.chunk.js",
+    "static/js/375.c9b993dc.chunk.js": "/portfolio-masha/static/js/375.c9b993dc.chunk.js",
+    "static/js/781.e3f2d18d.chunk.js": "/portfolio-masha/static/js/781.e3f2d18d.chunk.js",
+    "static/js/250.c28a4b89.chunk.js": "/portfolio-masha/static/js/250.c28a4b89.chunk.js",
+    "static/js/212.c53c9de3.chunk.js": "/portfolio-masha/static/js/212.c53c9de3.chunk.js",
+    "static/js/557.5c369fe2.chunk.js": "/portfolio-masha/static/js/557.5c369fe2.chunk.js",
+    "static/js/23.06ff396b.chunk.js": "/portfolio-masha/static/js/23.06ff396b.chunk.js",
+    "static/js/682.b7c4b752.chunk.js": "/portfolio-masha/static/js/682.b7c4b752.chunk.js",
+    "static/js/476.80e79054.chunk.js": "/portfolio-masha/static/js/476.80e79054.chunk.js",
+    "static/js/491.a6fbe2dd.chunk.js": "/portfolio-masha/static/js/491.a6fbe2dd.chunk.js",
+    "static/js/762.de5cabe2.chunk.js": "/portfolio-masha/static/js/762.de5cabe2.chunk.js",
+    "static/js/498.9b2670c1.chunk.js": "/portfolio-masha/static/js/498.9b2670c1.chunk.js",
     "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.4f38c56c8caf0d715246.pdf",
     "static/media/zernoHighRes.png": "/portfolio-masha/static/media/zernoHighRes.58772b8dbdbdd934f6e0.png",
     "static/media/projectorHighRes.png": "/portfolio-masha/static/media/projectorHighRes.f3904693dba4c233a976.png",
@@ -32,11 +48,27 @@
     "index.html": "/portfolio-masha/index.html",
     "static/media/ArrowDefine.svg": "/portfolio-masha/static/media/ArrowDefine.f3fb70df80c9413641ce6d802d1a4ae6.svg",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.81447608.css.map": "/portfolio-masha/static/css/main.81447608.css.map",
-    "main.7da1e6c5.js.map": "/portfolio-masha/static/js/main.7da1e6c5.js.map"
+    "main.bce18b62.css.map": "/portfolio-masha/static/css/main.bce18b62.css.map",
+    "main.cb39f626.js.map": "/portfolio-masha/static/js/main.cb39f626.js.map",
+    "696.36821fe7.chunk.js.map": "/portfolio-masha/static/js/696.36821fe7.chunk.js.map",
+    "409.d9581ecd.chunk.js.map": "/portfolio-masha/static/js/409.d9581ecd.chunk.js.map",
+    "68.1bedc84c.chunk.js.map": "/portfolio-masha/static/js/68.1bedc84c.chunk.js.map",
+    "165.d2f143f8.chunk.js.map": "/portfolio-masha/static/js/165.d2f143f8.chunk.js.map",
+    "272.f262c403.chunk.js.map": "/portfolio-masha/static/js/272.f262c403.chunk.js.map",
+    "375.c9b993dc.chunk.js.map": "/portfolio-masha/static/js/375.c9b993dc.chunk.js.map",
+    "781.e3f2d18d.chunk.js.map": "/portfolio-masha/static/js/781.e3f2d18d.chunk.js.map",
+    "250.c28a4b89.chunk.js.map": "/portfolio-masha/static/js/250.c28a4b89.chunk.js.map",
+    "212.c53c9de3.chunk.js.map": "/portfolio-masha/static/js/212.c53c9de3.chunk.js.map",
+    "557.5c369fe2.chunk.js.map": "/portfolio-masha/static/js/557.5c369fe2.chunk.js.map",
+    "23.06ff396b.chunk.js.map": "/portfolio-masha/static/js/23.06ff396b.chunk.js.map",
+    "682.b7c4b752.chunk.js.map": "/portfolio-masha/static/js/682.b7c4b752.chunk.js.map",
+    "476.80e79054.chunk.js.map": "/portfolio-masha/static/js/476.80e79054.chunk.js.map",
+    "491.a6fbe2dd.chunk.js.map": "/portfolio-masha/static/js/491.a6fbe2dd.chunk.js.map",
+    "762.de5cabe2.chunk.js.map": "/portfolio-masha/static/js/762.de5cabe2.chunk.js.map",
+    "498.9b2670c1.chunk.js.map": "/portfolio-masha/static/js/498.9b2670c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81447608.css",
-    "static/js/main.7da1e6c5.js"
+    "static/css/main.bce18b62.css",
+    "static/js/main.cb39f626.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_masha=self.webpackChunkportfolio_masha||[]).push([[23],{2023:function(l,o,r){r.r(o);var a=r(2791);o.default=function(l){var o=l.id;return(0,l.renderWrap)(a.createElement("iframe",{height:"700px",width:"100%",frameBorder:"no",allowFullScreen:!0,src:"https://repl.it/".concat(o,"?lite=true"),scrolling:"no",sandbox:"allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"}))}}}]);
+//# sourceMappingURL=23.06ff396b.chunk.js.map
