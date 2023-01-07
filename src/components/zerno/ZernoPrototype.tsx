@@ -2,6 +2,7 @@ import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
 import prototypeBG1 from '../../assets/prototypeBG1.png'
 import FigmaEmbeded from '../layout/figma embeded kit/figmaEmbeded'
 import projectorFrame from '../../assets/projectorHighRes.png'
+import { NavLink } from 'react-router-dom'
 
 const ZernoPrototype = () => {
   return (
@@ -129,7 +130,7 @@ const ZernoPrototype = () => {
       </div>
 
       <div className="home-card-block">
-        <div className="home-cards-text">
+        <NavLink to="/projectorLayout#start" className="home-cards-text">
           <div className="card-content-text">
             <div className="card-content-text-block">
               <h1>Landing Page</h1>
@@ -145,7 +146,7 @@ const ZernoPrototype = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </div>
+        </NavLink>
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={projectorFrame} alt="" />

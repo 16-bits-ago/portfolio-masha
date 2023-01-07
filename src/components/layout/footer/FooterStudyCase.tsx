@@ -1,29 +1,73 @@
+import { useLocation } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const FooterStudyCase = () => {
+  const { pathname } = useLocation()
   return (
     <>
       <footer className="footer-border-studycase">
-        <div className="container footer-studycase">
-          <Link className="footer-studycase-link" to="/zernoEcomers#start">
-            <span>START</span>
-          </Link>
-          <Link className="footer-studycase-link" to="/zernoEcomers#emphathize">
-            <span>1/ EMPHATHIZE</span>
-          </Link>
-          <Link className="footer-studycase-link" to="/zernoEcomers#define">
-            <span>2/ DEFINE</span>
-          </Link>
-          <Link className="footer-studycase-link" to="/zernoEcomers#ideate">
-            <span>3/ IDEATE</span>
-          </Link>
-          <Link className="footer-studycase-link" to="/zernoEcomers#prototype">
-            <span>4/ PROTOTYPE</span>
-          </Link>
-          <Link className="footer-studycase-link" to="/zernoEcomers#test">
-            <span>5/ TEST</span>
-          </Link>
-        </div>
+        {pathname === '/projectorLayout' && (
+          <div className="container footer-studycase">
+            <Link className="footer-studycase-link" to="/projectorLayout#start">
+              <span>START</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/projectorLayout#emphathize"
+            >
+              <span>1/ EMPHATHIZE</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/projectorLayout#define"
+            >
+              <span>2/ DEFINE</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/projectorLayout#ideate"
+            >
+              <span>3/ IDEATE</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/projectorLayout#prototype"
+            >
+              <span>4/ PROTOTYPE</span>
+            </Link>
+            <Link className="footer-studycase-link" to="/projectorLayout#test">
+              <span>5/ TEST</span>
+            </Link>
+          </div>
+        )}
+        {pathname === '/zernoEcomers' && (
+          <div className="container footer-studycase">
+            <Link className="footer-studycase-link" to="/zernoEcomers#start">
+              <span>START</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/zernoEcomers#emphathize"
+            >
+              <span>1/ EMPHATHIZE</span>
+            </Link>
+            <Link className="footer-studycase-link" to="/zernoEcomers#define">
+              <span>2/ DEFINE</span>
+            </Link>
+            <Link className="footer-studycase-link" to="/zernoEcomers#ideate">
+              <span>3/ IDEATE</span>
+            </Link>
+            <Link
+              className="footer-studycase-link"
+              to="/zernoEcomers#prototype"
+            >
+              <span>4/ PROTOTYPE</span>
+            </Link>
+            <Link className="footer-studycase-link" to="/zernoEcomers#test">
+              <span>5/ TEST</span>
+            </Link>
+          </div>
+        )}
       </footer>
     </>
   )
