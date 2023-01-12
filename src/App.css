@@ -510,6 +510,7 @@ ul {
   position: sticky;
   bottom: 0;
   background: #ffffff;
+  z-index: 10;
 }
 
 .zerno-start {
@@ -1517,7 +1518,7 @@ ul {
 
 .projector-start-block2-progress-card-down span {
   position: absolute;
-  z-index: 10;
+  z-index: 2;
   top: 40%;
   left: 0;
   right: 0;
