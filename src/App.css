@@ -69,6 +69,18 @@ ul {
   background-color: #f8d7ce;
 }
 
+.span-blue-background {
+  background-color: #5365FF;
+}
+
+.bg-blue {
+  background: #5365FF !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
 .home-intro-block {
   display: flex;
   align-items: center;
@@ -1454,4 +1466,59 @@ ul {
 
 .prototype-outcome-row-content span {
   padding: 0 0 20px 0;
+}
+
+.projector-start-block1 {
+  height: 530px !important;
+}
+
+.projector-start-block2-bg {
+  background: #F1F3F6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.projector-start-block2-progress {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  color: #3548FE;
+}
+
+.projector-start-block2-progress-title {
+   padding-bottom: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.projector-start-block2-progress-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projector-start-block2-progress-card {
+  width: 168px;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projector-start-block2-progress-card-down {
+  width: 168px;
+  height: 150px;
+  position: relative;
+}
+
+.projector-start-block2-progress-card-down span {
+  position: absolute;
+  z-index: 10;
+  top: 40%;
+  left: 0;
+  right: 0;
 }
