@@ -1,11 +1,13 @@
 import projectorBG1 from '../../assets/projectorBG1.png'
+import projectorBlueBgContent from '../../assets/projectorBlueBgContent.png'
 import { ReactComponent as ProjectorBaby } from '../../assets/ProjectorBaby.svg'
 import { ReactComponent as ProjectorScroll } from '../../assets/ProjectorScroll.svg'
 import { ReactComponent as ProjectorLightbulb } from '../../assets/ProjectorLightbulb.svg'
 import { ReactComponent as ProjectorCheckSquare } from '../../assets/ProjectorCheckSquare.svg'
 import { ReactComponent as ProjectorChatTeardropText } from '../../assets/ProjectorChatTeardropText.svg'
-import { ReactComponent as ProjectorBGStar} from '../../assets/ProjectorBGStar.svg'
-import { ReactComponent as ProjectorBlueClyaksa} from '../../assets/ProjectorBlueClyaksa.svg'
+import { ReactComponent as ProjectorBGStar } from '../../assets/ProjectorBGStar.svg'
+import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
+import { ReactComponent as ProjectorWorkingPeople } from '../../assets/ProjectorWorkingPeople.svg'
 
 const ProjectorStart = () => {
   return (
@@ -15,7 +17,7 @@ const ProjectorStart = () => {
           <img src={projectorBG1} alt="" />
         </div>
       </div>
-      <div className='projector-start-block2-bg'>
+      <div className="projector-start-block2-bg">
         <div className="container">
           <div className="zerno-start-block1">
             <div className="zerno-start-block1-left">
@@ -61,46 +63,120 @@ const ProjectorStart = () => {
               </div>
             </div>
           </div>
-          <div className='projector-start-block2-progress'>
-            <div className='projector-start-block2-progress-title'>
-              Design Process <ProjectorBlueClyaksa/>
+          <div className="projector-start-block2-progress">
+            <div className="projector-start-block2-progress-title">
+              Design Process <ProjectorBlueClyaksa />
             </div>
-            <div className='projector-start-block2-progress-wrap'>
-              <div className='projector-start-block2-progress-card'>
-                <ProjectorBaby/>
-                <div className='projector-start-block2-progress-card-down'>
-                  <ProjectorBGStar/>
+            <div className="projector-start-block2-progress-wrap">
+              <div className="projector-start-block2-progress-card">
+                <ProjectorBaby />
+                <div className="projector-start-block2-progress-card-down">
+                  <ProjectorBGStar />
                   <span>1. EMPATHIZE</span>
                 </div>
               </div>
-              <div className='projector-start-block2-progress-card'>
-                <ProjectorScroll/>
-                <div className='projector-start-block2-progress-card-down'>
-                  <ProjectorBGStar/>
+              <div className="projector-start-block2-progress-card">
+                <ProjectorScroll />
+                <div className="projector-start-block2-progress-card-down">
+                  <ProjectorBGStar />
                   <span>2. DEFINE</span>
                 </div>
               </div>
-              <div className='projector-start-block2-progress-card'>
-                <ProjectorLightbulb/>
-                <div className='projector-start-block2-progress-card-down'>
-                  <ProjectorBGStar/>
+              <div className="projector-start-block2-progress-card">
+                <ProjectorLightbulb />
+                <div className="projector-start-block2-progress-card-down">
+                  <ProjectorBGStar />
                   <span>3. IDEATE</span>
                 </div>
               </div>
-              <div className='projector-start-block2-progress-card'>
-                <ProjectorCheckSquare/>
-                <div className='projector-start-block2-progress-card-down'>
-                  <ProjectorBGStar/>
+              <div className="projector-start-block2-progress-card">
+                <ProjectorCheckSquare />
+                <div className="projector-start-block2-progress-card-down">
+                  <ProjectorBGStar />
                   <span>4. PROTOTYPE</span>
                 </div>
               </div>
-              <div className='projector-start-block2-progress-card'>
-                <ProjectorChatTeardropText/>
-                <div className='projector-start-block2-progress-card-down'>
-                  <ProjectorBGStar/>
+              <div className="projector-start-block2-progress-card">
+                <ProjectorChatTeardropText />
+                <div className="projector-start-block2-progress-card-down">
+                  <ProjectorBGStar />
                   <span>5. TEST</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="projector-start-block3">
+          <div className="projector-start-block3-title">
+            Background <ProjectorBlueClyaksa />
+          </div>
+          <div className="projector-start-block3-content">
+            <span className="bold-text"></span>
+            One beautiful autumn day my best friend advised me to consider
+            starting learning in the UX/UI field, as she just graduated from{' '}
+            <br /> one
+            <span className="bold-text"> awesome online university </span> and 1
+            month after finishing it, she got her first job. I listened to it
+            then and 6 months later I make this <br /> project as{' '}
+            <span className="bold-text"> a 1-st course work </span> within the
+            same online university course. My friend should be proud of me as I
+            did it and my mentors <br /> praised me very much.
+          </div>
+        </div>
+      </div>
+
+      <div className="projector-start-block4 mb-80">
+        <div className="container projector-start-block4-wrap">
+          <div className="projector-start-block4-title">Goal</div>
+          <div className="projector-start-block4-content">
+            <span className="bold-text"></span>
+            To create <span className="bold-text">
+              {' '}
+              useful, minimalistic{' '}
+            </span>{' '}
+            website which meets all the requirements of the client, matches with
+            an <span className="bold-text"> own style </span> of an old design.
+            To <span className="bold-text"> get more conversions </span> with
+            help of new design and{' '}
+            <span className="bold-text"> drive more sales.</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="projector-start-block5">
+        <div className="projector-start-block3-title">
+          User Research <ProjectorBlueClyaksa />
+        </div>
+        <div className="projector-start-block5-row-up">
+          <div className="projector-start-block5-bg">
+            <div className="container projector-start-block5-card-content">
+              <div className="projector-start-block5-row-up-title">
+                User Interview
+              </div>
+              <div className="projector-start-block5-row-up-content">
+                <span className="bold-text"></span>
+                After defining the target audience, I've prepared an interview
+                guide and conducted an interviews with{' '}
+                <span className="bold-text">
+                  {' '}
+                  5 participants in age 16-30{' '}
+                </span>{' '}
+                years who is interested in studying online and{' '}
+                <span className="bold-text">
+                  {' '}
+                  fit a description of TA{' '}
+                </span>{' '}
+                (brief: age, motivations, goals, pain points). Based on it were
+                prepared questions for users.
+              </div>
+            </div>
+          </div>
+          <div className="projector-start-block5-card-right">
+            <div className="projector-start-block5-card-right-img">
+              <ProjectorWorkingPeople />
             </div>
           </div>
         </div>

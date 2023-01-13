@@ -1489,10 +1489,10 @@ ul {
 }
 
 .projector-start-block2-progress-title {
-   padding-bottom: 45px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projector-start-block2-progress-wrap {
@@ -1522,4 +1522,106 @@ ul {
   top: 40%;
   left: 0;
   right: 0;
+}
+
+.projector-start-block3 {
+  height: 172px;
+  margin: 40px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.projector-start-block3-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.projector-start-block3-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3548FE;
+  padding-bottom: 45px;
+}
+
+.projector-start-block4 {
+  background: url('./assets/projectorBlueBgContent.png') 100% 100% no-repeat;
+  background-size: cover;
+  height: 170px !important;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projector-start-block4-wrap {
+  height: 100px;
+}
+
+.projector-start-block4-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.projector-start-block4-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
+
+.projector-start-block5 {
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.projector-start-block5-row-up {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.projector-start-block5-bg {
+  background: url('./assets/projectorBlueBgBlock5RowUp.png') 100% 100% no-repeat;
+  background-size: cover;
+  width: 710px;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projector-start-block5-card-content {
+  width: 400px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.projector-start-block5-card-right {
+  width: 710px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projector-start-block5-card-right-img {
+  width: 440px;
+}
+
+.projector-start-block5-row-up-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.projector-start-block5-row-up-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
