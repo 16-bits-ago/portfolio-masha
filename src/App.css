@@ -1572,19 +1572,19 @@ ul {
   padding-bottom: 20px;
 }
 
-.projector-start-block5 {
+.projector-empatize-block1 {
   font-family: 'Poppins';
   font-style: normal;
 }
 
-.projector-start-block5-row-up {
+.projector-empatize-block1-row {
   text-align: start;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 
-.projector-start-block5-bg {
+.projector-empatize-block1-bg-left {
   background: url('./assets/projectorBlueBgBlock5RowUp.png') 100% 100% no-repeat;
   background-size: cover;
   width: 710px;
@@ -1594,7 +1594,17 @@ ul {
   align-items: center;
 }
 
-.projector-start-block5-card-content {
+.projector-empatize-block1-bg-right {
+  background: url('./assets/projectorBlueBgBlock5RowDown.png') 100% 100% no-repeat;
+  background-size: cover;
+  width: 710px;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projector-empatize-block1-card-content {
   width: 400px;
   height: 195px;
   display: flex;
@@ -1603,25 +1613,55 @@ ul {
   color: #FFFFFF;
 }
 
-.projector-start-block5-card-right {
+.projector-empatize-block1-card-right {
   width: 710px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projector-start-block5-card-right-img {
+.projector-empatize-block1-card-right-img {
   width: 440px;
 }
 
-.projector-start-block5-row-up-title {
+.projector-empatize-block1-row-up-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
 }
 
-.projector-start-block5-row-up-content {
+.projector-empatize-block1-row-up-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  width: 440px;
 }
+
+.projector-empatize-block1-card-left {
+  width: 710px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-black {
+  color: #000000 !important;
+}
+
+.projector-emphathize-block2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  margin-bottom: 80px;
+}
+
+.projector-emphathize-block2-card {
+  height: 100%;
+}
+
+.projector-emphathize-block2-card img {
+  width: 100%;
+}
+
+.projector-emphathize-block3 {}

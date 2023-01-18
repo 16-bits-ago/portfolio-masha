@@ -1,5 +1,4 @@
 import projectorBG1 from '../../assets/projectorBG1.png'
-import projectorBlueBgContent from '../../assets/projectorBlueBgContent.png'
 import { ReactComponent as ProjectorBaby } from '../../assets/ProjectorBaby.svg'
 import { ReactComponent as ProjectorScroll } from '../../assets/ProjectorScroll.svg'
 import { ReactComponent as ProjectorLightbulb } from '../../assets/ProjectorLightbulb.svg'
@@ -7,7 +6,6 @@ import { ReactComponent as ProjectorCheckSquare } from '../../assets/ProjectorCh
 import { ReactComponent as ProjectorChatTeardropText } from '../../assets/ProjectorChatTeardropText.svg'
 import { ReactComponent as ProjectorBGStar } from '../../assets/ProjectorBGStar.svg'
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
-import { ReactComponent as ProjectorWorkingPeople } from '../../assets/ProjectorWorkingPeople.svg'
 
 const ProjectorStart = () => {
   return (
@@ -142,42 +140,6 @@ const ProjectorStart = () => {
             To <span className="bold-text"> get more conversions </span> with
             help of new design and{' '}
             <span className="bold-text"> drive more sales.</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="projector-start-block5">
-        <div className="projector-start-block3-title">
-          User Research <ProjectorBlueClyaksa />
-        </div>
-        <div className="projector-start-block5-row-up">
-          <div className="projector-start-block5-bg">
-            <div className="container projector-start-block5-card-content">
-              <div className="projector-start-block5-row-up-title">
-                User Interview
-              </div>
-              <div className="projector-start-block5-row-up-content">
-                <span className="bold-text"></span>
-                After defining the target audience, I've prepared an interview
-                guide and conducted an interviews with{' '}
-                <span className="bold-text">
-                  {' '}
-                  5 participants in age 16-30{' '}
-                </span>{' '}
-                years who is interested in studying online and{' '}
-                <span className="bold-text">
-                  {' '}
-                  fit a description of TA{' '}
-                </span>{' '}
-                (brief: age, motivations, goals, pain points). Based on it were
-                prepared questions for users.
-              </div>
-            </div>
-          </div>
-          <div className="projector-start-block5-card-right">
-            <div className="projector-start-block5-card-right-img">
-              <ProjectorWorkingPeople />
-            </div>
           </div>
         </div>
       </div>
