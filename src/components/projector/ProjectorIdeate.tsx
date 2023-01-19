@@ -1,5 +1,5 @@
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
-import { ReactComponent as ProjectorWorkingPeople } from '../../assets/ProjectorPeopleWorkingIdeate.svg'
+import { ReactComponent as ProjectorWorkingPeopleIdeate } from '../../assets/ProjectorPeopleWorkingIdeate.svg'
 
 const ProjectorIdeate = () => {
   return (
@@ -29,7 +29,7 @@ const ProjectorIdeate = () => {
           </div>
           <div className="projector-empatize-block1-card-right">
             <div className="projector-empatize-block1-card-right-img">
-              <ProjectorWorkingPeople />
+              <ProjectorWorkingPeopleIdeate />
             </div>
           </div>
         </div>
