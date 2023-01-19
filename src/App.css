@@ -69,13 +69,6 @@ ul {
   background-color: #f8d7ce;
 }
 
-.span-blue-background {
-  background-color: #5365FF;
-}
-
-.bg-blue {
-  background: #5365FF !important;
-}
 
 .color-white {
   color: white !important;
@@ -1665,3 +1658,27 @@ ul {
 }
 
 .projector-emphathize-block3 {}
+
+.projector-define-block1-border {
+  border: 2px solid #3548FE !important;
+}
+
+.span-blue-background {
+  background-color: #5365FF;
+}
+
+.bg-blue {
+  background: #5365FF !important;
+}
+
+.color-blue {
+  color: #3548FE !important;
+}
+
+.bg-black {
+  background: #2C2C30 !important;
+}
+
+.projector-define-block1 {
+  height: 720px !important;
+}
