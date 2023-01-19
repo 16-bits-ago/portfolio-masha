@@ -1682,3 +1682,7 @@ ul {
 .projector-define-block1 {
   height: 720px !important;
 }
+
+.projector-ideate-block1-height {
+  height: auto !important;
+}
