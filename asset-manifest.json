@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-masha/static/css/main.ec9d1b29.css",
-    "main.js": "/portfolio-masha/static/js/main.bfd93ffc.js",
+    "main.css": "/portfolio-masha/static/css/main.ac8a814b.css",
+    "main.js": "/portfolio-masha/static/js/main.60c826db.js",
     "static/js/696.36821fe7.chunk.js": "/portfolio-masha/static/js/696.36821fe7.chunk.js",
     "static/js/409.d9581ecd.chunk.js": "/portfolio-masha/static/js/409.d9581ecd.chunk.js",
     "static/js/68.1bedc84c.chunk.js": "/portfolio-masha/static/js/68.1bedc84c.chunk.js",
@@ -25,9 +25,11 @@
     "static/media/prototypeBG1.png": "/portfolio-masha/static/media/prototypeBG1.5024339bd14af4f890df.png",
     "static/media/projectorBG1.png": "/portfolio-masha/static/media/projectorBG1.3753a8edc6f40f8a238f.png",
     "static/media/ProjectorWorkingPeople.svg": "/portfolio-masha/static/media/ProjectorWorkingPeople.706e0b5bac4d72132ae2df1902731f8b.svg",
+    "static/media/ProjectorPeopleWorkingIdeate.svg": "/portfolio-masha/static/media/ProjectorPeopleWorkingIdeate.6f107a196e0bf4f165382053ccd3c185.svg",
     "static/media/ideateBlock4BG.png": "/portfolio-masha/static/media/ideateBlock4BG.49e589d3fe7c527158d8.png",
     "static/media/brainStorm1.png": "/portfolio-masha/static/media/brainStorm1.49599ecc1f6a0754eefb.png",
     "static/media/brainStorm2.png": "/portfolio-masha/static/media/brainStorm2.7ed73b44abdd1389a087.png",
+    "static/media/projectorEmpathyMap.png": "/portfolio-masha/static/media/projectorEmpathyMap.59065336763b9d6de36b.png",
     "static/media/ideateBlock2BG.png": "/portfolio-masha/static/media/ideateBlock2BG.c6bdcf07c22b795a088d.png",
     "static/media/ideateSketch2.png": "/portfolio-masha/static/media/ideateSketch2.9eace75c9ca45c4caafa.png",
     "static/media/ideateSketch4.png": "/portfolio-masha/static/media/ideateSketch4.62e657d06bca3a076098.png",
@@ -37,6 +39,7 @@
     "static/media/empatizeCard3.png": "/portfolio-masha/static/media/empatizeCard3.c023876399d12356c30e.png",
     "static/media/avatar.png": "/portfolio-masha/static/media/avatar.8081991b226819e060c8.png",
     "static/media/currentStateEvaluation2.png": "/portfolio-masha/static/media/currentStateEvaluation2.7bbfebfea6a42678aad2.png",
+    "static/media/projectorDefinePhoto.png": "/portfolio-masha/static/media/projectorDefinePhoto.dbef415ff47bb280c530.png",
     "static/media/currentStateEvaluation1.png": "/portfolio-masha/static/media/currentStateEvaluation1.536642e7b8850f69fc3e.png",
     "static/media/empatizeCard5.png": "/portfolio-masha/static/media/empatizeCard5.d5dda180ccba6f41cdc6.png",
     "static/media/ideateBlock5Table.png": "/portfolio-masha/static/media/ideateBlock5Table.dc6357c368a8d26e63f4.png",
@@ -49,6 +52,7 @@
     "static/media/empatizeCard1.png": "/portfolio-masha/static/media/empatizeCard1.08c79a50394dbafef360.png",
     "static/media/projectorBlueBgContent.png": "/portfolio-masha/static/media/projectorBlueBgContent.2cc45a5e717ee26c1883.png",
     "static/media/projectorBlueBgBlock5RowDown.png": "/portfolio-masha/static/media/projectorBlueBgBlock5RowDown.de0b5880c7330196c48d.png",
+    "static/media/projectorCommas.svg": "/portfolio-masha/static/media/projectorCommas.041cb5201d9a0a286c39a1401e007391.svg",
     "static/media/mashaLogo.svg": "/portfolio-masha/static/media/mashaLogo.a38882dca647b86b014429f1f574ae35.svg",
     "static/media/Commas.svg": "/portfolio-masha/static/media/Commas.0c3bd89c3fb221de62b1f719b06faaa6.svg",
     "static/media/ProjectorBGStar.svg": "/portfolio-masha/static/media/ProjectorBGStar.752d4c4fce62890e3e6ea392d62e0e6a.svg",
@@ -63,8 +67,8 @@
     "static/media/ProjectorBlueClyaksa.svg": "/portfolio-masha/static/media/ProjectorBlueClyaksa.799cd6607f3f19a6b015ecf23d65aa53.svg",
     "static/media/ArrowDefine.svg": "/portfolio-masha/static/media/ArrowDefine.f3fb70df80c9413641ce6d802d1a4ae6.svg",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
-    "main.ec9d1b29.css.map": "/portfolio-masha/static/css/main.ec9d1b29.css.map",
-    "main.bfd93ffc.js.map": "/portfolio-masha/static/js/main.bfd93ffc.js.map",
+    "main.ac8a814b.css.map": "/portfolio-masha/static/css/main.ac8a814b.css.map",
+    "main.60c826db.js.map": "/portfolio-masha/static/js/main.60c826db.js.map",
     "696.36821fe7.chunk.js.map": "/portfolio-masha/static/js/696.36821fe7.chunk.js.map",
     "409.d9581ecd.chunk.js.map": "/portfolio-masha/static/js/409.d9581ecd.chunk.js.map",
     "68.1bedc84c.chunk.js.map": "/portfolio-masha/static/js/68.1bedc84c.chunk.js.map",
@@ -83,7 +87,7 @@
     "498.9b2670c1.chunk.js.map": "/portfolio-masha/static/js/498.9b2670c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9d1b29.css",
-    "static/js/main.bfd93ffc.js"
+    "static/css/main.ac8a814b.css",
+    "static/js/main.60c826db.js"
   ]
 }
