@@ -4,7 +4,7 @@ import ProjectorWorkingPeopleIdeate from '../../assets/ProjectorWorkingPeopleIde
 const ProjectorIdeate = () => {
   return (
     <>
-      <div className="projector-empatize-block1 mb-80">
+      <div className="projector-empatize-block1 mb-80" id='ideate'>
         <div className="projector-start-block3-title">
           Looking for the right solutions <ProjectorBlueClyaksa />
         </div>

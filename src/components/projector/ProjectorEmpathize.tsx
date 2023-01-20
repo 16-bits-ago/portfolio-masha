@@ -8,7 +8,7 @@ import currentStateEvaluation4 from '../../assets/currentStateEvaluation4.png'
 const ProjectorEmpathize = () => {
   return (
     <>
-      <div className="projector-empatize-block1 mb-80">
+      <div className="projector-empatize-block1 mb-80" id='emphathize'>
         <div className="projector-start-block3-title">
           User Research <ProjectorBlueClyaksa />
         </div>

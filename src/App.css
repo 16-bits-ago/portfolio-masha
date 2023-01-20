@@ -1544,7 +1544,7 @@ ul {
   height: 170px !important;
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 

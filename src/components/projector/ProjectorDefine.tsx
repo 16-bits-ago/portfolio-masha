@@ -6,7 +6,7 @@ import projectorEmpathyMap from '../../assets/projectorEmpathyMap.png'
 const ProjectorDefine = () => {
   return (
     <>
-      <div className="container projector-start-block3-title">
+      <div className="container projector-start-block3-title" id='define'>
         User Persona <ProjectorBlueClyaksa />
       </div>
       <div className="define-block1">
