@@ -1686,3 +1686,7 @@ ul {
 .projector-ideate-block1-height {
   height: auto !important;
 }
+
+.projector-prototype-block3-wrap {
+  max-width: 1240px;
+}
