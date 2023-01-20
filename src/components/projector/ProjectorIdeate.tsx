@@ -1,5 +1,5 @@
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
-import { ReactComponent as ProjectorWorkingPeopleIdeate } from '../../assets/ProjectorPeopleWorkingIdeate.svg'
+import ProjectorWorkingPeopleIdeate from '../../assets/ProjectorWorkingPeopleIdeate.png'
 
 const ProjectorIdeate = () => {
   return (
@@ -29,7 +29,7 @@ const ProjectorIdeate = () => {
           </div>
           <div className="projector-empatize-block1-card-right">
             <div className="projector-empatize-block1-card-right-img">
-              <ProjectorWorkingPeopleIdeate />
+              <img src={ProjectorWorkingPeopleIdeate} alt="" />
             </div>
           </div>
         </div>
@@ -37,7 +37,8 @@ const ProjectorIdeate = () => {
           <div className="projector-empatize-block1-card-left">
             <div className="container projector-empatize-block1-card-content projector-ideate-block1-height">
               <div className="projector-empatize-block1-row-up-title color-black">
-                Brainstorming <br /><br />
+                Brainstorming <br />
+                <br />
               </div>
               <div className="projector-empatize-block1-row-up-content color-black">
                 <span className="bold-text"></span>
@@ -80,6 +81,52 @@ const ProjectorIdeate = () => {
                 <span className="bold-text">5. Reviews from mentors</span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="projector-start-block3">
+          <div className="projector-start-block3-title">
+            Frankenshtein + Lo-Fi wireframe <ProjectorBlueClyaksa />
+          </div>
+          <div className="projector-start-block3-content">
+            <span className="bold-text"></span>
+            As soon <span className="bold-text">as content-plan was ready</span>
+            , I began{' '}
+            <span className="bold-text">reference research stage</span>,
+            actively studied the websites of online schools and online <br />
+            universities,{' '}
+            <span className="bold-text">
+              noticed some features and patterns
+            </span>
+            . I took{' '}
+            <span className="bold-text">screenshots of blocks of sites</span>{' '}
+            that correspond to those that I already <br /> added to my content
+            plan, stitched them together and{' '}
+            <span className="bold-text">built a Frankenstein</span> based on
+            these pieces, then created{' '}
+            <span className="bold-text">Lo-Fi wireframe</span>.
+          </div>
+        </div>
+      </div>
+
+      <div className="projector-start-block4 mb-80">
+        <div className="container">
+          <div className="projector-start-block4-content">
+            <span className="bold-text"></span>
+            Step of building frankenshtein is useful because{' '}
+            <span className="bold-text">
+              that helps to not get confused
+            </span>{' '}
+            with different elements and helps to clearly{' '}
+            <span className="bold-text">structure the work</span>. It gives an
+            understanding of how this or that element will look like. Based on
+            the frankenshtein it's much less frustrating{' '}
+            <span className="bold-text">
+              to build first sketches or Lo-fi wireframes
+            </span>
+            .
           </div>
         </div>
       </div>

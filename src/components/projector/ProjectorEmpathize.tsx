@@ -1,5 +1,5 @@
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
-import { ReactComponent as ProjectorWorkingPeople } from '../../assets/ProjectorWorkingPeople.svg'
+import  ProjectorWorkingPeople  from '../../assets/ProjectorWorkingPeople.png'
 import currentStateEvaluation1 from '../../assets/currentStateEvaluation1.png'
 import currentStateEvaluation2 from '../../assets/currentStateEvaluation2.png'
 import currentStateEvaluation3 from '../../assets/currentStateEvaluation3.png'
@@ -38,7 +38,7 @@ const ProjectorEmpathize = () => {
           </div>
           <div className="projector-empatize-block1-card-right">
             <div className="projector-empatize-block1-card-right-img">
-              <ProjectorWorkingPeople />
+              <img src={ProjectorWorkingPeople} alt="" />
             </div>
           </div>
         </div>
