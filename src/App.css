@@ -76,6 +76,7 @@ ul {
 
 .home-intro-block {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -134,18 +135,27 @@ ul {
   border: 2px solid #D9D9D9;
   text-decoration: none;
   color: #000000;
-  /* background-image: linear-gradient(#878787, #878787);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 1s; */
 }
 
 .home-cards-text:hover {
   background: rgba(34, 34, 34, 0.54);
   cursor: pointer;
-  /* background-size: 100% 100%;
-  color: #fff; */
+}
+
+.home-cards-text2 {
+  min-height: 400px;
+  width: calc(50% - 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #D9D9D9;
+  text-decoration: none;
+  color: #000000;
+}
+
+.home-cards-text2:hover {
+  background: rgba(34, 34, 34, 0.54);
+  cursor: pointer;
 }
 
 .tap-button-block {
@@ -158,6 +168,12 @@ ul {
 }
 
 .home-cards-text:hover .tap-button-block {
+  background: #FB7756;
+  color: #ffffff;
+  padding: 0;
+}
+
+.home-cards-text2:hover .tap-button-block {
   background: #FB7756;
   color: #ffffff;
   padding: 0;
@@ -197,6 +213,14 @@ ul {
   color: #ffffff;
 }
 
+.home-cards-text2:hover .card-content-text-block p {
+  color: #ffffff;
+}
+
+.home-cards-text2:hover .card-content-text-block h1 {
+  color: #ffffff;
+}
+
 .card-content-tag-block {
   display: flex;
   justify-content: space-around;
@@ -216,6 +240,11 @@ ul {
   color: #ffffff;
 }
 
+.home-cards-text2:hover .card-content-tag {
+  background: rgba(255, 221, 103, 0.7);
+  color: #ffffff;
+}
+
 .card-content-tag2 {
   background: rgba(121, 97, 188, 0.38);
   padding: 4px 11px;
@@ -230,6 +259,11 @@ ul {
   color: #ffffff;
 }
 
+.home-cards-text2:hover .card-content-tag2 {
+  background: rgba(121, 97, 188, 0.7);
+  color: #ffffff;
+}
+
 .card-content-tag3 {
   background: rgba(97, 188, 146, 0.47);
   padding: 4px 11px;
@@ -240,6 +274,11 @@ ul {
 }
 
 .home-cards-text:hover .card-content-tag3 {
+  background: rgba(97, 188, 146, 0.7);
+  color: #ffffff;
+}
+
+.home-cards-text2:hover .card-content-tag3 {
   background: rgba(97, 188, 146, 0.7);
   color: #ffffff;
 }
@@ -259,7 +298,11 @@ ul {
 .home-cards-text:hover .card-content-text {
   border: 4px solid #FB7756;
   height: calc(100% - 8px);
-  /* transition: border 1s ease-out; */
+}
+
+.home-cards-text2:hover .card-content-text {
+  border: 4px solid #FB7756;
+  height: calc(100% - 8px);
 }
 
 .footer {
@@ -1689,4 +1732,73 @@ ul {
 
 .projector-prototype-block3-wrap {
   max-width: 1240px;
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    margin: 0 100px;
+  }
+
+  .br-home {
+    display: none;
+  }
+
+  .home-cards {
+    display: none;
+  }
+
+  .home-card-block {
+    justify-content: center;
+    margin: 0 100px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .home-intro-logo {
+    display: none;
+  }
+
+  .home-intro-block p{
+    text-align: center;
+  }
+
+  .home-cards-text {
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), 
+      url('./assets/zernoHighRes.png') 100% 100% no-repeat;
+    background-size: cover;
+  }
+
+  .home-cards-text2 {
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), 
+      url('./assets/projectorHighRes.png') 100% 100% no-repeat;
+    background-size: cover;
+  }
+
+  .card-content-text-block {
+    color: #FFFFFF;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 50px;
+  }
+
+  .home-card-block {
+    margin: 0 50px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  .home-card-block {
+    margin: 0 10px 20px;
+  }
 }

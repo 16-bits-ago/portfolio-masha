@@ -34,15 +34,17 @@ const Home = () => {
         <div className="home-intro-block">
           <ReactLogo className="home-intro-logo" />
           <p>
-            UX/UI designer with a background in Advertising. <br />
-            <span className="span-orange-background">I love research,</span>
-            &nbsp;improve&nbsp;
-            <span className="span-orange-background">and make a beautiful</span>
-            &nbsp;things.
-            <br />
-            Let's collaborate and make&nbsp;
-            <span className="span-orange-background">awesome works</span>
-            &nbsp;together!
+            UX/UI designer with a background in Advertising.{' '}
+            <br className="br-home" />
+            <span className="span-orange-background">
+              I love research,
+            </span>{' '}
+            improve{' '}
+            <span className="span-orange-background">and make a beautiful</span>{' '}
+            things. <br className="br-home" />
+            Let's collaborate and make{' '}
+            <span className="span-orange-background">awesome works</span>{' '}
+            together!
           </p>
         </div>
         <div className="home-intro-block-footer">
@@ -75,7 +77,7 @@ const Home = () => {
             <img className="card-img-size" src={zernoFrame} alt="" />
           </div>
         </div>
-        
+
         <NavLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
@@ -96,7 +98,7 @@ const Home = () => {
       </div>
 
       <div className="home-card-block">
-        <NavLink to="/projectorLayout#start" className="home-cards-text">
+        <NavLink to="/projectorLayout#start" className="home-cards-text2">
           <div className="card-content-text">
             <div className="card-content-text-block">
               <h1>Landing Page</h1>
