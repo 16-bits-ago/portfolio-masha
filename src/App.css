@@ -359,7 +359,7 @@ ul {
 }
 
 .about-wrapper {
-  height: 550px;
+  min-height: 650px;
   display: flex;
   margin: 40px 0 60px;
 }
@@ -368,8 +368,16 @@ ul {
   margin: 0;
 }
 
+.about-download-link-768 {
+  display: none;
+}
+
+.about-avatar {
+  width: 270px;
+}
+
 .about-block-left {
-  height: 500px;
+  height: 450px;
   min-width: 275px;
   display: flex;
   flex-direction: column;
@@ -404,9 +412,8 @@ ul {
 }
 
 .about-block-right {
-  height: 545px;
-  /* width: 726px; */
-  /* background-color: #61dafb; */
+  min-height: 545px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1734,6 +1741,16 @@ ul {
   max-width: 1240px;
 }
 
+@media (max-width: 1100px)  {
+  .container {
+    margin: 0 130px;
+  }
+
+  .br-home {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
 
   .container {
@@ -1791,6 +1808,45 @@ ul {
   .home-card-block {
     margin: 0 50px 20px;
   }
+
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-block-left {
+    flex-direction: row;
+    margin-right: 0;
+    margin-bottom: 40px;
+    height: 200px;
+  }
+
+  .about-block-left button {
+    padding: 10px;
+  }
+
+  .about-download-link {
+    display: none;
+  }
+
+  .about-download-link-768 {
+    display: block;
+  }
+
+  .about-height-768 {
+    height: 70px !important;
+  }
+
+  .about-block-left-title {
+    height: 200px;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .about-avatar {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1800,5 +1856,38 @@ ul {
 
   .home-card-block {
     margin: 0 10px 20px;
+  }
+
+  .about-download-link-768 {
+    display: none;
+  }
+
+  .about-download-link {
+    display: block;
+  }
+
+  .about-block-left-title {
+    width: 100%;
+    text-align: center;align-items: center;
+  }
+
+  .about-block-left {
+    flex-direction: column;
+    height: 450px;
+  }
+
+  .about-avatar {
+    width: 270px;
+    height: 270px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .about-block-left button {
+    width: 270px;
+  }
+
+  .about-block-right {
+    text-align: center;
   }
 }

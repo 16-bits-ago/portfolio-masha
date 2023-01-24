@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from '../assets/avatar.png'
+import resume from '../assets/Resume.pdf'
 
 const About = () => {
   return (
@@ -8,18 +9,33 @@ const About = () => {
         <div className="about-wrapper">
           <div className="about-block-left">
             <div className="about-block-left-title">
-              <h1 className="margin-0">
-                Hi! <span className="span-orange">I'm Mariia,</span>
-              </h1>
-              <span>Junior UX/UI Designer</span>
+              <div>
+                <h1 className="margin-0">
+                  Hi! <span className="span-orange">I'm Mariia,</span>
+                </h1>
+                <span>Junior UX/UI Designer</span>
+              </div>
+              <a
+                className="about-download-link-768"
+                href={resume}
+                download="CV_Mariia_Mykhailovska.pdf"
+              >
+                <button>DOWNOLAD MY RESUME</button>
+              </a>
             </div>
-            <img style={{width: 270}} src={avatar} alt="" />
-            <a href="">
-              <button>DOWNOLAD MY RESUME</button>
-            </a>
+            <div>
+              <img className="about-avatar" src={avatar} alt="" />
+              <a
+                className="about-download-link"
+                href={resume}
+                download="CV_Mariia_Mykhailovska.pdf"
+              >
+                <button>DOWNOLAD MY RESUME</button>
+              </a>
+            </div>
           </div>
           <div className="about-block-right">
-            <div className="about-block-left-title">
+            <div className="about-block-left-title about-height-768">
               <h1 className="margin-0">
                 Hello, <span className="span-orange">colleagues!</span>
               </h1>
@@ -41,8 +57,8 @@ const About = () => {
               <span className="span-orange-background">
                 Constantly learning,
               </span>{' '}
-              sometimes I can find a solution faster, than you <br /> manage to blink
-              😉
+              sometimes I can find a solution faster, than you <br className='br-home'/> manage to
+              blink 😉
             </p>
             <p>
               For me, as for a{' '}
@@ -63,7 +79,7 @@ const About = () => {
               <span className="span-orange-background">
                 with marketing, and research experience,
               </span>{' '}
-              <br />
+              <br className='br-home'/>
               <span className="bold-text">
                 I am currently looking for opportunities to grow
               </span>{' '}
