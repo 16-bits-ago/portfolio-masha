@@ -236,8 +236,6 @@ const ZernoIdeate = () => {
               />
             </div>
           </div>
-        </div>
-        <div className="ideate-block3-row">
           <div className="ideate-block3-row-block space-between-column">
             <span>Cart</span>
             <div>
