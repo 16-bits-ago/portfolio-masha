@@ -27,13 +27,16 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <div className="container">
-        <h1>
+      <div className="container mt-80">
+        <h1 className="m-0">
           Hi! <span className="span-orange">I'm Mariia,</span>
         </h1>
-        <div className="home-intro-block">
-          <ReactLogo className="home-intro-logo" />
-          <p>
+        <div className="home-intro-block mt-30">
+          <div className="home-intro-logo">
+            <ReactLogo />
+          </div>
+
+          <p className="m-0">
             UX/UI designer with a background in Advertising.{' '}
             <br className="br-home" />
             <span className="span-orange-background">
@@ -48,7 +51,11 @@ const Home = () => {
           </p>
         </div>
         <div className="home-intro-block-footer">
-          <span>Linkedin</span>
+          <div className="home-intro-block-footer-left">
+            <span>Linkedin</span>
+            <span>Resume</span>
+            <span>Email</span>
+          </div>
           <div>
             <ArrowDown onClick={handleOpen} className="arrow-img" />
             <Modal
@@ -68,7 +75,7 @@ const Home = () => {
               </Box>
             </Modal>
           </div>
-          <span>Cyprus. Limassol</span>
+          <span className='home-intro-block-footer-right '>Cyprus. Limassol</span>
         </div>
       </div>
       <div className="home-card-block">
@@ -81,8 +88,8 @@ const Home = () => {
         <NavLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
-              <h1>E-Commerce</h1>
-              <div className="card-content-tag-block">
+              <h1 className='m-0'>E-Commerce</h1>
+              <div className="card-content-tag-block mt-40">
                 <span className="card-content-tag">UX research</span>
                 <span className="card-content-tag2">Redesign</span>
                 <span className="card-content-tag3">User Interface</span>

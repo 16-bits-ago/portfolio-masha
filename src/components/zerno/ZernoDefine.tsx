@@ -1,6 +1,7 @@
 import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
 import { ReactComponent as Commas } from '../../assets/Commas.svg'
 import { ReactComponent as Arrow } from '../../assets/ArrowDefine.svg'
+import zernoUserPersona from '../../assets/zernoUserPersona.png'
 
 import definePhoto from '../../assets/defineBlockPhoto.png'
 import brainStorm1 from '../../assets/brainStorm1.png'
@@ -177,7 +178,7 @@ const ZernoDefine = () => {
         </div>
       </div>
       <div className="container empatize-line"></div>
-      <div className="container emphathize-block1-margin40">
+      <div className="container emphathize-block1-margin40 ">
         <div className="emphathize-block1-left">
           <span>2 / DEFINE</span>
           <h3>Empathy Map</h3>
@@ -193,6 +194,11 @@ const ZernoDefine = () => {
               be his ears, eyes, feelings, predict his thoughts and actions
             </span>
           </span>
+        </div>
+      </div>
+      <div className="ideate-block2 mb-80">
+        <div className="ideate-block2-wrap margin-horizontal-50 h-auto">
+          <img className='h-auto' src={zernoUserPersona} alt="" />
         </div>
       </div>
       <div className="container define-block2">
@@ -328,7 +334,7 @@ const ZernoDefine = () => {
           <div className="define-block3-right-white-border">
             <div className="define-block3-right-content">How Might We</div>
             <div className="define-block3-right-content">
-              Users don’t want to just buy a thing, they want to feel part of
+              Users don't want to just buy a thing, they want to feel part of
               the history of culture and traditions, thus expressing their love
               for the country they come from.
             </div>

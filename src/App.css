@@ -1,3 +1,10 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -16,7 +23,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -77,19 +83,20 @@ ul {
 .home-intro-block {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
+  align-items: center;  
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
 }
 
 .home-intro-logo {
-  margin-right: 20%;
+  width: 40%;
+  display: flex;
 }
 
 .home-intro-block p {
   max-width: 680px;
+  width: 60%;
   text-align: left;
 }
 
@@ -97,14 +104,23 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  margin: 105px 0 60px;
+  margin: 140px 0 30px;
 }
 
-.home-intro-block-footer span {
+.home-intro-block-footer-left {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-intro-block-footer-left span{
+  border-bottom: 1px solid #FB7756;
+}
+
+.home-intro-block-footer-right {
   min-width: 115px;
   text-align: start;
 }
@@ -190,7 +206,6 @@ ul {
 
 .card-content-text-block {
   width: 390px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .card-content-text-block h1 {
@@ -557,8 +572,6 @@ ul {
 }
 
 .zerno-start {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1189,8 +1202,6 @@ ul {
 .define-block2 {
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins';
-  font-style: normal;
   margin-bottom: 80px !important;
 }
 
@@ -1249,12 +1260,37 @@ ul {
   margin-bottom: 80px !important;
 }
 
+.mt-80 {
+  margin-top: 80px !important;
+}
+
 .mb-40 {
   margin-bottom: 40px !important;
 }
 
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.h-auto {
+  height: auto !important;
+}
+
+.margin-horizontal-50 {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
 }
 
 .define-block3 {
@@ -1533,8 +1569,6 @@ ul {
 }
 
 .projector-start-block2-progress {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 23px;
   line-height: 30px;
@@ -1580,8 +1614,6 @@ ul {
 .projector-start-block3 {
   height: 172px;
   margin: 40px 0;
-  font-family: 'Poppins';
-  font-style: normal;
 }
 
 .projector-start-block3-content {
@@ -1625,10 +1657,7 @@ ul {
   padding-bottom: 20px;
 }
 
-.projector-empatize-block1 {
-  font-family: 'Poppins';
-  font-style: normal;
-}
+.projector-empatize-block1 {}
 
 .projector-empatize-block1-row {
   text-align: start;
