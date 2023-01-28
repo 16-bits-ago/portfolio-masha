@@ -387,12 +387,20 @@ ul {
   display: none;
 }
 
+.about-download-link {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .about-avatar {
   width: 270px;
+  height: 300px;
 }
 
 .about-block-left {
-  height: 450px;
+  height: 540px;
   min-width: 275px;
   display: flex;
   flex-direction: column;
@@ -402,6 +410,7 @@ ul {
 
 .about-block-left button {
   width: 100%;
+  min-width: 270px;
   height: 54px;
   background: #fbe5df;
   border-radius: 20px;
@@ -418,28 +427,25 @@ ul {
 .about-block-left-title {
   text-align: start;
   height: 65px;
-  width: 274px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  margin-right: 68px;
 }
 
 .about-block-right {
-  min-height: 545px;
+  min-height: 540px;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   text-align: start;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-.about-block-right-mini-titles {
+.about-hard-skills {
+  height: 90px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -1270,6 +1276,10 @@ ul {
 
 .mt-40 {
   margin-top: 40px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
 }
 
 .mt-30 {
