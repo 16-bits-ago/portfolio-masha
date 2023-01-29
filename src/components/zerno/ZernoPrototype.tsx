@@ -1,4 +1,5 @@
 import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
+import { ReactComponent as ArrowDownFigmaBlock } from '../../assets/ArrowDownFigmaBlock.svg'
 import prototypeBG1 from '../../assets/prototypeBG1.png'
 import FigmaEmbeded from '../layout/figma embeded kit/figmaEmbeded'
 import projectorFrame from '../../assets/projectorHighRes.png'
@@ -37,9 +38,15 @@ const ZernoPrototype = () => {
           <img src={prototypeBG1} alt="" />
         </div>
       </div>
-      <div className="mb-80"></div>
+      {/* <div className="mb-80"></div> */}
 
       <div className="container mb-80">
+        <div className="figma-tap">
+          <div>
+            <span>Tap here</span>
+            <ArrowDownFigmaBlock />
+          </div>
+        </div>
         <FigmaEmbeded />
       </div>
 
@@ -56,12 +63,12 @@ const ZernoPrototype = () => {
       </div>
 
       <div className=" container emphathize-block1-margin40">
-        <div className="emphathize-block1-left mb-80">
+        <div className="emphathize-block1-left mb-40">
           <span>/ REFLECTIONS</span>
           <h3>Outcome</h3>
         </div>
       </div>
-      <div className="container empatize-line"></div>
+      <div className="container empatize-line mb-30"></div>
       <div className="container prototype-outcome">
         <div className="bold-text">Result:</div>
         <div className="prototype-outcome-row-content">
@@ -72,7 +79,7 @@ const ZernoPrototype = () => {
           <span className="bold-text">E-Commerce website “ZERNO”</span>
         </div>
       </div>
-      <div className="container empatize-line"></div>
+      <div className="container empatize-line mb-30"></div>
       <div className="container prototype-outcome">
         <div className="bold-text">Takeaways:</div>
         <div className="prototype-outcome-row-content">
@@ -116,7 +123,7 @@ const ZernoPrototype = () => {
           </span>
         </div>
       </div>
-      <div className="container empatize-line"></div>
+      <div className="container empatize-line mb-30"></div>
       <div className="container prototype-outcome mb-80">
         <div className="bold-text">Reflections:</div>
         <div className="prototype-outcome-row-content">

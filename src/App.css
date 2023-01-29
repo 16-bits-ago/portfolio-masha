@@ -1471,6 +1471,7 @@ ul {
 .ideate-block2-wrap {
   width: 1440px;
   height: 880px;
+  background: #e6e6e6;
 }
 
 .ideate-block2-wrap img {
@@ -1597,8 +1598,38 @@ ul {
 }
 
 .ideate-block6-wrap {
-  height: 250px;
+  height: auto;
   text-align: start;
+}
+
+.ideate-block6-wrap div{
+  margin-bottom: 20px;
+}
+
+.ideate-block6-wrap div:last-child{
+  margin-bottom: 0;
+}
+
+.figma-tap {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50px;
+}
+
+.figma-tap div{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.figma-tap span{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #606060;
 }
 
 .prototype-outcome {
@@ -1613,7 +1644,7 @@ ul {
 .prototype-outcome-row-content {
   width: 500px;
   height: 100%;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 
 .prototype-outcome-row-content span {
