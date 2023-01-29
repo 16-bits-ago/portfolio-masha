@@ -11,7 +11,7 @@ const ProjectorDefine = () => {
       </div>
       <div className="define-block1">
         <div className="define-block1-border projector-define-block1-border">
-          <div style={{ height: '100%', marginLeft: 130, marginRight: 130 }}>
+          <div className='define-block1-border-wrap'>
             <div className="define-block1-content-wrap">
               <div className="define-block1-content-wrap-up">
                 <div className="define-block1-content1">

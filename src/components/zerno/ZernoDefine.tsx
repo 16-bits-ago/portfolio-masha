@@ -40,7 +40,7 @@ const ZernoDefine = () => {
       </div>
       <div className="define-block1">
         <div className="define-block1-border">
-          <div style={{ height: '100%', marginLeft: 130, marginRight: 130 }}>
+          <div className='define-block1-border-wrap'>
             <div className="define-block1-content-wrap">
               <div className="define-block1-content-wrap-up mt-50 mb-20">
                 <div className="define-block1-content1">
@@ -73,8 +73,8 @@ const ZernoDefine = () => {
                       <div className="define-block1-content2-text-block1-left">
                         <span className="bold-text">Biography:</span>
                         <span>
-                          Busy business owner, bright, self-actualized <br /> and
-                          confident personality, house proud <br /> women with a big
+                          Busy business owner, bright, self-actualized <br className='br-home'/> and
+                          confident personality, house proud <br className='br-home'/> women with a big
                           family. She is someone who treats every aspect of life
                           seriously.
                         </span>
@@ -91,7 +91,7 @@ const ZernoDefine = () => {
                         </div>
                         <span>
                           She loves read magazines, listen poetry and learn
-                          history, feels involved to Ukrainian <br /> traditions <br />{' '}
+                          history, feels involved to Ukrainian <br className='br-home'/> traditions <br className='br-home'/>{' '}
                           and culture.{' '}
                         </span>
                       </div>
@@ -103,12 +103,12 @@ const ZernoDefine = () => {
                         <span className="bold-text">Goals:</span>
                         <ul>
                           <li>
-                            To find a product that she would be <br /> satisfied
+                            To find a product that she would be <br className='br-home'/> satisfied
                             with
                           </li>
                           <li>To find a product that is worth the money</li>
                           <li>
-                            To find clothes that fits her image and display her
+                            To find clothes that fits her image\display her
                             patriotism
                           </li>
                         </ul>
@@ -173,8 +173,8 @@ const ZernoDefine = () => {
                     <div className="define-block1-content3-card3-wrap">
                       <ul>
                         <li>To save time making online purchases </li>
-                        <li>Find the clothes for other family <br /> members</li>
-                        <li>high quality and natural fabric of the <br /> clothes</li>
+                        <li>Find the clothes for other family <br className='br-home'/> members</li>
+                        <li>high quality and natural fabric of the <br className='br-home'/> clothes</li>
                       </ul>
                     </div>
                   </div>
