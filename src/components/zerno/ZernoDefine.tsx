@@ -40,7 +40,7 @@ const ZernoDefine = () => {
       </div>
       <div className="define-block1">
         <div className="define-block1-border">
-          <div className='define-block1-border-wrap'>
+          <div className="define-block1-border-wrap">
             <div className="define-block1-content-wrap">
               <div className="define-block1-content-wrap-up mt-50 mb-20">
                 <div className="define-block1-content1">
@@ -73,10 +73,11 @@ const ZernoDefine = () => {
                       <div className="define-block1-content2-text-block1-left">
                         <span className="bold-text">Biography:</span>
                         <span>
-                          Busy business owner, bright, self-actualized <br className='br-home'/> and
-                          confident personality, house proud <br className='br-home'/> women with a big
-                          family. She is someone who treats every aspect of life
-                          seriously.
+                          Busy business owner, bright, self-actualized{' '}
+                          <br className="br-home" /> and confident personality,
+                          house proud <br className="br-home" /> women with a
+                          big family. She is someone who treats every aspect of
+                          life seriously.
                         </span>
                       </div>
                       <div className="define-block1-content2-text-block1-right">
@@ -91,8 +92,9 @@ const ZernoDefine = () => {
                         </div>
                         <span>
                           She loves read magazines, listen poetry and learn
-                          history, feels involved to Ukrainian <br className='br-home'/> traditions <br className='br-home'/>{' '}
-                          and culture.{' '}
+                          history, feels involved to Ukrainian{' '}
+                          <br className="br-home" /> traditions{' '}
+                          <br className="br-home" /> and culture.{' '}
                         </span>
                       </div>
                     </div>
@@ -103,8 +105,8 @@ const ZernoDefine = () => {
                         <span className="bold-text">Goals:</span>
                         <ul>
                           <li>
-                            To find a product that she would be <br className='br-home'/> satisfied
-                            with
+                            To find a product that she would be{' '}
+                            <br className="br-home" /> satisfied with
                           </li>
                           <li>To find a product that is worth the money</li>
                           <li>
@@ -173,8 +175,14 @@ const ZernoDefine = () => {
                     <div className="define-block1-content3-card3-wrap">
                       <ul>
                         <li>To save time making online purchases </li>
-                        <li>Find the clothes for other family <br className='br-home'/> members</li>
-                        <li>high quality and natural fabric of the <br className='br-home'/> clothes</li>
+                        <li>
+                          Find the clothes for other family{' '}
+                          <br className="br-home" /> members
+                        </li>
+                        <li>
+                          high quality and natural fabric of the{' '}
+                          <br className="br-home" /> clothes
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -214,7 +222,7 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <ul>
+                <ul className='define-block2-card-white-border-ul'>
                   <li>
                     To reduce the time spending on finding the right product
                   </li>
@@ -235,7 +243,7 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <ul>
+                <ul className='define-block2-card-white-border-ul'>
                   <li>Lots of pop-ups with unnecessary ads on the websites</li>
                   <li>Quality of the products doesn't fit the description </li>
                   <li>Navigation on the website is not convenient</li>
@@ -296,7 +304,7 @@ const ZernoDefine = () => {
               catchy but unpredictable navigation.
             </div>
           </div>
-          <div>
+          <div className="define-block3-left-arrow">
             <Arrow />
           </div>
           <div className="define-block3-left-orange-border">
@@ -308,12 +316,17 @@ const ZernoDefine = () => {
             </div>
           </div>
         </div>
-        <div className="define-block3-right">
-          <div className="define-block3-right-white-border">
-            <div className="define-block3-right-content">How Might We</div>
-            <div className="define-block3-right-content">
-              How might we reduce the amount of time spent on the site for the
-              user so that he achieves all his goals in a shortest period?
+        <div className="define-block3-wrap">
+          <div className="define-block3-left-arrow-768">
+            <Arrow />
+          </div>
+          <div className="define-block3-right">
+            <div className="define-block3-right-white-border">
+              <div className="define-block3-right-content">How Might We</div>
+              <div className="define-block3-right-content">
+                How might we reduce the amount of time spent on the site for the
+                user so that he achieves all his goals in a shortest period?
+              </div>
             </div>
           </div>
         </div>
@@ -329,7 +342,7 @@ const ZernoDefine = () => {
               declare themselves as part of the national identity.
             </div>
           </div>
-          <div>
+          <div className="define-block3-left-arrow">
             <Arrow />
           </div>
           <div className="define-block3-left-orange-border">
@@ -341,13 +354,19 @@ const ZernoDefine = () => {
             </div>
           </div>
         </div>
-        <div className="define-block3-right">
-          <div className="define-block3-right-white-border">
-            <div className="define-block3-right-content">How Might We</div>
-            <div className="define-block3-right-content">
-              Users don't want to just buy a thing, they want to feel part of
-              the history of culture and traditions, thus expressing their love
-              for the country they come from.
+
+        <div className="define-block3-wrap">
+          <div className="define-block3-left-arrow-768">
+            <Arrow />
+          </div>
+          <div className="define-block3-right">
+            <div className="define-block3-right-white-border">
+              <div className="define-block3-right-content">How Might We</div>
+              <div className="define-block3-right-content">
+                Users don't want to just buy a thing, they want to feel part of
+                the history of culture and traditions, thus expressing their
+                love for the country they come from.
+              </div>
             </div>
           </div>
         </div>
@@ -364,7 +383,7 @@ const ZernoDefine = () => {
               it.
             </div>
           </div>
-          <div>
+          <div className="define-block3-left-arrow">
             <Arrow />
           </div>
           <div className="define-block3-left-orange-border">
@@ -376,12 +395,17 @@ const ZernoDefine = () => {
             </div>
           </div>
         </div>
-        <div className="define-block3-right">
-          <div className="define-block3-right-white-border">
-            <div className="define-block3-right-content">How Might We</div>
-            <div className="define-block3-right-content">
-              How might we make users feel more secure and comfortable with
-              filling personal information on the website?
+        <div className="define-block3-wrap">
+          <div className="define-block3-left-arrow-768">
+            <Arrow />
+          </div>
+          <div className="define-block3-right">
+            <div className="define-block3-right-white-border">
+              <div className="define-block3-right-content">How Might We</div>
+              <div className="define-block3-right-content">
+                How might we make users feel more secure and comfortable with
+                filling personal information on the website?
+              </div>
             </div>
           </div>
         </div>
@@ -398,7 +422,7 @@ const ZernoDefine = () => {
               categories right in the navigation menu.
             </div>
           </div>
-          <div>
+          <div className="define-block3-left-arrow">
             <Arrow />
           </div>
           <div className="define-block3-left-orange-border">
@@ -410,12 +434,17 @@ const ZernoDefine = () => {
             </div>
           </div>
         </div>
-        <div className="define-block3-right">
-          <div className="define-block3-right-white-border">
-            <div className="define-block3-right-content">How Might We</div>
-            <div className="define-block3-right-content">
-              How might we make a navigation menu more convenient, so the client
-              could find the needed elements on the website faster?
+        <div className="define-block3-wrap">
+          <div className="define-block3-left-arrow-768">
+            <Arrow />
+          </div>
+          <div className="define-block3-right">
+            <div className="define-block3-right-white-border">
+              <div className="define-block3-right-content">How Might We</div>
+              <div className="define-block3-right-content">
+                How might we make a navigation menu more convenient, so the
+                client could find the needed elements on the website faster?
+              </div>
             </div>
           </div>
         </div>
@@ -432,7 +461,7 @@ const ZernoDefine = () => {
               not.
             </div>
           </div>
-          <div>
+          <div className="define-block3-left-arrow">
             <Arrow />
           </div>
           <div className="define-block3-left-orange-border">
@@ -443,12 +472,17 @@ const ZernoDefine = () => {
             </div>
           </div>
         </div>
-        <div className="define-block3-right">
-          <div className="define-block3-right-white-border">
-            <div className="define-block3-right-content">How Might We</div>
-            <div className="define-block3-right-content">
-              User's one of the highest need is to be sure that the quality of
-              the clothes is high.
+        <div className="define-block3-wrap">
+          <div className="define-block3-left-arrow-768">
+            <Arrow />
+          </div>
+          <div className="define-block3-right">
+            <div className="define-block3-right-white-border">
+              <div className="define-block3-right-content">How Might We</div>
+              <div className="define-block3-right-content">
+                User's one of the highest need is to be sure that the quality of
+                the clothes is high.
+              </div>
             </div>
           </div>
         </div>
@@ -509,20 +543,22 @@ const ZernoDefine = () => {
           <div className="define-block4-content ">
             <div className="define-block4-content-row">
               <span>
-                3. How might we make users feel more secure and <br /> comfortable with
-                filling personal information on the <br /> website?
+                3. How might we make users feel more secure and <br />{' '}
+                comfortable with filling personal information on the <br />{' '}
+                website?
               </span>
             </div>
             <div className="define-block4-content-row">
               <span>
-                4. How might we show the Ukrainian atmosphere <br /> through design?
-                What exactly would evoke the necessary associations?
+                4. How might we show the Ukrainian atmosphere <br /> through
+                design? What exactly would evoke the necessary associations?
               </span>
             </div>
             <div className="define-block4-content-row">
               <span>
-                5. how can we reduce the amount of time spent on the <br /> site for
-                the user so that he achieves all his goals in a <br /> shortest period?
+                5. how can we reduce the amount of time spent on the <br /> site
+                for the user so that he achieves all his goals in a <br />{' '}
+                shortest period?
               </span>
             </div>
           </div>

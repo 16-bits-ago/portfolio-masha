@@ -1275,8 +1275,12 @@ ul {
   align-items: center;
 }
 
-.define-block2-card-white-border-content li {
-  margin: 10px;
+.define-block2-card-white-border-ul {
+  margin-left: 5px;
+}
+
+.define-block2-card-white-border-ul li {
+  margin-bottom: 10px;
 }
 
 .define-block2-title {
@@ -1880,6 +1884,10 @@ ul {
   max-width: 1240px;
 }
 
+.define-block3-left-arrow-768 {
+  display: none;
+}
+
 @media (max-width: 1100px) {
   .container {
     margin: 0 130px;
@@ -1940,6 +1948,19 @@ ul {
   .define-block1-border-wrap {
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  .define-block4-img {
+    width: 380px;
+    height: 550px;
+  }
+
+  .define-block4-left {
+    width: 380px;
+  }
+
+  .define-block2-card-white-border {
+    font-size: 12px;
   }
 }
 
@@ -2026,17 +2047,13 @@ ul {
     flex-direction: column;
   }
 
-  .define-block4-left {
-    width: 380px;
-  }
-
   .define-block4-right {
     width: 380px;
   }
 
   .define-block4-img {
-    width: 380px;
-    height: 550px;
+    width: 300px;
+    height: 450px;
   }
 
   .ideate-block4-img-height {
@@ -2106,12 +2123,59 @@ ul {
   .define-block1-content2-text-block3 {
     width: 200px;
   }
+
+  .empatize-block5-table-header img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 920px) {
+  .empatize-block5-table-content {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 900px) {
   .define-block1-border-wrap {
     margin-left: 30px;
     margin-right: 30px;
+  }
+
+  .define-block4-img {
+    width: 270px;
+    height: 400px;
+  }
+
+  .define-block4-left {
+    width: 270px;
+  }
+
+  .define-block4-right {
+    width: 270px;
+  }
+
+  .zerno-start-block1-left {
+    width: 230px;
+  }
+
+  .zerno-start-block1-right {
+    width: 350px;
+  }
+
+  .zerno-start-block2-row-right {
+    width: 350px;
+  }
+
+  .empatize-block4-right {
+    width: 350px;
+  }
+
+  .empatize-block4-left {
+    width: 270px;
+  }
+
+  .empatize-block4-left button {
+    width: 270px;
   }
 }
 
@@ -2215,6 +2279,47 @@ ul {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  /* .define-block4-img {
+    width: 200px;
+    height: 350px;
+  } */
+
+  /* .define-block4-left {
+    width: 220px;
+  }
+
+  .define-block4-right {
+    width: 220px;
+  } */
+
+  .define-block3-left-arrow {
+    display: none;
+  }
+
+  .define-block3-left-arrow-768 {
+    display: block;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .define-block3-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 650px;
+    margin-top: 20px;
+  }
+
+  .define-block3-left-orange-border {
+    width: 45%;
+  }
+
+  .define-block3-right {
+    width: 45%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -2261,7 +2366,7 @@ ul {
     height: 140px;
   }
 
-  .define-block1-content1-text-block{
+  .define-block1-content1-text-block {
     height: auto;
     display: flex;
     align-items: center;
@@ -2271,6 +2376,106 @@ ul {
   .define-block1-border-wrap {
     margin-left: 30px;
     margin-right: 30px;
+  }
+
+  .define-block2-left {
+    width: 250px;
+  }
+
+  .define-block2-right {
+    width: 250px;
+  }
+
+  .define-block3-left {
+    width: 100%;
+  }
+
+  .define-block4-img {
+    width: 220px;
+    height: 300px;
+  }
+
+  .define-block4-left {
+    width: 220px;
+    min-height: 600px;
+  }
+
+  .define-block4-right {
+    width: 220px;
+    min-height: 600px;
+  }
+
+  .ideate-block2-wrap {
+    height: 500px;
+  }
+
+  .zerno-start-block1-right {
+    width: 270px;
+  }
+
+  .zerno-start-block2-row-right {
+    width: 270px;
+  }
+
+  .empatize-block4-right {
+    width: 270px;
+    font-size: 12px;
+  }
+
+  .empatize-block4-left button {
+    width: 230px;
+  }
+
+  .empatize-block4-left {
+    width: 230px;
+  }
+
+  .ideate-block5-wrap img {
+    height: 350px;
+  }
+
+  .zerno-start-block1 {
+    font-size: 12px;
+  }
+
+  .zerno-start-block2 {
+    font-size: 12px;
+  }
+
+  .zerno-start-block3-card-inside-content {
+    font-size: 12px;
+  }
+
+  .emphathize-block1 {
+    font-size: 12px;
+  }
+
+  .empatize-block2-list {
+    font-size: 12px;
+  }
+
+  .empatize-block3 {
+    font-size: 12px;
+  }
+
+  .emphathize-block1-margin40 {
+    font-size: 12px;
+  }
+
+  .ideate-block3 {
+    font-size: 12px;
+  }
+
+  .ideate-block6-wrap {
+    font-size: 12px;
+  }
+
+  .prototype-outcome {
+    font-size: 12px;
+  }
+
+  .footer-studycase {
+    font-size: 12px;
   }
 }
 
