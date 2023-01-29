@@ -16,7 +16,7 @@ const ZernoDefine = () => {
           <h1>2 / DEFINE</h1>
           <CircleTitle />
         </div>
-        <div className="emphathize-block1-margin40">
+        <div className="emphathize-block1-margin40 mb-100">
           <div className="emphathize-block1-left">
             <span>2 / DEFINE</span>
             <h3>User Persona</h3>
@@ -42,7 +42,7 @@ const ZernoDefine = () => {
         <div className="define-block1-border">
           <div style={{ height: '100%', marginLeft: 130, marginRight: 130 }}>
             <div className="define-block1-content-wrap">
-              <div className="define-block1-content-wrap-up">
+              <div className="define-block1-content-wrap-up mt-50 mb-20">
                 <div className="define-block1-content1">
                   <div>
                     <img
@@ -73,23 +73,25 @@ const ZernoDefine = () => {
                       <div className="define-block1-content2-text-block1-left">
                         <span className="bold-text">Biography:</span>
                         <span>
-                          Busy business owner, bright, self-actualized and
-                          confident personality, house proud women with a big
+                          Busy business owner, bright, self-actualized <br /> and
+                          confident personality, house proud <br /> women with a big
                           family. She is someone who treats every aspect of life
                           seriously.
                         </span>
                       </div>
                       <div className="define-block1-content2-text-block1-right">
-                        <div>
+                        <div className="define-block1-content2-text-block1-right-comma-wrap">
                           <Commas />
-                          <span className="span-orange-background bold-text">
-                            “The first and most important thing I am proud of is
-                            that I am Ukrainian”
-                          </span>
+                          <div>
+                            <span className="span-orange-background bold-text">
+                              “The first and most important thing I am proud of
+                              is that I am Ukrainian”
+                            </span>
+                          </div>
                         </div>
                         <span>
                           She loves read magazines, listen poetry and learn
-                          history, feels involved to Ukrainian traditions <br />{' '}
+                          history, feels involved to Ukrainian <br /> traditions <br />{' '}
                           and culture.{' '}
                         </span>
                       </div>
@@ -99,52 +101,55 @@ const ZernoDefine = () => {
                     <div className="define-block1-content2-text-block2">
                       <div className="define-block1-content2-text-block2-left">
                         <span className="bold-text">Goals:</span>
-                        <li>
-                          To find a product that she would be &nbsp; &nbsp;
-                          &nbsp; &nbsp; satisfied with
-                        </li>
-                        <li>
-                          To find a product that is worth the &nbsp; &nbsp;
-                          &nbsp; &nbsp; &nbsp; money
-                        </li>
-                        <li>
-                          To find clothes that fits her image &nbsp; &nbsp;
-                          &nbsp; &nbsp; &nbsp; &nbsp; and display her patriotism
-                        </li>
+                        <ul>
+                          <li>
+                            To find a product that she would be <br /> satisfied
+                            with
+                          </li>
+                          <li>To find a product that is worth the money</li>
+                          <li>
+                            To find clothes that fits her image and display her
+                            patriotism
+                          </li>
+                        </ul>
                       </div>
                     </div>
                     <div className="define-block1-content2-text-block3">
                       <div className="define-block1-content2-text-block3-right">
                         <span className="bold-text">Frustrations:</span>
-                        <li>
-                          No proofs that clothes fit her size, as &nbsp; &nbsp;
-                          &nbsp; no size guide on a website
-                        </li>
-                        <li>Lack of images to see the quality</li>
-                        <li>Long checkout process</li>
+                        <ul>
+                          <li>
+                            No proofs that clothes fit her size, as no size
+                            guide on a website
+                          </li>
+                          <li>Lack of images to see the quality</li>
+                          <li>Long checkout process</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div>
-                <div className="define-block1-content3">
+                <div className="define-block1-content3 mb-50">
                   <div className="define-block1-content3-card1">
                     <div className="define-block1-content3-card1-title">
                       Needs:
                     </div>
                     <div className="define-block1-content3-card1-wrap">
-                      <li>To know each product better</li>
-                      <li>
-                        To reduce the time she spend on finding the right
-                        product
-                      </li>
-                      <li>
-                        Convenient navigation on the website she shopping on
-                      </li>
-                      <li>
-                        To be sure that the quality of the clothes are high
-                      </li>
+                      <ul>
+                        <li>To know each product better</li>
+                        <li>
+                          To reduce the time she spend on finding the right
+                          product
+                        </li>
+                        <li>
+                          Convenient navigation on the website she shopping on
+                        </li>
+                        <li>
+                          To be sure that the quality of the clothes are high
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="define-block1-content3-card2">
@@ -166,9 +171,11 @@ const ZernoDefine = () => {
                       Motivations:
                     </div>
                     <div className="define-block1-content3-card3-wrap">
-                      <li>To save time making online purchases </li>
-                      <li>Find the clothes for other family members</li>
-                      <li>high quality and natural fabric of the clothes</li>
+                      <ul>
+                        <li>To save time making online purchases </li>
+                        <li>Find the clothes for other family <br /> members</li>
+                        <li>high quality and natural fabric of the <br /> clothes</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -178,7 +185,7 @@ const ZernoDefine = () => {
         </div>
       </div>
       <div className="container empatize-line"></div>
-      <div className="container emphathize-block1-margin40 ">
+      <div className="container emphathize-block1-margin40">
         <div className="emphathize-block1-left">
           <span>2 / DEFINE</span>
           <h3>Empathy Map</h3>
@@ -196,9 +203,9 @@ const ZernoDefine = () => {
           </span>
         </div>
       </div>
-      <div className="ideate-block2 mb-80">
+      <div className="ideate-block2 mb-50">
         <div className="ideate-block2-wrap margin-horizontal-50 h-auto">
-          <img className='h-auto' src={zernoUserPersona} alt="" />
+          <img className="h-auto" src={zernoUserPersona} alt="" />
         </div>
       </div>
       <div className="container define-block2">
@@ -207,16 +214,18 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <li>
-                  To reduce the time spending on finding the right product
-                </li>
-                <li>
-                  Increase efficiency and save time by not going to the offline
-                  store
-                </li>
-                <li>Get compliments from friends for great outfit</li>
-                <li>Feel part of the culture and traditions of Ukraine</li>
-                <li>Return policy is easy to follow</li>
+                <ul>
+                  <li>
+                    To reduce the time spending on finding the right product
+                  </li>
+                  <li>
+                    Increase efficiency and save time by not going to the
+                    offline store
+                  </li>
+                  <li>Get compliments from friends for great outfit</li>
+                  <li>Feel part of the culture and traditions of Ukraine</li>
+                  <li>Return policy is easy to follow</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -226,13 +235,15 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <li>Lots of pop-ups with unnecessary ads on the websites</li>
-                <li>Quality of the products doesn't fit the description </li>
-                <li>Navigation on the website is not convenient</li>
-                <li>
-                  Lack of time (the less time she spends searching for the right
-                  product, the better)
-                </li>
+                <ul>
+                  <li>Lots of pop-ups with unnecessary ads on the websites</li>
+                  <li>Quality of the products doesn't fit the description </li>
+                  <li>Navigation on the website is not convenient</li>
+                  <li>
+                    Lack of time (the less time she spends searching for the
+                    right product, the better)
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -476,7 +487,7 @@ const ZernoDefine = () => {
           </span>
         </div>
       </div>
-      <div className="container define-block4">
+      <div className="container define-block4 mb-60">
         <div className="define-block4-left">
           <img className="define-block4-img" src={brainStorm1} alt="" />
           <div className="define-block4-content ">
@@ -498,20 +509,20 @@ const ZernoDefine = () => {
           <div className="define-block4-content ">
             <div className="define-block4-content-row">
               <span>
-                3. How might we make users feel more secure and comfortable with
-                filling personal information on the website?
+                3. How might we make users feel more secure and <br /> comfortable with
+                filling personal information on the <br /> website?
               </span>
             </div>
             <div className="define-block4-content-row">
               <span>
-                4. How might we show the Ukrainian atmosphere through design?
+                4. How might we show the Ukrainian atmosphere <br /> through design?
                 What exactly would evoke the necessary associations?
               </span>
             </div>
             <div className="define-block4-content-row">
               <span>
-                5. how can we reduce the amount of time spent on the site for
-                the user so that he achieves all his goals in a shortest period?
+                5. how can we reduce the amount of time spent on the <br /> site for
+                the user so that he achieves all his goals in a <br /> shortest period?
               </span>
             </div>
           </div>

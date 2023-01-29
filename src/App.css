@@ -10,8 +10,13 @@ body {
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  /* list-style-type: none; */
+  padding-left: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .container {
@@ -569,6 +574,10 @@ ul {
   cursor: pointer;
 }
 
+.footer-studycase-link:hover {
+  border-bottom: 1px solid #FB7756;
+}
+
 .footer-border-studycase {
   border-top: 2px solid #000000;
   position: sticky;
@@ -754,7 +763,7 @@ ul {
 }
 
 .emphathize-block1-right {
-  width: 480px;
+  width: 620px;
   height: 100%;
   padding-left: 25px;
   border-left: 14px solid rgba(255, 184, 0, 0.26);
@@ -829,7 +838,7 @@ ul {
 
 .empatize-block4-right {
   min-height: 200px;
-  width: 475px;
+  width: 620px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -961,7 +970,7 @@ ul {
 .define-block1-border {
   border: 1px solid #000000;
   border-radius: 20px;
-  height: 748px;
+  height: auto;
   width: 100%;
   margin: 0 50px;
 }
@@ -984,8 +993,8 @@ ul {
 .define-block1-content-wrap-down {}
 
 .define-block1-content1 {
-  max-width: 340px;
-  width: 30%;
+  /* max-width: 340px; */
+  width: 33%;
   height: 370px;
   display: flex;
   flex-direction: column;
@@ -1047,11 +1056,11 @@ ul {
 .define-block1-content2-up {}
 
 .define-block1-content2-text-block2-left {
-  padding: 10px 17px;
+  padding: 10px 15px;
 }
 
 .define-block1-content2-text-block3-right {
-  padding: 14px 17px;
+  padding: 10px 15px;
 }
 
 .define-block1-content2-down {
@@ -1067,9 +1076,7 @@ ul {
 .define-block1-content2-text-block1 {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
-  width: calc(100%-4px);
   max-height: 160px;
-  height: 180px;
   padding: 17px;
   text-align: start;
   display: flex;
@@ -1081,7 +1088,7 @@ ul {
 }
 
 .define-block1-content2-text-block1-left {
-  width: 270px;
+  width: 340px;
   max-width: 320px;
   height: 150px;
   display: flex;
@@ -1090,7 +1097,7 @@ ul {
 }
 
 .define-block1-content2-text-block1-right {
-  width: 270px;
+  width: 340px;
   max-width: 320px;
   height: 150px;
   display: flex;
@@ -1098,17 +1105,28 @@ ul {
   justify-content: space-between;
 }
 
+.define-block1-content2-text-block1-right-comma-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.define-block1-content2-text-block1-right-comma-wrap div{
+  padding-left: 20px;
+}
+
 .define-block1-content2-text-block2 {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
-  width: 47%;
+  width: 336px;
+  max-width: 340px;
   height: 160px;
 }
 
 .define-block1-content2-text-block3 {
   border: 2px solid #D9D9D9;
   border-radius: 20px;
-  width: 47%;
+  width: 336px;
+  max-width: 340px;
   height: 160px;
 }
 
@@ -1262,12 +1280,32 @@ ul {
   color: #FB7756;
 }
 
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
 .mb-80 {
   margin-bottom: 80px !important;
 }
 
 .mt-80 {
   margin-top: 80px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
 }
 
 .mb-40 {
@@ -1296,6 +1334,10 @@ ul {
 
 .h-auto {
   height: auto !important;
+}
+
+.min-h-none {
+  min-height: fit-content !important;
 }
 
 .margin-horizontal-50 {
@@ -1357,6 +1399,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .define-block3-right-white-border {
@@ -1384,7 +1427,6 @@ ul {
 .define-block4 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .define-block4-left {
@@ -1408,7 +1450,7 @@ ul {
 }
 
 .define-block4-content-row {
-  min-height: 50px;
+  padding-bottom: 14px;
   height: 100%;
   border-bottom: 1px solid #7B7878;
   margin-bottom: 20px;
@@ -1454,6 +1496,15 @@ ul {
   flex-direction: column;
 }
 
+.ideate-mid-fi-wrap {
+  height: 1260px;
+  display: flex;
+}
+
+.ideate-mid-fi-wrap img{
+  width: 720px;
+}
+
 .ideate-block3 {
   font-weight: 600;
   font-size: 16px;
@@ -1495,6 +1546,7 @@ ul {
   background-color: #f2b29f;
   border-radius: 20px;
   padding: 10px;
+  color: #fff;
 }
 
 .ideate-block3-row-block-card-up-white {

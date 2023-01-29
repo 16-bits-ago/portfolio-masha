@@ -1,6 +1,7 @@
 import { ReactComponent as CircleTitle } from '../../assets/circleTitle.svg'
 import ideateBlock2BG from '../../assets/ideateBlock2BG.png'
-import ideateBlock4BG from '../../assets/ideateBlock4BG.png'
+import zernoMidFiRight from '../../assets/zernoMidFiRight.png'
+import zernoMidFiLeft from '../../assets/zernoMidFiLeft.png'
 import ideateSketch1 from '../../assets/ideateSketch1.png'
 import ideateSketch2 from '../../assets/ideateSketch2.png'
 import ideateSketch3 from '../../assets/ideateSketch3.png'
@@ -24,7 +25,7 @@ const ZernoIdeate = () => {
           </div>
           <div className="emphathize-block1-right">
             <span>
-              Isn't that the most enjoyable part of learning something when you
+              Isn't that the most enjoyable part of learning something when you 
               can finally show off your knowledge and put it into action? Here
               begins{' '}
               <span className="bold-text"> the most practical part </span> -
@@ -36,17 +37,13 @@ const ZernoIdeate = () => {
           <div className="empatize-block4-left">
             <button>Full reference list</button>
           </div>
-          <div className="empatize-block4-right justify-content-end">
+          <div className="empatize-block4-right justify-content-end min-h-none">
             <span>
               I started by researching other E-Commerce sites{' '}
               <span className="bold-text"> to see </span> how their structure is
               arranged, <span className="bold-text"> to highlight </span> and
-              save some interesting
-              <span className="bold-text"> solutions for myself</span>. I've
-              made a screenshots of any part of other website I like,
-              transferred to Figma, divided them into separate pages and signed
-              under each screenshot what exactly caught my
-              <span className="bold-text"> attention </span> there.
+              save some interesting 
+              <span className="bold-text"> solutions for myself</span>.
             </span>
           </div>
         </div>
@@ -83,10 +80,10 @@ const ZernoIdeate = () => {
             that will be present on every page of my project - Home, Catalogue,
             Page of product, cart and checkout. Each point of my content plan{' '}
             <span className="bold-text">
-              was based on the needs of my client's target audience
+              was based on the needs of target audience
             </span>
-            , their gains and motivations, as well as{' '}
-            <span className="bold-text"> on my client's requirements</span>.
+            , as well as{' '}
+            <span className="bold-text"> my client's requirements</span>.
           </span>
         </div>
       </div>
@@ -283,11 +280,12 @@ const ZernoIdeate = () => {
           </span>
         </div>
       </div>
-      <div className="ideate-block2 mb-0">
-        <div className="ideate-block2-wrap ideate-block4-img-height">
-          <img src={ideateBlock4BG} alt="" />
-        </div>
+
+      <div className='ideate-mid-fi-wrap'>
+        <img src={zernoMidFiLeft} alt="" />
+        <img src={zernoMidFiRight} alt="" />
       </div>
+
       <div className="empatize-block3">
         <div className="container">
           <span>
