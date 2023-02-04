@@ -1850,7 +1850,6 @@ ul {
 .projector-empatize-block1-card-left {
   width: 710px;
   height: 330px;
-  background-color: #3548FE;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1913,6 +1912,10 @@ ul {
 
 .define-block3-left-arrow-768 {
   display: none;
+}
+
+.projectorFinalDesign {
+  width: 100%;
 }
 
 @media (max-width: 1500px) {

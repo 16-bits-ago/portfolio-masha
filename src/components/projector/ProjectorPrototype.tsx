@@ -1,6 +1,10 @@
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
 import ProjectorPrototypeBigImg from '../../assets/ProjectorPrototypeBigImg.png'
-import ProjectorFinalDesign from '../../assets/ProjectorFinalDesign.png'
+import ProjectorFinalDesign1 from '../../assets/ProjectorFinalDesign1.png'
+import ProjectorFinalDesign2 from '../../assets/ProjectorFinalDesign2.png'
+import ProjectorFinalDesign3 from '../../assets/ProjectorFinalDesign3.png'
+import ProjectorFinalDesign4 from '../../assets/ProjectorFinalDesign4.png'
+import ProjectorFinalDesign5 from '../../assets/ProjectorFinalDesign5.png'
 import zernoFrame from '../../assets/zernoHighRes.png'
 import { NavLink } from 'react-router-dom'
 
@@ -38,7 +42,11 @@ const ProjectorPrototype = () => {
 
       <div className="ideate-block2 mb-80">
         <div className="projector-prototype-block3-wrap">
-          <img src={ProjectorFinalDesign} alt="" />
+          <img className='projectorFinalDesign' src={ProjectorFinalDesign1} alt="" />
+          <img className='projectorFinalDesign' src={ProjectorFinalDesign2} alt="" />
+          <img className='projectorFinalDesign' src={ProjectorFinalDesign3} alt="" />
+          <img className='projectorFinalDesign' src={ProjectorFinalDesign4} alt="" />
+          <img className='projectorFinalDesign' src={ProjectorFinalDesign5} alt="" />
         </div>
       </div>
 

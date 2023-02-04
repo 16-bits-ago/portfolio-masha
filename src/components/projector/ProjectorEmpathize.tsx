@@ -14,7 +14,7 @@ const ProjectorEmpathize = () => {
         </div>
         <div className="projector-empatize-block1-row">
           <div className="projector-empatize-block1-bg-left">
-            <div className="container projector-empatize-block1-card-content">
+            <div className="projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title">
                 User Interview
               </div>
@@ -44,7 +44,7 @@ const ProjectorEmpathize = () => {
         </div>
         <div className="projector-empatize-block1-row">
           <div className="projector-empatize-block1-card-left">
-            <div className="container projector-empatize-block1-card-content">
+            <div className="projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title color-black">
                 Pain Points
               </div>
@@ -71,7 +71,7 @@ const ProjectorEmpathize = () => {
             </div>
           </div>
           <div className="projector-empatize-block1-bg-right">
-            <div className="container projector-empatize-block1-card-content">
+            <div className="projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title">
                 Questions
               </div>
