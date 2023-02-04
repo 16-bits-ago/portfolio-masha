@@ -172,7 +172,7 @@ const ZernoEmphathize = () => {
         </div>
         <div className="empatize-block5-table">
           <div className="empatize-block5-table-sides">
-            <div className="empatize-block5-table-header">
+            <div className="empatize-block5-table-header empatize-block5-table-header-first-500">
               <img src={empatizeTable1} alt="" />
             </div>
             <div className="empatize-block5-table-content">

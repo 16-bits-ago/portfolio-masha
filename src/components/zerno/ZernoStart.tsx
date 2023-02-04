@@ -93,59 +93,71 @@ const ZernoStart = () => {
         </div>
       </div>
       <div className="zerno-start-block3">
-        <div className="zerno-start-block3-card">
-          <div className="zerno-start-block3-card-inside">
-            <div className="zerno-start-block3-card-inside-content">
-              <span className='zerno-start-block3-card-inside-content-title'>1. EMPATHIZE</span>
-              <li>Current state evaluation</li>
-              <li>Brief of client</li>
-              <li>Competetive analysis</li>
-              <li>User Interview</li>
+        <div className="container zerno-start-block3-wrap">
+          <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card-inside">
+              <div className="zerno-start-block3-card-inside-content">
+                <span className="zerno-start-block3-card-inside-content-title">
+                  1. EMPATHIZE
+                </span>
+                <li>Current state evaluation</li>
+                <li>Brief of client</li>
+                <li>Competetive analysis</li>
+                <li>User Interview</li>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="zerno-start-block3-card">
-          <div className="zerno-start-block3-card-inside">
-            <div className="zerno-start-block3-card-inside-content">
-              <span className='zerno-start-block3-card-inside-content-title'>2. DEFINE</span>
-              <li>User Persona</li>
-              <li>Empathy Map</li>
-              <li>HMW Questions</li>
-              <li>Brainstorming</li>
+          <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card-inside">
+              <div className="zerno-start-block3-card-inside-content">
+                <span className="zerno-start-block3-card-inside-content-title">
+                  2. DEFINE
+                </span>
+                <li>User Persona</li>
+                <li>Empathy Map</li>
+                <li>HMW Questions</li>
+                <li>Brainstorming</li>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="zerno-start-block3-card">
-          <div className="zerno-start-block3-card-inside">
-            <div className="zerno-start-block3-card-inside-content">
-              <span className='zerno-start-block3-card-inside-content-title'>3. IDEATE</span>
-              <li>References Research</li>
-              <li>Content-plan</li>
-              <li>
-                Lo-Fi sketches, Mid-Fi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp;&nbsp; prototype
-              </li>
-              <li>Usability testing</li>
+          <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card-inside">
+              <div className="zerno-start-block3-card-inside-content">
+                <span className="zerno-start-block3-card-inside-content-title">
+                  3. IDEATE
+                </span>
+                <li>References Research</li>
+                <li>Content-plan</li>
+                <li>
+                  Lo-Fi sketches, Mid-Fi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; prototype
+                </li>
+                <li>Usability testing</li>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="zerno-start-block3-card">
-          <div className="zerno-start-block3-card-inside">
-            <div className="zerno-start-block3-card-inside-content">
-              <span className='zerno-start-block3-card-inside-content-title'>4. PROTOTYPE</span>
-              <li>Hi-Fi prototype</li>
-              <li>Style guide</li>
+          <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card-inside">
+              <div className="zerno-start-block3-card-inside-content">
+                <span className="zerno-start-block3-card-inside-content-title">
+                  4. PROTOTYPE
+                </span>
+                <li>Hi-Fi prototype</li>
+                <li>Style guide</li>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="zerno-start-block3-card">
-          <div className="zerno-start-block3-card-inside">
-            <div className="zerno-start-block3-card-inside-content">
-              <span className='zerno-start-block3-card-inside-content-title'>5. TESTING</span>
-              <li>
-                Hi-fi wireframe usability &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                testing{' '}
-              </li>
+          <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card-inside">
+              <div className="zerno-start-block3-card-inside-content">
+                <span className="zerno-start-block3-card-inside-content-title">
+                  5. TESTING
+                </span>
+                <li>
+                  Hi-fi wireframe usability &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  testing{' '}
+                </li>
+              </div>
             </div>
           </div>
         </div>
