@@ -6,14 +6,14 @@ import projectorEmpathyMap from '../../assets/projectorEmpathyMap.png'
 const ProjectorDefine = () => {
   return (
     <>
-      <div className="container projector-start-block3-title" id='define'>
+      <div className="container projector-start-block3-title" id="define">
         User Persona <ProjectorBlueClyaksa />
       </div>
       <div className="define-block1">
         <div className="define-block1-border projector-define-block1-border">
-          <div className='define-block1-border-wrap'>
+          <div className="define-block1-border-wrap">
             <div className="define-block1-content-wrap">
-              <div className="define-block1-content-wrap-up">
+              <div className="define-block1-content-wrap-up mt-50 mb-20">
                 <div className="define-block1-content1">
                   <div>
                     <img
@@ -59,12 +59,14 @@ const ProjectorDefine = () => {
                         </span>
                       </div>
                       <div className="define-block1-content2-text-block1-right">
-                        <div>
+                        <div className="define-block1-content2-text-block1-right-comma-wrap">
                           <Commas />
-                          <span className="span-blue-background bold-text color-white">
-                            “Would be so cool to find ways to express myself in
-                            creative field”
-                          </span>
+                          <div>
+                            <span className="span-blue-background bold-text color-white">
+                              “Would be so cool to find ways to express myself
+                              in creative field”
+                            </span>
+                          </div>
                         </div>
                         <span>
                           He loves to learn and read, listen podcasts and draw
@@ -105,7 +107,7 @@ const ProjectorDefine = () => {
                 </div>
               </div>
               <div>
-                <div className="define-block1-content3">
+                <div className="define-block1-content3 mb-50">
                   <div className="define-block1-content3-card1">
                     <div className="define-block1-content3-card1-title color-blue">
                       Needs:
@@ -174,18 +176,22 @@ const ProjectorDefine = () => {
           <div className="define-block2-card bg-black">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <li>
-                  Feel part of the creative team, which help him grow as a
-                  professional
-                </li>
-                <li>
-                  Increase efficiency and save time by not going on the offline
-                  courses
-                </li>
-                <li>Get compliments from parents for his great realisation</li>
-                <li>
-                  The possibility to return money if he won't like the course
-                </li>
+                <ul className="define-block2-card-white-border-ul">
+                  <li>
+                    Feel part of the creative team, which help him grow as a
+                    professional
+                  </li>
+                  <li>
+                    Increase efficiency and save time by not going on the
+                    offline courses
+                  </li>
+                  <li>
+                    Get compliments from parents for his great realisation
+                  </li>
+                  <li>
+                    The possibility to return money if he won't like the course
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -195,19 +201,21 @@ const ProjectorDefine = () => {
           <div className="define-block2-card bg-black">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <li>
-                  Websites of online universities don't consist with great
-                  exhaustive descriptions
-                </li>
-                <li>
-                  Quality of the educational material doesn't fit the
-                  description
-                </li>
-                <li>Navigation on the website is not convenient</li>
-                <li>
-                  Lack of time (Alex is a student so he want to find an
-                  opportunity to combine one school with another)
-                </li>
+                <ul className="define-block2-card-white-border-ul">
+                  <li>
+                    Websites of online universities don't consist with great
+                    exhaustive descriptions
+                  </li>
+                  <li>
+                    Quality of the educational material doesn't fit the
+                    description
+                  </li>
+                  <li>Navigation on the website is not convenient</li>
+                  <li>
+                    Lack of time (Alex is a student so he want to find an
+                    opportunity to combine one school with another)
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

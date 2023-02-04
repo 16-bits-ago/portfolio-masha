@@ -1,5 +1,5 @@
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
-import  ProjectorWorkingPeople  from '../../assets/ProjectorWorkingPeople.png'
+import ProjectorWorkingPeople from '../../assets/ProjectorWorkingPeople.png'
 import currentStateEvaluation1 from '../../assets/currentStateEvaluation1.png'
 import currentStateEvaluation2 from '../../assets/currentStateEvaluation2.png'
 import currentStateEvaluation3 from '../../assets/currentStateEvaluation3.png'
@@ -8,7 +8,7 @@ import currentStateEvaluation4 from '../../assets/currentStateEvaluation4.png'
 const ProjectorEmpathize = () => {
   return (
     <>
-      <div className="projector-empatize-block1 mb-80" id='emphathize'>
+      <div className="projector-empatize-block1 mb-80" id="emphathize">
         <div className="projector-start-block3-title">
           User Research <ProjectorBlueClyaksa />
         </div>
@@ -46,7 +46,7 @@ const ProjectorEmpathize = () => {
           <div className="projector-empatize-block1-card-left">
             <div className="container projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title color-black">
-                User Interview
+                Pain Points
               </div>
               <div className="projector-empatize-block1-row-up-content color-black">
                 <span className="bold-text"></span>
@@ -73,34 +73,33 @@ const ProjectorEmpathize = () => {
           <div className="projector-empatize-block1-bg-right">
             <div className="container projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title">
-                User Interview
+                Questions
               </div>
               <div className="projector-empatize-block1-row-up-content">
                 <span className="bold-text"></span>
-                After defining the target audience, I've prepared an interview
-                guide and conducted an interviews with{' '}
+                <span className="bold-text">1. How do you choose</span> where to
+                take courses and how you've choose the specific one? <br />{' '}
+                <span className="bold-text">2. How you decide</span> which
+                online school/university website to visit? <br />{' '}
+                <span className="bold-text">3.</span> Tell me about{' '}
+                <span className="bold-text">your lastexperience</span> of buying
+                courses online <br /> <span className="bold-text">4.</span> Tell
+                me about a
                 <span className="bold-text">
-                  {' '}
-                  5 participants in age 16-30{' '}
+                  pleasurable/frustrating experience
                 </span>{' '}
-                years who is interested in studying online and{' '}
-                <span className="bold-text">
-                  {' '}
-                  fit a description of TA{' '}
-                </span>{' '}
-                (brief: age, motivations, goals, pain points). Based on it were
-                prepared questions for users.
+                you had at the online courses
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='projector-emphathize-block3'>
+      <div className="projector-emphathize-block3">
         <div className="projector-start-block3-title">
           Current state evaluation <ProjectorBlueClyaksa />
         </div>
-        <div className="container projector-emphathize-block2">
+        <div className="container projector-emphathize-block2 mb-40">
           <div className="projector-emphathize-block2-card">
             <img src={currentStateEvaluation1} alt="" />
             <div className="empatize-block2-list">

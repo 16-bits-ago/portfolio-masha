@@ -4,13 +4,13 @@ import ProjectorWorkingPeopleIdeate from '../../assets/ProjectorWorkingPeopleIde
 const ProjectorIdeate = () => {
   return (
     <>
-      <div className="projector-empatize-block1 mb-80" id='ideate'>
+      <div className="projector-empatize-block1 mb-80" id="ideate">
         <div className="projector-start-block3-title">
           Looking for the right solutions <ProjectorBlueClyaksa />
         </div>
         <div className="projector-empatize-block1-row">
           <div className="projector-empatize-block1-bg-left">
-            <div className="container projector-empatize-block1-card-content">
+            <div className="projector-empatize-block1-card-content projector-empatize-block1-card-content-min">
               <div className="projector-empatize-block1-row-up-title">
                 Insights +HMW
               </div>
@@ -35,7 +35,7 @@ const ProjectorIdeate = () => {
         </div>
         <div className="projector-empatize-block1-row">
           <div className="projector-empatize-block1-card-left">
-            <div className="container projector-empatize-block1-card-content projector-ideate-block1-height">
+            <div className="projector-empatize-block1-card-content projector-ideate-block1-height">
               <div className="projector-empatize-block1-row-up-title color-black">
                 Brainstorming <br />
                 <br />
@@ -64,7 +64,7 @@ const ProjectorIdeate = () => {
             </div>
           </div>
           <div className="projector-empatize-block1-bg-right">
-            <div className="container projector-empatize-block1-card-content">
+            <div className="projector-empatize-block1-card-content">
               <div className="projector-empatize-block1-row-up-title">
                 Content-plan
               </div>
@@ -74,11 +74,21 @@ const ProjectorIdeate = () => {
                 was created the first drafts of the content-plan of my future
                 design. <br />
                 <br />
-                <span className="bold-text">1. Hero header</span> <br />
-                <span className="bold-text">2. Our partners</span> <br />
-                <span className="bold-text">3. Advantages</span> <br />
-                <span className="bold-text">4. Our approach</span> <br />
-                <span className="bold-text">5. Reviews from mentors</span>
+                <div className='projector-empatize-block1-card-content-block4'>
+                  <div className='projector-empatize-block1-card-content-block4-list'>
+                    <span className="bold-text">1. Hero header</span> <br />
+                    <span className="bold-text">2. Our partners</span> <br />
+                    <span className="bold-text">3. Advantages</span> <br />
+                    <span className="bold-text">4. Our approach</span> <br />
+                    <span className="bold-text">5. Reviews from mentors</span>
+                  </div>
+                  <div className='projector-empatize-block1-card-content-block4-list'>
+                    <span className="bold-text">6.List of the courses</span> <br />
+                    <span className="bold-text">7. Proposition of consultation</span> <br />
+                    <span className="bold-text">8. News of faculty</span> <br />
+                    <span className="bold-text">9. Footer</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

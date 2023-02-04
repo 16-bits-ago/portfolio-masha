@@ -638,7 +638,7 @@ ul {
 }
 
 .zerno-start-block1-right {
-  width: 470px;
+  width: 480px;
   height: 330px;
   display: flex;
   flex-direction: column;
@@ -667,7 +667,7 @@ ul {
 .zerno-start-block2-row-left {}
 
 .zerno-start-block2-row-right {
-  width: 470px;
+  width: 480px;
   text-align: start;
 }
 
@@ -1800,12 +1800,25 @@ ul {
 }
 
 .projector-empatize-block1-card-content {
-  width: 400px;
-  height: 195px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  min-height: 300px;
+  margin: 0 80px;
   color: #FFFFFF;
+}
+
+.projector-empatize-block1-card-content-min {
+  min-height: auto;
+}
+
+.projector-empatize-block1-card-content-block4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projector-empatize-block1-card-content-block4-list {
+  width: 250px;
 }
 
 .projector-empatize-block1-card-right {
@@ -1823,17 +1836,21 @@ ul {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
+  margin-bottom: 50px;
+  height: 50px;
 }
 
 .projector-empatize-block1-row-up-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  width: 440px;
+  width: 100%;
 }
 
 .projector-empatize-block1-card-left {
   width: 710px;
+  height: 330px;
+  background-color: #3548FE;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1845,9 +1862,9 @@ ul {
 
 .projector-emphathize-block2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
   margin-bottom: 80px;
 }
 
@@ -1857,6 +1874,7 @@ ul {
 
 .projector-emphathize-block2-card img {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .projector-emphathize-block3 {}
