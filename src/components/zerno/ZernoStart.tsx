@@ -1,4 +1,5 @@
 import zernoBanner from '../../assets/zernoBanner.png'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const ZernoStart = () => {
   return (
@@ -23,9 +24,11 @@ const ZernoStart = () => {
                 <span>Figma, Google Drive</span>
               </div>
             </div>
-            <button>
-              <span className="bold-text">FINAL WORK</span>
-            </button>
+            <Link to="/zernoEcomers#prototype">
+              <button type="button">
+                <span className="bold-text">FINAL WORK</span>
+              </button>
+            </Link>
           </div>
           <div className="zerno-start-block1-right">
             <span className="bold-text">Problem Statements:</span>
@@ -93,7 +96,7 @@ const ZernoStart = () => {
         </div>
       </div>
       <div className="zerno-start-block3">
-        <div className="container zerno-start-block3-wrap">
+        <div className="zerno-start-block3-wrap">
           <div className="zerno-start-block3-card">
             <div className="zerno-start-block3-card-inside">
               <div className="zerno-start-block3-card-inside-content">

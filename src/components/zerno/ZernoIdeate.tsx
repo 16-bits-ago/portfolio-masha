@@ -87,7 +87,7 @@ const ZernoIdeate = () => {
           </span>
         </div>
       </div>
-      <div className="container empatize-block7 ">
+      <div className="container empatize-block7 mb-80">
         <div className="empatize-block7-card-wrap">
           <div className="empatize-block7-card space-between-column">
             <div className="empatize-block7-card-content-title m-none">

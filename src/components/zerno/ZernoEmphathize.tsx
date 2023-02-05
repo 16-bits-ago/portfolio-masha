@@ -281,24 +281,7 @@ const ZernoEmphathize = () => {
             <button>Interview guide</button>
           </div>
           <div className="empatize-block4-right">
-            <span>
-              As a result, a summary of the main information, requirements and
-              needs were established, such as:
-            </span>
             <span style={{ paddingBottom: 20 }}>
-              Was used “think aloud” method for the interviews. I've asked the
-              participants to share their screen and tell me their thoughts and
-              <span className="bold-text"> explain me their decisions </span>
-              during completing tasks. To conduct the tasks, we've used
-              <span className="bold-text">
-                {' '}
-                the websites of main competitors{' '}
-              </span>
-              of our client, including the website of ZERNO. After tasks were
-              completed, users were asked with a list of questions from the
-              interview guide.
-            </span>
-            <span>
               After defining the target audience, I've prepared an interview
               guide and conducted an interviews with
               <span className="bold-text"> 5 participants in age 25-45 </span>
@@ -311,6 +294,19 @@ const ZernoEmphathize = () => {
                 (registration on the platfrom, buy some special clothes, find a
                 discount page, filter the products by price){' '}
               </span>
+            </span>
+            <span>
+              Was used “think aloud” method for the interviews. I've asked the
+              participants to share their screen and tell me their thoughts and
+              <span className="bold-text"> explain me their decisions </span>
+              during completing tasks. To conduct the tasks, we've used
+              <span className="bold-text">
+                {' '}
+                the websites of main competitors{' '}
+              </span>
+              of our client, including the website of ZERNO. After tasks were
+              completed, users were asked with a list of questions from the
+              interview guide.
             </span>
           </div>
         </div>

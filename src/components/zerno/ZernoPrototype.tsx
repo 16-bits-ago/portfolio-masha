@@ -33,17 +33,30 @@ const ZernoPrototype = () => {
           </div>
         </div>
       </div>
+      
       <div className="ideate-block2 mb-0">
         <div className="ideate-block2-wrap">
           <img src={prototypeBG1} alt="" />
         </div>
       </div>
-      {/* <div className="mb-80"></div> */}
+
+      <div className="container emphathize-block1-margin40 mt-80 mb-0">
+        <div className="emphathize-block1-left">
+          <span>3 / PROTOTYPE</span>
+          <h3>Clickable prototype</h3>
+        </div>
+        <div className="emphathize-block1-right">
+          <span>
+            <span className="bold-text"></span>
+            It is my ready work, fully clickable prototype. <br />
+            To open the prototype in full screen, <span className="bold-text">click on the top right corner</span>
+          </span>
+        </div>
+      </div>
 
       <div className="container mb-80">
         <div className="figma-tap">
           <div>
-            <span>Tap here</span>
             <ArrowDownFigmaBlock />
           </div>
         </div>

@@ -154,36 +154,39 @@ const ZernoDefine = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="define-block1-content3-card2">
-                    <div className="define-block1-content3-card2-wrap-content">
-                      <div className="define-block1-content3-card2-wrap-content-text">
-                        <span>
-                          Victoria is a busy person, and one of her most
-                          important resources is time. It is also very important
-                          for her to maintain her own image, since her business
-                          is highly dependent on the opinions of her employees
-                          and customers. She also has a big family, for which
-                          Victoria looking for the highest quality product.
-                        </span>
+                  <div className='define-block1-content3-right-card-wrap'>
+                    <div className="define-block1-content3-card2">
+                      <div className="define-block1-content3-card2-wrap-content">
+                        <div className="define-block1-content3-card2-wrap-content-text">
+                          <span>
+                            Victoria is a busy person, and one of her most
+                            important resources is time. It is also very
+                            important for her to maintain her own image, since
+                            her business is highly dependent on the opinions of
+                            her employees and customers. She also has a big
+                            family, for which Victoria looking for the highest
+                            quality product.
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="define-block1-content3-card3">
-                    <div className="define-block1-content3-card3-title">
-                      Motivations:
-                    </div>
-                    <div className="define-block1-content3-card3-wrap">
-                      <ul>
-                        <li>To save time making online purchases </li>
-                        <li>
-                          Find the clothes for other family{' '}
-                          <br className="br-home" /> members
-                        </li>
-                        <li>
-                          high quality and natural fabric of the{' '}
-                          <br className="br-home" /> clothes
-                        </li>
-                      </ul>
+                    <div className="define-block1-content3-card3">
+                      <div className="define-block1-content3-card3-title">
+                        Motivations:
+                      </div>
+                      <div className="define-block1-content3-card3-wrap">
+                        <ul>
+                          <li>To save time making online purchases </li>
+                          <li>
+                            Find the clothes for other family{' '}
+                            <br className="br-home" /> members
+                          </li>
+                          <li>
+                            high quality and natural fabric of the{' '}
+                            <br className="br-home" /> clothes
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -222,7 +225,7 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <ul className='define-block2-card-white-border-ul'>
+                <ul className="define-block2-card-white-border-ul">
                   <li>
                     To reduce the time spending on finding the right product
                   </li>
@@ -243,7 +246,7 @@ const ZernoDefine = () => {
           <div className="define-block2-card">
             <div className="define-block2-card-white-border">
               <div className="define-block2-card-white-border-content">
-                <ul className='define-block2-card-white-border-ul'>
+                <ul className="define-block2-card-white-border-ul">
                   <li>Lots of pop-ups with unnecessary ads on the websites</li>
                   <li>Quality of the products doesn't fit the description </li>
                   <li>Navigation on the website is not convenient</li>
