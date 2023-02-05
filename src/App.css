@@ -411,8 +411,8 @@ ul {
 }
 
 .about-avatar {
-  width: 270px;
-  height: 300px;
+  width: 285px;
+  height: 272px;
 }
 
 .about-block-left {
@@ -585,6 +585,12 @@ ul {
   cursor: pointer;
 }
 
+.home-link {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
 .footer-studycase-link:hover {
   border-bottom: 1px solid #FB7756;
 }
@@ -632,6 +638,7 @@ ul {
   border-radius: 20px;
   border: none;
   color: #000000;
+  cursor: pointer;
 }
 
 .zerno-start-block1-left button:hover {
@@ -650,6 +657,7 @@ ul {
 
 .zerno-start-block1-right {
   width: 480px;
+  min-width: 480px;
   height: 330px;
   display: flex;
   flex-direction: column;
@@ -851,6 +859,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .empatize-block4-left button:hover {
@@ -1266,7 +1275,7 @@ ul {
 
 .define-block2-left {
   width: 400px;
-  height: 305px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1274,7 +1283,7 @@ ul {
 
 .define-block2-right {
   width: 400px;
-  height: 305px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1283,10 +1292,14 @@ ul {
 .define-block2-card {
   border-radius: 20px;
   background-color: #FDAD9A;
-  height: 260px;
+  min-height: 285px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.define-block2-card-white-border-content {
+  padding: 15px;
 }
 
 .define-block2-card-white-border {
@@ -1377,6 +1390,10 @@ ul {
 
 .min-h-none {
   min-height: fit-content !important;
+}
+
+.h-283 {
+  width: 283px !important;
 }
 
 .margin-horizontal-50 {
@@ -1723,7 +1740,13 @@ ul {
 }
 
 .projector-start-block2-progress-wrap-rows {
+  display: none;
+}
+
+.projector-start-block2-progress-wrap-init {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .projector-start-block2-progress-card {
@@ -2007,6 +2030,14 @@ ul {
   .zerno-start-block3-wrap {
     margin: 0 20px;
   }
+
+  .projector-start-block2-progress-wrap-rows {
+    display: flex;
+  }
+  
+  .projector-start-block2-progress-wrap-init {
+    display: none;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -2190,6 +2221,7 @@ ul {
 
   .zerno-start-block1-right {
     width: 380px;
+    min-width: 0;
     padding-left: 10px;
   }
 

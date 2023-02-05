@@ -115,7 +115,13 @@ const ZernoEmphathize = () => {
         </div>
         <div className="empatize-block4">
           <div className="empatize-block4-left">
-            <button>Full brief</button>
+            <a
+              href="https://docs.google.com/document/d/1jkDu11RGXeIg4ueKLWr_UR7kowDhmGW38k1udimo3ZU/edit"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="h-283">Full brief</button>
+            </a>
           </div>
           <div className="empatize-block4-right">
             <span>
@@ -278,7 +284,13 @@ const ZernoEmphathize = () => {
         </div>
         <div className="empatize-block4">
           <div className="empatize-block4-left">
-            <button>Interview guide</button>
+            <a
+              href="https://docs.google.com/document/d/123THbLCR9yn-DVacvMbAKICoe9sqe51QJs0cJElYZwk/edit"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="h-283">Interview guide</button>
+            </a>
           </div>
           <div className="empatize-block4-right">
             <span style={{ paddingBottom: 20 }}>

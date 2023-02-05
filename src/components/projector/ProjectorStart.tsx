@@ -6,6 +6,7 @@ import { ReactComponent as ProjectorCheckSquare } from '../../assets/ProjectorCh
 import { ReactComponent as ProjectorChatTeardropText } from '../../assets/ProjectorChatTeardropText.svg'
 import { ReactComponent as ProjectorBGStar } from '../../assets/ProjectorBGStar.svg'
 import { ReactComponent as ProjectorBlueClyaksa } from '../../assets/ProjectorBlueClyaksa.svg'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const ProjectorStart = () => {
   return (
@@ -33,9 +34,11 @@ const ProjectorStart = () => {
                   <span>Figma, Google Drive</span>
                 </div>
               </div>
-              <button className="bg-blue color-white">
-                <span className="bold-text">FINAL WORK</span>
-              </button>
+              <Link to="/projectorLayout#prototype">
+                <button className="bg-blue color-white" type='button'>
+                  <span className="bold-text">FINAL WORK</span>
+                </button>
+              </Link>
             </div>
             <div className="zerno-start-block1-right">
               <span className="bold-text">Problem Statements:</span>
@@ -66,41 +69,79 @@ const ProjectorStart = () => {
               Design Process <ProjectorBlueClyaksa />
             </div>
             <div className="projector-start-block2-progress-wrap">
-              <div className='projector-start-block2-progress-wrap-rows'>
+              <div className="projector-start-block2-progress-wrap-init">
                 <div className="projector-start-block2-progress-card">
                   <ProjectorBaby />
                   <div className="projector-start-block2-progress-card-down">
-                    <ProjectorBGStar className='svgDesignProcessStars'/>
+                    <ProjectorBGStar className="svgDesignProcessStars" />
                     <span>1. EMPATHIZE</span>
                   </div>
                 </div>
                 <div className="projector-start-block2-progress-card">
                   <ProjectorScroll />
                   <div className="projector-start-block2-progress-card-down">
-                    <ProjectorBGStar className='svgDesignProcessStars'/>
+                    <ProjectorBGStar className="svgDesignProcessStars" />
                     <span>2. DEFINE</span>
                   </div>
                 </div>
                 <div className="projector-start-block2-progress-card">
                   <ProjectorLightbulb />
                   <div className="projector-start-block2-progress-card-down">
-                    <ProjectorBGStar className='svgDesignProcessStars'/>
+                    <ProjectorBGStar className="svgDesignProcessStars" />
                     <span>3. IDEATE</span>
                   </div>
                 </div>
-              </div>
-              <div className='projector-start-block2-progress-wrap-rows'>
                 <div className="projector-start-block2-progress-card">
                   <ProjectorCheckSquare />
                   <div className="projector-start-block2-progress-card-down">
-                    <ProjectorBGStar className='svgDesignProcessStars'/>
+                    <ProjectorBGStar className="svgDesignProcessStars" />
                     <span>4. PROTOTYPE</span>
                   </div>
                 </div>
                 <div className="projector-start-block2-progress-card">
                   <ProjectorChatTeardropText />
                   <div className="projector-start-block2-progress-card-down">
-                    <ProjectorBGStar className='svgDesignProcessStars'/>
+                    <ProjectorBGStar className="svgDesignProcessStars" />
+                    <span>5. TEST</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="projector-start-block2-progress-wrap-rows">
+                <div className="projector-start-block2-progress-card">
+                  <ProjectorBaby />
+                  <div className="projector-start-block2-progress-card-down">
+                    <ProjectorBGStar className="svgDesignProcessStars" />
+                    <span>1. EMPATHIZE</span>
+                  </div>
+                </div>
+                <div className="projector-start-block2-progress-card">
+                  <ProjectorScroll />
+                  <div className="projector-start-block2-progress-card-down">
+                    <ProjectorBGStar className="svgDesignProcessStars" />
+                    <span>2. DEFINE</span>
+                  </div>
+                </div>
+                <div className="projector-start-block2-progress-card">
+                  <ProjectorLightbulb />
+                  <div className="projector-start-block2-progress-card-down">
+                    <ProjectorBGStar className="svgDesignProcessStars" />
+                    <span>3. IDEATE</span>
+                  </div>
+                </div>
+              </div>
+              <div className="projector-start-block2-progress-wrap-rows">
+                <div className="projector-start-block2-progress-card">
+                  <ProjectorCheckSquare />
+                  <div className="projector-start-block2-progress-card-down">
+                    <ProjectorBGStar className="svgDesignProcessStars" />
+                    <span>4. PROTOTYPE</span>
+                  </div>
+                </div>
+                <div className="projector-start-block2-progress-card">
+                  <ProjectorChatTeardropText />
+                  <div className="projector-start-block2-progress-card-down">
+                    <ProjectorBGStar className="svgDesignProcessStars" />
                     <span>5. TEST</span>
                   </div>
                 </div>

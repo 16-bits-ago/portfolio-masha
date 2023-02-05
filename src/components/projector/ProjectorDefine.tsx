@@ -125,34 +125,36 @@ const ProjectorDefine = () => {
                       </li>
                     </div>
                   </div>
-                  <div className="define-block1-content3-card2 bg-black">
-                    <div className="define-block1-content3-card2-wrap-content">
-                      <div className="define-block1-content3-card2-wrap-content-text">
-                        <span>
-                          Alex is a young boy, but he is very ambitious and
-                          confident. He is looking for an opportunity to realise
-                          his creative flair at the work he loves to do. As
-                          drawing is his hobbie, he is about to take a decision
-                          find an appropriate online courses to grow in this
-                          field and in the same time to combine it with his
-                          school.
-                        </span>
+                  <div className="define-block1-content3-right-card-wrap">
+                    <div className="define-block1-content3-card2 bg-black">
+                      <div className="define-block1-content3-card2-wrap-content">
+                        <div className="define-block1-content3-card2-wrap-content-text">
+                          <span>
+                            Alex is a young boy, but he is very ambitious and
+                            confident. He is looking for an opportunity to
+                            realise his creative flair at the work he loves to
+                            do. As drawing is his hobbie, he is about to take a
+                            decision find an appropriate online courses to grow
+                            in this field and in the same time to combine it
+                            with his school.
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="define-block1-content3-card3">
-                    <div className="define-block1-content3-card3-title color-blue">
-                      Motivations:
-                    </div>
-                    <div className="define-block1-content3-card3-wrap projector-define-block1-border">
-                      <li>
-                        To save money, as Alex doesn't work yet and for a moment
-                        materially dependent from parents{' '}
-                      </li>
-                      <li>Find the online course that friends advised</li>
-                      <li>
-                        Opportunity to combine his school and learn new field
-                      </li>
+                    <div className="define-block1-content3-card3">
+                      <div className="define-block1-content3-card3-title color-blue">
+                        Motivations:
+                      </div>
+                      <div className="define-block1-content3-card3-wrap projector-define-block1-border">
+                        <li>
+                          To save money, as Alex doesn't work yet and for a
+                          moment materially dependent from parents{' '}
+                        </li>
+                        <li>Find the online course that friends advised</li>
+                        <li>
+                          Opportunity to combine his school and learn new field
+                        </li>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -72,7 +72,7 @@ const ProjectorPrototype = () => {
               alt=""
             />
           </div>
-          <div className='projector-prototype-block3-wrap-div1'>
+          <div className='projector-prototype-block3-wrap-div5'>
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign5}

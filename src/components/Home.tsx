@@ -6,7 +6,7 @@ import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorHighRes.png'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -55,9 +55,23 @@ const Home = () => {
         </div>
         <div className="home-intro-block-footer">
           <div className="home-intro-block-footer-left">
-            <span>Linkedin</span>
+            <span>
+              <a className="home-link" href="https://www.facebook.com/" rel='noreferrer' target="_blank">
+                Linkedin
+              </a>
+            </span>
             <span>Resume</span>
-            <span>Email</span>
+            <span>
+              <Link
+                className="home-link"
+                to="/portfolio-masha"
+                onClick={() =>
+                  window.location.assign('mailto:mykhailovska.mariia@gmail.com')
+                }
+              >
+                Email
+              </Link>
+            </span>
           </div>
           <div>
             <ArrowDown onClick={handleOpen} className="arrow-img" />

@@ -25,7 +25,7 @@ const ZernoIdeate = () => {
           </div>
           <div className="emphathize-block1-right">
             <span>
-              Isn't that the most enjoyable part of learning something when you 
+              Isn't that the most enjoyable part of learning something when you
               can finally show off your knowledge and put it into action? Here
               begins{' '}
               <span className="bold-text"> the most practical part </span> -
@@ -35,14 +35,20 @@ const ZernoIdeate = () => {
         </div>
         <div className="empatize-block4">
           <div className="empatize-block4-left">
-            <button>Full reference list</button>
+            <a
+              href="https://www.figma.com/file/slbCHDjneZJl0YCsGsXHqq/References?node-id=0%3A1&t=Nobj7X5nuMBk6JkX-0"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="h-283">Full reference list</button>
+            </a>
           </div>
           <div className="empatize-block4-right justify-content-end min-h-none">
             <span>
               I started by researching other E-Commerce sites{' '}
               <span className="bold-text"> to see </span> how their structure is
               arranged, <span className="bold-text"> to highlight </span> and
-              save some interesting 
+              save some interesting
               <span className="bold-text"> solutions for myself</span>.
             </span>
           </div>
@@ -281,7 +287,7 @@ const ZernoIdeate = () => {
         </div>
       </div>
 
-      <div className='ideate-mid-fi-wrap'>
+      <div className="ideate-mid-fi-wrap">
         <img src={zernoMidFiLeft} alt="" />
         <img src={zernoMidFiRight} alt="" />
       </div>
@@ -319,7 +325,13 @@ const ZernoIdeate = () => {
         </div>
         <div className="empatize-block4">
           <div className="empatize-block4-left">
-            <button>Full reference list</button>
+            <a
+              href="https://docs.google.com/document/d/1Mpr7znYGB10d6IwLxK5gOCq9_VkVTJMifWRW6_ijQJw/edit"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="h-283">Testing Planning</button>
+            </a>
           </div>
           <div className="empatize-block4-right justify-content-end">
             <span>
@@ -342,23 +354,24 @@ const ZernoIdeate = () => {
           </div>
         </div>
       </div>
-      <div className='container ideate-block5-wrap mb-40'>
+      <div className="container ideate-block5-wrap mb-40">
         <img src={ideateBlock5Table} alt="" />
       </div>
       <div className="container ideate-block6-wrap space-between-column mb-80">
         <div>
-          Also <span className="bold-text">2/5 of interviewees</span> suggested that since checkout has sections
-          "new" and "regular" client, it would be appropriate to also add a
-          "register" button there.
+          Also <span className="bold-text">2/5 of interviewees</span> suggested
+          that since checkout has sections "new" and "regular" client, it would
+          be appropriate to also add a "register" button there.
         </div>
         <div>
           I solved the concern by adding the checkbox "Save this information for
           the future"
         </div>
         <div>
-        <span className="bold-text">1/5 among the participants</span> noticed that it would be more convenient
-          for her to use the site if the heart-shaped "add to favorites" button
-          on the product card page was larger.
+          <span className="bold-text">1/5 among the participants</span> noticed
+          that it would be more convenient for her to use the site if the
+          heart-shaped "add to favorites" button on the product card page was
+          larger.
         </div>
         <div>
           I also listened to her feedback and made a separate button more
