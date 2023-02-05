@@ -20,7 +20,7 @@ const ProjectorPrototype = () => {
             <span className="bold-text"></span>
             Once my Lo-Fi wireframe ready and all my ideas examined and
             discussed with mentors and curators, I'm moving on to the next{' '}
-            <br /> step - building Mid-fidelity wireframe. This stage is
+            <br className='br-home'/> step - building Mid-fidelity wireframe. This stage is
             essential{' '}
             <span className="bold-text">
               to highlight the features and the behavior of elements
@@ -42,11 +42,43 @@ const ProjectorPrototype = () => {
 
       <div className="ideate-block2 mb-80">
         <div className="projector-prototype-block3-wrap">
-          <img className='projectorFinalDesign' src={ProjectorFinalDesign1} alt="" />
-          <img className='projectorFinalDesign' src={ProjectorFinalDesign2} alt="" />
-          <img className='projectorFinalDesign' src={ProjectorFinalDesign3} alt="" />
-          <img className='projectorFinalDesign' src={ProjectorFinalDesign4} alt="" />
-          <img className='projectorFinalDesign' src={ProjectorFinalDesign5} alt="" />
+          <div className='projector-prototype-block3-wrap-div1'>
+            {' '}
+            <img
+              className="projectorFinalDesign"
+              src={ProjectorFinalDesign1}
+              alt=""
+            />
+          </div>
+          <div className='projector-prototype-block3-wrap-div2'>
+            {' '}
+            <img
+              className="projectorFinalDesign"
+              src={ProjectorFinalDesign2}
+              alt=""
+            />
+          </div>
+          <div className='projector-prototype-block3-wrap-div3'>
+            <img
+              className="projectorFinalDesign"
+              src={ProjectorFinalDesign3}
+              alt=""
+            />
+          </div>
+          <div className='projector-prototype-block3-wrap-div4'>
+            <img
+              className="projectorFinalDesign"
+              src={ProjectorFinalDesign4}
+              alt=""
+            />
+          </div>
+          <div className='projector-prototype-block3-wrap-div1'>
+            <img
+              className="projectorFinalDesign"
+              src={ProjectorFinalDesign5}
+              alt=""
+            />
+          </div>
         </div>
       </div>
 
@@ -57,13 +89,13 @@ const ProjectorPrototype = () => {
             <span className="bold-text">As a final step</span>, I conducted
             usability{' '}
             <span className="bold-text">testing with 5 my classmates</span>
-            (key users) to validate whether the new designs would solve <br />{' '}
+            (key users) to validate whether the new designs would solve <br className='br-home'/>{' '}
             their problems, which were identified on the empathising and
             defining steps. During the session, we used{' '}
-            <span className="bold-text">“think aloud” method</span> <br /> with
+            <span className="bold-text">“think aloud” method</span> <br className='br-home'/> with
             interviewees. As a result,{' '}
             <span className="bold-text">57% of participants</span> noted that
-            the website has an exhaustive information about faculty, <br />
+            the website has an exhaustive information about faculty, <br className='br-home'/>
             <span className="bold-text">43% of participants</span> told that{' '}
             <span className="bold-text">
               style of website matches with original one
@@ -171,7 +203,7 @@ const ProjectorPrototype = () => {
             <img className="card-img-size" src={zernoFrame} alt="" />
           </div>
         </div>
-        
+
         <NavLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">

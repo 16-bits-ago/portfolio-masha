@@ -105,14 +105,14 @@ const ProjectorIdeate = () => {
             As soon <span className="bold-text">as content-plan was ready</span>
             , I began{' '}
             <span className="bold-text">reference research stage</span>,
-            actively studied the websites of online schools and online <br />
+            actively studied the websites of online schools and online <br className='br-home'/>
             universities,{' '}
             <span className="bold-text">
               noticed some features and patterns
             </span>
             . I took{' '}
             <span className="bold-text">screenshots of blocks of sites</span>{' '}
-            that correspond to those that I already <br /> added to my content
+            that correspond to those that I already <br className='br-home'/> added to my content
             plan, stitched them together and{' '}
             <span className="bold-text">built a Frankenstein</span> based on
             these pieces, then created{' '}

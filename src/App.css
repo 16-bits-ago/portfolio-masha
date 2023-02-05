@@ -612,6 +612,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-right: 10px;
 }
 
 .zerno-start-block1-left button {
@@ -644,6 +645,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   text-align: start;
+  padding-left: 10px;
 }
 
 .zerno-start-block1-right span {
@@ -1490,7 +1492,7 @@ ul {
 .ideate-block2-wrap {
   width: 1440px;
   height: 880px;
-  background: #e6e6e6;
+  background: #f1f3f6;
 }
 
 .ideate-block2-wrap img {
@@ -1697,8 +1699,14 @@ ul {
 
 .projector-start-block2-progress-wrap {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
   align-items: center;
+}
+
+.projector-start-block2-progress-wrap-rows {
+  display: flex;
 }
 
 .projector-start-block2-progress-card {
@@ -1776,13 +1784,14 @@ ul {
   text-align: start;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin: 0 auto 15px;
+  max-width: 1440px;
 }
 
 .projector-empatize-block1-bg-left {
   background: url('./assets/projectorBlueBgBlock5RowUp.png') 100% 100% no-repeat;
   background-size: cover;
-  width: 710px;
+  width: 50%;
   height: 330px;
   display: flex;
   justify-content: center;
@@ -1792,7 +1801,7 @@ ul {
 .projector-empatize-block1-bg-right {
   background: url('./assets/projectorBlueBgBlock5RowDown.png') 100% 100% no-repeat;
   background-size: cover;
-  width: 710px;
+  width: 50%;
   height: 330px;
   display: flex;
   justify-content: center;
@@ -1800,12 +1809,15 @@ ul {
 }
 
 .projector-empatize-block1-card-content {
-  width: 100%;
+  width: 90%;
   height: auto;
   max-height: 300px;
   min-height: 300px;
   margin: 0 80px;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projector-empatize-block1-card-content-min {
@@ -1822,21 +1834,26 @@ ul {
 }
 
 .projector-empatize-block1-card-right {
-  width: 710px;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .projector-empatize-block1-card-right-img {
-  width: 440px;
+  width: auto;
+}
+
+.projector-empatize-block1-card-right-img img {
+  width: 100%;
+  height: auto;
 }
 
 .projector-empatize-block1-row-up-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   height: 50px;
 }
 
@@ -1848,7 +1865,7 @@ ul {
 }
 
 .projector-empatize-block1-card-left {
-  width: 710px;
+  width: 50%;
   height: 330px;
   display: flex;
   align-items: center;
@@ -1861,7 +1878,7 @@ ul {
 
 .projector-emphathize-block2 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 40px;
   margin-bottom: 80px;
@@ -1910,6 +1927,26 @@ ul {
   max-width: 1240px;
 }
 
+.projector-prototype-block3-wrap-div1 {
+  height: 1685px;
+}
+
+.projector-prototype-block3-wrap-div2 {
+  height: 1695px;
+}
+
+.projector-prototype-block3-wrap-div3 {
+  height: 1505px;
+}
+
+.projector-prototype-block3-wrap-div4 {
+  height: 1520px;
+}
+
+.projector-prototype-block3-wrap-div5 {
+  height: 100%;
+}
+
 .define-block3-left-arrow-768 {
   display: none;
 }
@@ -1925,6 +1962,16 @@ ul {
 
   .empatize-block7-card-wrap {
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+
+  .projector-emphathize-block2 {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+
+@media (max-width: 1350px) {
+  .br-home {
+    display: none;
   }
 }
 
@@ -2002,16 +2049,63 @@ ul {
   .define-block4-left {
     width: 380px;
   }
+
+  /* projector adaptive */
+
+  .projector-start-block1 {
+    height: auto !important;
+  }
+
+  .projector-start-block3 {
+    height: auto;
+  }
+
+  .projector-define-block1 {
+    height: auto !important;
+  }
+
+  .projector-empatize-block1-card-content {
+    margin: 0 40px;
+  }
+
+  .ideate-block2-wrap {
+    height: auto;
+  }
+
+  .projector-prototype-block3-wrap-div1 {
+    height: auto;
+  }
+
+  .projector-prototype-block3-wrap-div2 {
+    height: auto;
+  }
+
+  .projector-prototype-block3-wrap-div3 {
+    height: auto;
+  }
+
+  .projector-prototype-block3-wrap-div4 {
+    height: auto;
+  }
+
+  .projector-prototype-block3-wrap-div5 {
+    height: auto;
+  }
+
+  .projector-start-block4-wrap {
+    height: auto;
+  }
+
+  .projector-start-block4 {
+    height: auto !important;
+    min-height: 170px;
+  }
 }
 
 @media (max-width: 1024px) {
 
   .container {
     margin: 0 100px;
-  }
-
-  .br-home {
-    display: none;
   }
 
   .home-cards {
@@ -2170,6 +2264,12 @@ ul {
 
   .empatize-block5-table-header img {
     width: 80%;
+  }
+
+  /* projector adaptive */
+
+  .projector-empatize-block1-row-up-content {
+    font-size: 12px;
   }
 }
 
@@ -2363,6 +2463,12 @@ ul {
 
   .define-block3-right {
     width: 45%;
+  }
+
+  /* projector adaptive */
+
+  .projector-empatize-block1-card-content {
+    margin: 0 20px;
   }
 }
 
@@ -2592,6 +2698,33 @@ ul {
   .empatize-block5-table-sides {
     width: 100%;
   }
+
+  /* projector adaptive */
+
+  .projector-empatize-block1-row-up-content {
+    font-size: 10px;
+  }
+
+  .projector-start-block2-progress-card {
+    width: 120px;
+  }
+
+  .projector-start-block2-progress-card-down {
+    width: 120px;
+  }
+
+  .svgDesignProcessStars {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projector-start-block2-progress-card-down {
+    font-size: 14px;
+  }
+
+  .projector-emphathize-block2 {
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  }
 }
 
 @media (max-width: 500px) {
@@ -2608,7 +2741,7 @@ ul {
   }
 
   .ideate-block2-wrap {
-    height: 400px;
+    height: 350px;
   }
 
   .zerno-start-block1-left button {
@@ -2646,6 +2779,7 @@ ul {
     height: auto;
     min-height: 190px;
   }
+
   .define-block1-content3-card3-wrap {
     min-height: 190px;
   }
