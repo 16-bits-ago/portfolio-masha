@@ -6,7 +6,7 @@ import ProjectorFinalDesign3 from '../../assets/ProjectorFinalDesign3.png'
 import ProjectorFinalDesign4 from '../../assets/ProjectorFinalDesign4.png'
 import ProjectorFinalDesign5 from '../../assets/ProjectorFinalDesign5.png'
 import zernoFrame from '../../assets/zernoHighRes.png'
-import { NavLink } from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link'
 
 const ProjectorPrototype = () => {
   return (
@@ -204,7 +204,7 @@ const ProjectorPrototype = () => {
           </div>
         </div>
 
-        <NavLink to="/zernoEcomers#start" className="home-cards-text ">
+        <HashLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
               <h1>E-Commerce</h1>
@@ -220,7 +220,7 @@ const ProjectorPrototype = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </NavLink>
+        </HashLink>
       </div>
     </>
   )

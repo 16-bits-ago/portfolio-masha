@@ -8,62 +8,62 @@ const FooterStudyCase = () => {
       <footer className="footer-border-studycase">
         {pathname === '/projectorLayout' && (
           <div className="container footer-studycase">
-            <Link className="footer-studycase-link" to="/projectorLayout#start">
+            <Link className="footer-studycase2-link" to="/projectorLayout#start">
               <span>START</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase2-link"
               to="/projectorLayout#emphathize"
             >
               <span>1/ EMPHATHIZE</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase2-link"
               to="/projectorLayout#define"
             >
               <span>2/ DEFINE</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase2-link"
               to="/projectorLayout#ideate"
             >
               <span>3/ IDEATE</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase2-link"
               to="/projectorLayout#prototype"
             >
               <span>4/ PROTOTYPE</span>
             </Link>
-            <Link className="footer-studycase-link" to="/projectorLayout#test">
+            <Link className="footer-studycase2-link" to="/projectorLayout#test">
               <span>5/ TEST</span>
             </Link>
           </div>
         )}
         {pathname === '/zernoEcomers' && (
           <div className="container footer-studycase">
-            <Link className="footer-studycase-link" to="/zernoEcomers#start">
+            <Link className="footer-studycase1-link" to="/zernoEcomers#start">
               <span>START</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase1-link"
               to="/zernoEcomers#emphathize"
             >
               <span>1/ EMPHATHIZE</span>
             </Link>
-            <Link className="footer-studycase-link" to="/zernoEcomers#define">
+            <Link className="footer-studycase1-link" to="/zernoEcomers#define">
               <span>2/ DEFINE</span>
             </Link>
-            <Link className="footer-studycase-link" to="/zernoEcomers#ideate">
+            <Link className="footer-studycase1-link" to="/zernoEcomers#ideate">
               <span>3/ IDEATE</span>
             </Link>
             <Link
-              className="footer-studycase-link"
+              className="footer-studycase1-link"
               to="/zernoEcomers#prototype"
             >
               <span>4/ PROTOTYPE</span>
             </Link>
-            <Link className="footer-studycase-link" to="/zernoEcomers#test">
+            <Link className="footer-studycase1-link" to="/zernoEcomers#test">
               <span>5/ TEST</span>
             </Link>
           </div>

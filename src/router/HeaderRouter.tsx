@@ -15,7 +15,8 @@ function HeaderRouter() {
         <Route path="zernoEcomers" element={<ZernoEcomers />} />
         <Route path="projectorLayout" element={<ProjectorLayout />} />
         <Route path="resume" element={<ProjectorLayout />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path="*" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Route>
     </Routes>
   )

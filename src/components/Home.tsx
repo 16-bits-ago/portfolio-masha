@@ -7,6 +7,8 @@ import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorHighRes.png'
 import { Link, NavLink } from 'react-router-dom'
+import resumePDF from '../assets/Resume.pdf'
+import {HashLink} from 'react-router-hash-link'
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -38,7 +40,7 @@ const Home = () => {
           <div className="home-intro-logo-text m-0">
             <p>
               UX/UI designer with a background in Advertising.{' '}
-              <br className="br-home" />
+              <br />
               <span className="span-orange-background">
                 I love research,
               </span>{' '}
@@ -46,7 +48,7 @@ const Home = () => {
               <span className="span-orange-background">
                 and make a beautiful
               </span>{' '}
-              things. <br className="br-home" />
+              things. <br />
               Let's collaborate and make{' '}
               <span className="span-orange-background">awesome works</span>{' '}
               together!
@@ -56,11 +58,25 @@ const Home = () => {
         <div className="home-intro-block-footer">
           <div className="home-intro-block-footer-left">
             <span>
-              <a className="home-link" href="https://www.facebook.com/" rel='noreferrer' target="_blank">
+              <a
+                className="home-link"
+                href="https://www.facebook.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Linkedin
               </a>
             </span>
-            <span>Resume</span>
+            <span>
+              <a
+                className="home-link"
+                href={resumePDF}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+            </span>
             <span>
               <Link
                 className="home-link"
@@ -104,7 +120,7 @@ const Home = () => {
           </div>
         </div>
 
-        <NavLink to="/zernoEcomers#start" className="home-cards-text ">
+        <HashLink to="/zernoEcomers#start" className="home-cards-text ">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
               <h1 className="m-0">E-Commerce</h1>
@@ -120,15 +136,15 @@ const Home = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </NavLink>
+        </HashLink>
       </div>
 
       <div className="home-card-block">
-        <NavLink to="/projectorLayout#start" className="home-cards-text2">
+        <HashLink to="/projectorLayout#start" className="home-cards-text2">
           <div className="card-content-text">
             <div className="card-content-text-block">
-              <h1>Landing Page</h1>
-              <div className="card-content-tag-block">
+              <h1 className='m-0'>Landing Page</h1>
+              <div className="card-content-tag-block mt-40">
                 <span className="card-content-tag">User Interface</span>
                 <span className="card-content-tag2">Stylish</span>
                 <span className="card-content-tag3">User Experience</span>
@@ -140,7 +156,7 @@ const Home = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </NavLink>
+        </HashLink>
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={projectorFrame} alt="" />

@@ -14,7 +14,14 @@ const HeaderLayout = () => {
         }
       >
         <div className="container App-header">
-          <span>Mariia Mykhailovska</span>
+          <span>
+            <NavLink
+                to="/portfolio-masha"
+                className="home-link"
+              >
+                Mariia Mykhailovska
+              </NavLink>
+          </span>
           <div className="header-right-wrap">
             <span className="header-link">
               <NavLink

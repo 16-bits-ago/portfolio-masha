@@ -154,7 +154,7 @@ const ZernoDefine = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className='define-block1-content3-right-card-wrap'>
+                  <div className="define-block1-content3-right-card-wrap">
                     <div className="define-block1-content3-card2">
                       <div className="define-block1-content3-card2-wrap-content">
                         <div className="define-block1-content3-card2-wrap-content-text">
@@ -470,8 +470,7 @@ const ZernoDefine = () => {
           <div className="define-block3-left-orange-border">
             <div className="define-block3-left-content">Point Of View</div>
             <div className="define-block3-left-content">
-              User's one of the highest need is to be sure that the quality of
-              the clothes is high.
+              How might we help users to know each product better?
             </div>
           </div>
         </div>
@@ -483,8 +482,7 @@ const ZernoDefine = () => {
             <div className="define-block3-right-white-border">
               <div className="define-block3-right-content">How Might We</div>
               <div className="define-block3-right-content">
-                User's one of the highest need is to be sure that the quality of
-                the clothes is high.
+                How might we help users to know each product better?
               </div>
             </div>
           </div>

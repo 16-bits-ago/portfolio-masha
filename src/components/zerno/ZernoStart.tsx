@@ -31,7 +31,7 @@ const ZernoStart = () => {
             </Link>
           </div>
           <div className="zerno-start-block1-right">
-            <span className="bold-text">Problem Statements:</span>
+            <span className="bold-text mb-26">Problem Statements:</span>
             <div>
               <span className="span-orange-background">
                 01. The old website design is obsolete
@@ -103,10 +103,12 @@ const ZernoStart = () => {
                 <span className="zerno-start-block3-card-inside-content-title">
                   1. EMPATHIZE
                 </span>
-                <li>Current state evaluation</li>
-                <li>Brief of client</li>
-                <li>Competetive analysis</li>
-                <li>User Interview</li>
+                <ul>
+                  <li>Current state evaluation</li>
+                  <li>Brief of client</li>
+                  <li>Competetive analysis</li>
+                  <li>User Interview</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -116,10 +118,12 @@ const ZernoStart = () => {
                 <span className="zerno-start-block3-card-inside-content-title">
                   2. DEFINE
                 </span>
-                <li>User Persona</li>
-                <li>Empathy Map</li>
-                <li>HMW Questions</li>
-                <li>Brainstorming</li>
+                <ul>
+                  <li>User Persona</li>
+                  <li>Empathy Map</li>
+                  <li>HMW Questions</li>
+                  <li>Brainstorming</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -129,13 +133,12 @@ const ZernoStart = () => {
                 <span className="zerno-start-block3-card-inside-content-title">
                   3. IDEATE
                 </span>
-                <li>References Research</li>
-                <li>Content-plan</li>
-                <li>
-                  Lo-Fi sketches, Mid-Fi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  &nbsp;&nbsp; prototype
-                </li>
-                <li>Usability testing</li>
+                <ul>
+                  <li>References Research</li>
+                  <li>Content-plan</li>
+                  <li>Lo-Fi sketches, Mid-Fi prototype</li>
+                  <li>Usability testing</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -145,8 +148,10 @@ const ZernoStart = () => {
                 <span className="zerno-start-block3-card-inside-content-title">
                   4. PROTOTYPE
                 </span>
-                <li>Hi-Fi prototype</li>
-                <li>Style guide</li>
+                <ul>
+                  <li>Hi-Fi prototype</li>
+                  <li>Style guide</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -156,10 +161,9 @@ const ZernoStart = () => {
                 <span className="zerno-start-block3-card-inside-content-title">
                   5. TESTING
                 </span>
-                <li>
-                  Hi-fi wireframe usability &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  testing{' '}
-                </li>
+                <ul>
+                  <li>Hi-fi wireframe usability testing</li>
+                </ul>
               </div>
             </div>
           </div>

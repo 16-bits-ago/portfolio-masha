@@ -295,10 +295,9 @@ const ZernoIdeate = () => {
       <div className="empatize-block3">
         <div className="container">
           <span>
-            I always spend enough time looking for references because looking
-            and borrowing ideas or inspiration from the work of other designers
-            is normal and right, it helps to know what is on trend and how it
-            looks.
+            This stage was important to focus on the main aspects, hone my ideas
+            and to fulfill my main goal - creating the website which is not only
+            beautiful in appearance but also intuitive in use.
           </span>
         </div>
       </div>

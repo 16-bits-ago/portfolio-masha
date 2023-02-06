@@ -3,7 +3,7 @@ import { ReactComponent as ArrowDownFigmaBlock } from '../../assets/ArrowDownFig
 import prototypeBG1 from '../../assets/prototypeBG1.png'
 import FigmaEmbeded from '../layout/figma embeded kit/figmaEmbeded'
 import projectorFrame from '../../assets/projectorHighRes.png'
-import { NavLink } from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link'
 
 const ZernoPrototype = () => {
   return (
@@ -150,11 +150,11 @@ const ZernoPrototype = () => {
       </div>
 
       <div className="home-card-block">
-        <NavLink to="/projectorLayout#start" className="home-cards-text">
+        <HashLink to="/projectorLayout#start" className="home-cards-text">
           <div className="card-content-text">
             <div className="card-content-text-block">
-              <h1>Landing Page</h1>
-              <div className="card-content-tag-block">
+              <h1 className='m-0'>Landing Page</h1>
+              <div className="card-content-tag-block mt-40">
                 <span className="card-content-tag">User Interface</span>
                 <span className="card-content-tag2">Stylish</span>
                 <span className="card-content-tag3">User Experience</span>
@@ -166,7 +166,7 @@ const ZernoPrototype = () => {
               <span className="tap-button-block">TAP TO EXPLORE</span>
             </div>
           </div>
-        </NavLink>
+        </HashLink>
         <div className="home-cards">
           <div className="card-img-border">
             <img className="card-img-size" src={projectorFrame} alt="" />

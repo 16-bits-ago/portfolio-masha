@@ -137,12 +137,13 @@ ul {
 }
 
 .home-intro-block-footer-right {
-  min-width: 115px;
-  text-align: start;
+  min-width: 220px;
+  text-align: end;
 }
 
 .home-card-block {
   width: 100%;
+  max-height: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -151,6 +152,7 @@ ul {
 
 .home-cards {
   min-height: 400px;
+  max-height: 400px;
   width: calc(50% - 4px);
   display: flex;
   justify-content: center;
@@ -579,7 +581,13 @@ ul {
   line-height: 24px;
 }
 
-.footer-studycase-link {
+.footer-studycase1-link {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.footer-studycase2-link {
   text-decoration: none;
   color: #000000;
   cursor: pointer;
@@ -591,8 +599,12 @@ ul {
   cursor: pointer;
 }
 
-.footer-studycase-link:hover {
+.footer-studycase1-link:hover {
   border-bottom: 1px solid #FB7756;
+}
+
+.footer-studycase2-link:hover {
+  border-bottom: 1px solid #5464FF;
 }
 
 .footer-border-studycase {
@@ -737,7 +749,11 @@ ul {
 }
 
 .zerno-start-block3-card-inside-content-title {
-  margin: 18px 0 0 20px;
+  margin: 18px 0 0 10px;
+}
+
+.zerno-start-block3-card-inside-content ul{
+  margin-top: 14px;
 }
 
 .emphathize-wrapper {
@@ -1376,6 +1392,10 @@ ul {
   margin-top: 30px !important;
 }
 
+.mb-26 {
+  margin-bottom: 26px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -1450,7 +1470,7 @@ ul {
 .define-block3-right {
   width: 200px;
   height: 190px;
-  background-color: #f2b29f;
+  background-color: #FDAD9A;
   border-radius: 20px;
   display: flex;
   justify-content: center;
