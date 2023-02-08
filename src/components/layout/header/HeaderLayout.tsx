@@ -48,7 +48,9 @@ const HeaderLayout = () => {
             <a
               className="btn download"
               href={resume}
-              download="CV_Mariia_Mykhailovska.pdf"
+              target="_blank"
+              rel="noreferrer"
+              /* download="CV_Mariia_Mykhailovska.pdf" */
             >
               <span style={{ paddingRight: 5 }}>Resume</span>
               <div className="cloud">

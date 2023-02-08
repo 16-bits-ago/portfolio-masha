@@ -16,7 +16,7 @@ const ZernoDefine = () => {
           <h1>2 / DEFINE</h1>
           <CircleTitle />
         </div>
-        <div className="emphathize-block1-margin40 mb-100">
+        <div className="emphathize-block1-margin40 mb-60">
           <div className="emphathize-block1-left">
             <span>2 / DEFINE</span>
             <h3>User Persona</h3>
@@ -196,7 +196,7 @@ const ZernoDefine = () => {
         </div>
       </div>
       <div className="container empatize-line"></div>
-      <div className="container emphathize-block1-margin40">
+      <div className="container emphathize-block1-margin40 mb-60">
         <div className="emphathize-block1-left">
           <span>2 / DEFINE</span>
           <h3>Empathy Map</h3>

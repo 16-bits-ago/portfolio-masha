@@ -12,7 +12,7 @@ const ProjectorPrototype = () => {
   return (
     <>
       <div className="container" id="prototype">
-        <div className="projector-start-block3 mb-0">
+        <div className="projector-start-block3">
           <div className="projector-start-block3-title">
             Mid-Fi wireframe <ProjectorBlueClyaksa />
           </div>
@@ -145,8 +145,6 @@ const ProjectorPrototype = () => {
             </span>
             .
           </div>
-          <br />
-          <br />
           <div>
             <span className="bold-text"></span>
             <span className="bold-text">During my work</span> on this project I
@@ -161,8 +159,6 @@ const ProjectorPrototype = () => {
             <span className="bold-text">“Eagle”</span> that is a perfect app to
             gather all the references in the one spot.
           </div>
-          <br />
-          <br />
           <div>
             <span className="bold-text"></span>
             <span className="bold-text">After my work</span> on this project I

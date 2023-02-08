@@ -111,7 +111,7 @@ ul {
 }
 
 .home-intro-block div {
-  max-width: 570px;
+  max-width: 670px;
   min-width: 570px;
   text-align: left;
 }
@@ -668,7 +668,7 @@ ul {
 }
 
 .zerno-start-block1-right {
-  width: 480px;
+  width: 510px;
   min-width: 480px;
   height: 330px;
   display: flex;
@@ -850,7 +850,7 @@ ul {
 
 .empatize-line {
   border-top: 1px solid #7B7878;
-  margin-bottom: 35px !important;
+  margin-bottom: 25px !important;
 }
 
 .empatize-block4 {
@@ -976,7 +976,7 @@ ul {
   grid-row-gap: 20px;
   align-items: center;
   justify-items: center;
-  margin: 0 0 20px;
+  margin: 0 0 40px;
 }
 
 .empatize-block7-card {
@@ -1177,6 +1177,7 @@ ul {
   width: 336px;
   max-width: 340px;
   height: 160px;
+  margin-right: 20px;
 }
 
 .define-block1-content2-text-block3 {
@@ -1237,6 +1238,7 @@ ul {
   line-height: 20px;
   color: #FFFFFF;
   max-width: 339px;
+  margin-right: 20px;
 }
 
 .define-block1-content3-card2-wrap-content {
@@ -1394,6 +1396,10 @@ ul {
 
 .mb-26 {
   margin-bottom: 26px !important;
+}
+
+.mb-25 {
+  margin-bottom: 25px !important;
 }
 
 .mb-20 {
@@ -1594,7 +1600,7 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   align-items: center;
   justify-items: center;
 }
@@ -1720,7 +1726,11 @@ ul {
 .prototype-outcome-row-content {
   width: 500px;
   height: 100%;
-  margin: 0 0 30px 0;
+  margin: 0 0 5px 0;
+}
+
+.prototype-outcome-row-content div{
+  margin-bottom: 25px;
 }
 
 .prototype-outcome-row-content span {
@@ -1793,7 +1803,7 @@ ul {
 }
 
 .projector-start-block3 {
-  height: 172px;
+  height: auto;
   margin: 40px 0;
 }
 
@@ -1808,7 +1818,7 @@ ul {
   font-size: 24px;
   line-height: 36px;
   color: #3548FE;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
 }
 
 .projector-start-block4 {

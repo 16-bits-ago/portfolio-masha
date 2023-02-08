@@ -1,32 +1,13 @@
 import * as React from 'react'
-import Box from '@mui/material/Box'
-import Typography from '@mui/material/Typography'
-import Modal from '@mui/material/Modal'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
 import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorHighRes.png'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import resumePDF from '../assets/Resume.pdf'
 import {HashLink} from 'react-router-hash-link'
 
-const style = {
-  position: 'absolute' as 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4
-}
-
 const Home = () => {
-  const [open, setOpen] = React.useState(false)
-  const handleOpen = () => setOpen(true)
-  const handleClose = () => setOpen(false)
-
   return (
     <React.Fragment>
       <div className="container mt-80">
@@ -90,23 +71,7 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <ArrowDown onClick={handleOpen} className="arrow-img" />
-            <Modal
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="parent-modal-title"
-              aria-describedby="parent-modal-description"
-            >
-              <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                  Text in a modal
-                </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                  Duis mollis, est non commodo luctus, nisi erat porttitor
-                  ligula.
-                </Typography>
-              </Box>
-            </Modal>
+            <ArrowDown className="arrow-img" />
           </div>
           <span className="home-intro-block-footer-right ">
             Cyprus. Limassol
