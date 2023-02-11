@@ -651,6 +651,10 @@ ul {
   border: none;
   color: #000000;
   cursor: pointer;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .zerno-start-block1-left button:hover {
@@ -668,7 +672,7 @@ ul {
 }
 
 .zerno-start-block1-right {
-  width: 510px;
+  width: 570px;
   min-width: 480px;
   height: 330px;
   display: flex;
@@ -766,12 +770,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .frame-block-title h1 {
   color: #606060;
-  ;
+  font-size: 36px;
 }
 
 .emphathize-block1 {
@@ -785,7 +789,7 @@ ul {
   display: flex;
   justify-content: space-between;
   text-align: start;
-  margin-bottom: 30px !important;
+  margin-bottom: 40px !important;
 }
 
 .emphathize-block1-left {
@@ -800,7 +804,8 @@ ul {
 }
 
 .emphathize-block1-left h3 {
-  margin: 0;
+  margin: 6px 0 0;
+  font-size: 24px;
 }
 
 .emphathize-block1-right {
@@ -850,7 +855,7 @@ ul {
 
 .empatize-line {
   border-top: 1px solid #7B7878;
-  margin-bottom: 25px !important;
+  margin-bottom: 30px !important;
 }
 
 .empatize-block4 {
@@ -876,6 +881,8 @@ ul {
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 .empatize-block4-left button:hover {
