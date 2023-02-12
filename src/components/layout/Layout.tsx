@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Loader from '../loader/loader'
 import FooterMainPages from './footer/FooterMainPages'
@@ -7,16 +7,18 @@ import HeaderLayout from './header/HeaderLayout'
 
 const Layout = () => {
   const { pathname } = useLocation()
-  const [open, setOpen] = React.useState(true)
-  setTimeout(() => {
-    setOpen(false)
-  }, 3000)
+  const [isLoaded, setIsLoaded] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true)
+    }, 100)
+  }, [])
 
   return (
     <>
-      {open ? (
-        <Loader/>
-      ) : (
+      <Loader timeout={2000} />
+      {isLoaded && (
         <>
           <HeaderLayout />
           <Outlet />
