@@ -96,7 +96,7 @@ const ZernoStart = () => {
         </div>
       </div>
       <div className="zerno-start-block3">
-        <div className="zerno-start-block3-wrap">
+        <div className="zerno-start-block3-wrap display-none">
           <div className="zerno-start-block3-card">
             <div className="zerno-start-block3-card-inside">
               <div className="zerno-start-block3-card-inside-content">
@@ -164,6 +164,82 @@ const ZernoStart = () => {
                 <ul>
                   <li>Hi-fi wireframe usability testing</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="zerno-start-block3-wrap-1024">
+          <div className='zerno-start-block3-wrap-1024-rowup'>
+            <div className="zerno-start-block3-card">
+              <div className="zerno-start-block3-card-inside">
+                <div className="zerno-start-block3-card-inside-content">
+                  <span className="zerno-start-block3-card-inside-content-title">
+                    1. EMPATHIZE
+                  </span>
+                  <ul>
+                    <li>Current state evaluation</li>
+                    <li>Brief of client</li>
+                    <li>Competetive analysis</li>
+                    <li>User Interview</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="zerno-start-block3-card">
+              <div className="zerno-start-block3-card-inside">
+                <div className="zerno-start-block3-card-inside-content">
+                  <span className="zerno-start-block3-card-inside-content-title">
+                    2. DEFINE
+                  </span>
+                  <ul>
+                    <li>User Persona</li>
+                    <li>Empathy Map</li>
+                    <li>HMW Questions</li>
+                    <li>Brainstorming</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='zerno-start-block3-wrap-1024-rowdown'>
+            <div className="zerno-start-block3-card">
+              <div className="zerno-start-block3-card-inside">
+                <div className="zerno-start-block3-card-inside-content">
+                  <span className="zerno-start-block3-card-inside-content-title">
+                    3. IDEATE
+                  </span>
+                  <ul>
+                    <li>References Research</li>
+                    <li>Content-plan</li>
+                    <li>Lo-Fi sketches, Mid-Fi prototype</li>
+                    <li>Usability testing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="zerno-start-block3-card">
+              <div className="zerno-start-block3-card-inside">
+                <div className="zerno-start-block3-card-inside-content">
+                  <span className="zerno-start-block3-card-inside-content-title">
+                    4. PROTOTYPE
+                  </span>
+                  <ul>
+                    <li>Hi-Fi prototype</li>
+                    <li>Style guide</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="zerno-start-block3-card">
+              <div className="zerno-start-block3-card-inside">
+                <div className="zerno-start-block3-card-inside-content">
+                  <span className="zerno-start-block3-card-inside-content-title">
+                    5. TESTING
+                  </span>
+                  <ul>
+                    <li>Hi-fi wireframe usability testing</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

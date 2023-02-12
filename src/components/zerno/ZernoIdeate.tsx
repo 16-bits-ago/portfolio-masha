@@ -94,7 +94,7 @@ const ZernoIdeate = () => {
         </div>
       </div>
       <div className="container empatize-block7 mb-80">
-        <div className="empatize-block7-card-wrap">
+        <div className="empatize-block7-card-wrap display-none ">
           <div className="empatize-block7-card space-between-column">
             <div className="empatize-block7-card-content-title m-none">
               <span className="bold-text">Main Page</span>
@@ -173,6 +173,94 @@ const ZernoIdeate = () => {
                 9. Total including fees <br />
                 10. Recomendations <br />
               </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="empatize-block7-card-wrap-1024">
+          <div className="empatize-block7-card-wrap-1024-rowup">
+            <div className="empatize-block7-card space-between-column">
+              <div className="empatize-block7-card-content-title m-none">
+                <span className="bold-text">Main Page</span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  1. Banner <br />
+                  2. Sections <br />
+                  3. Discounts <br />
+                  3. Block of advantages <br />
+                  5. New collections <br />
+                  6. About us <br />
+                  7. Footer <br />
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card space-between-column">
+              <div className="empatize-block7-card-content-title m-none">
+                <span className="bold-text">Catalogue</span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  1. Bread Crumps <br />
+                  2. Categories <br />
+                  3. Filtration by color, size and style <br />
+                  3. Filtration by price <br />
+                  4. Products with details on hover <br />
+                  5. Footer <br />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="empatize-block7-card-wrap-1024-rowdown">
+            <div className="empatize-block7-card space-between-column">
+              <div className="empatize-block7-card-content-title m-none">
+                <span className="bold-text">Checkout</span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  1. Steps (data entry, payment, purchase) <br />
+                  2. Mini images of choosen products <br />
+                  3. Name, prices, colours <br />
+                  4. Total including fees <br />
+                  5. Continue registration button <br />
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card space-between-column">
+              <div className="empatize-block7-card-content-title m-none">
+                <span className="bold-text">Product Details</span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  1. Add to wish list <br />
+                  2. Material <br />
+                  3. Shipping details <br />
+                  4. Size Guide <br />
+                  5. Large photos <br />
+                  6. Recently watched products <br />
+                  7. Footer <br />
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card space-between-column">
+              <div className="empatize-block7-card-content-title m-none h-30">
+                <span className="bold-text">Cart</span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  1. Mini images of choosen products <br />
+                  2. Name, prices, colours <br />
+                  3. Delete button <br />
+                  4. Fees included in Total <br />
+                  5. “Continue shopping” <br />
+                  6. “Proceed to checkout” <br />
+                  7. Pack as gift <br />
+                  8. Organic packaging <br />
+                  9. Total including fees <br />
+                  10. Recomendations <br />
+                </span>
+              </div>
             </div>
           </div>
         </div>

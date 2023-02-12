@@ -413,8 +413,8 @@ ul {
 }
 
 .about-avatar {
-  width: 285px;
-  height: 272px;
+  width: 271px;
+  height: 285px;
 }
 
 .about-block-left {
@@ -724,6 +724,10 @@ ul {
   margin: 0 80px;
 }
 
+.zerno-start-block3-wrap-1024 {
+  display: none;
+}
+
 .zerno-start-block3-card {
   background: #FDAD9A;
   width: 223px;
@@ -754,6 +758,7 @@ ul {
 
 .zerno-start-block3-card-inside-content-title {
   margin: 18px 0 0 10px;
+  font-size: 16px;
 }
 
 .zerno-start-block3-card-inside-content ul{
@@ -1393,6 +1398,10 @@ ul {
   margin-top: 40px !important;
 }
 
+.mb-36 {
+  margin-bottom: 36px !important;
+}
+
 .mb-30 {
   margin-bottom: 30px !important;
 }
@@ -1424,6 +1433,8 @@ ul {
 .min-h-none {
   min-height: fit-content !important;
 }
+
+
 
 .h-283 {
   width: 283px !important;
@@ -2218,6 +2229,10 @@ ul {
     margin: 0 100px;
   }
 
+  .display-none {
+    display: none !important;
+  }
+
   .home-cards {
     display: none;
   }
@@ -2231,6 +2246,11 @@ ul {
 
   .home-intro-block p {
     text-align: center;
+    font-size: 20px;
+  }
+
+  .home-intro-block h1 {
+    font-size: 32px;
   }
 
   .home-cards-text {
@@ -2249,6 +2269,57 @@ ul {
 
   .card-content-text-block {
     color: #FFFFFF;
+  }
+
+  .card-content-text-block h1 {
+    font-size: 32px;
+  }
+
+  .zerno-start-block3-wrap-1024 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .zerno-start-block3-wrap-1024-rowup {
+    display: flex;
+    justify-content: space-between;
+    width: 485px;
+    margin: 50px auto;
+  }
+
+  .zerno-start-block3-wrap-1024-rowdown {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin:0px auto 50px;
+  }
+
+  .empatize-block7-card-wrap-1024 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .empatize-block7-card-wrap-1024-rowup {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    margin: 50px auto 20px;
+  }
+
+  .empatize-block7-card-wrap-1024-rowdown {
+    display: flex;
+    justify-content: space-between;
+    width: 655px;
+    margin:0px auto 50px;
+  }
+
+  .empatize-block7-card {
+    width: 205px;
+    height: 193px;
   }
 
   .zerno-start-block1-left {

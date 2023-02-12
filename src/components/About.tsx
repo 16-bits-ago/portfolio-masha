@@ -33,13 +33,13 @@ const About = () => {
             </div>
           </div>
           <div className="about-block-right">
-            <div className="about-block-left-title about-height-768 mb-40">
+            <div className="about-block-left-title about-height-768 mb-36">
               <h1 className="margin-0">
                 Hello, <span className="span-orange">colleagues!</span>
               </h1>
               <span>It's nice to e-meet you here.</span>
             </div>
-            <div className="mb-30 ">
+            <div className="mb-36 ">
               <p className="m-0">
                 I'm a creative, curious girl with{' '}
                 <span className="span-orange-background">
@@ -89,8 +89,13 @@ const About = () => {
             <div className="about-hard-skills">
               <span className="bold-text">Hard Skills:</span>
               <p className="m-0">
-                Wireframing / Usability studies / Presentation / Prototyping /
-                Design Thinking / UI Design / UX Research / Drawing skills
+                Wireframing <span className="span-orange">/</span> Usability
+                studies <span className="span-orange">/</span> Presentation{' '}
+                <span className="span-orange">/</span> Prototyping{' '}
+                <span className="span-orange">/</span>
+                Design Thinking <span className="span-orange">/</span> UI Design{' '}
+                <span className="span-orange">/</span> UX Research{' '}
+                <span className="span-orange">/</span> Drawing skills
               </p>
             </div>
           </div>

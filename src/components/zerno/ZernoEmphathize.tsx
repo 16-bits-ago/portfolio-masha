@@ -325,7 +325,7 @@ const ZernoEmphathize = () => {
       </div>
       <div className="container empatize-block7">
         <div className="empatize-block7-title">Insights:</div>
-        <div className="empatize-block7-card-wrap">
+        <div className="empatize-block7-card-wrap display-none">
           <div className="empatize-block7-card">
             <div className="empatize-block7-card-content-title">
               <span className="bold-text">
@@ -393,6 +393,82 @@ const ZernoEmphathize = () => {
                 and indicating which product sizes are available and which are
                 not.
               </span>
+            </div>
+          </div>
+        </div>
+        <div className="empatize-block7-card-wrap-1024">
+          <div className="empatize-block7-card-wrap-1024-rowup">
+            <div className="empatize-block7-card">
+              <div className="empatize-block7-card-content-title">
+                <span className="bold-text">
+                  1. People assume familiar ways to make an order in online
+                  stores
+                </span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  When choosing between intuition and beauty, users prefer a
+                  visually simple website with predictable patterns to visually
+                  catchy but unpredictable navigation.
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card">
+              <div className="empatize-block7-card-content-title">
+                <span className="bold-text">
+                  2. Preservation of traditions and customs as a driving motive
+                </span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  People who turn to the online store for national clothes want
+                  to declare themselves as part of the national identity.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="empatize-block7-card-wrap-1024-rowdown">
+            <div className="empatize-block7-card">
+              <div className="empatize-block7-card-content-title">
+                <span className="bold-text">
+                  3. People mostly avoid filling the sign up form
+                </span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  Most of the participants mentioned that they are afraid to
+                  leave their personal information or do not want to waste their
+                  time on it.
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card">
+              <div className="empatize-block7-card-content-title">
+                <span className="bold-text">
+                  4. People search for product categories in the header
+                </span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  Users who can initially name the type of product they plan to
+                  buy don't want to flip through a long homepage, they expect to
+                  see the categories right in the navigation menu.
+                </span>
+              </div>
+            </div>
+            <div className="empatize-block7-card">
+              <div className="empatize-block7-card-content-title">
+                <span className="bold-text">
+                  5. Size guide must be clearly visible
+                </span>
+              </div>
+              <div className="empatize-block7-card-content-body">
+                <span>
+                  Most of participants mentioned the importance of the size
+                  guide and indicating which product sizes are available and
+                  which are not.
+                </span>
+              </div>
             </div>
           </div>
         </div>
