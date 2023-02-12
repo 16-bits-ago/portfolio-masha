@@ -8,7 +8,7 @@ const HeaderLayout = () => {
     <>
       <header id="start"
         className={
-          pathname === '/about' || pathname === '/portfolio-masha'
+          pathname === '/about' || pathname === '/home'
             ? 'header-border-sticky'
             : 'header-border'
         }
@@ -16,7 +16,7 @@ const HeaderLayout = () => {
         <div className="container App-header">
           <span>
             <NavLink
-                to="/portfolio-masha"
+                to="/home"
                 className="home-link"
               >
                 Mariia Mykhailovska
@@ -25,7 +25,7 @@ const HeaderLayout = () => {
           <div className="header-right-wrap">
             <span className="header-link">
               <NavLink
-                to="/portfolio-masha"
+                to="/home"
                 className={({ isActive }) =>
                   isActive ? 'active-link-border' : ''
                 }

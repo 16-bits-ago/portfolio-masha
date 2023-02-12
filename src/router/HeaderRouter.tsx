@@ -9,7 +9,7 @@ function HeaderRouter() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="portfolio-masha" index element={<Home />} />
+        <Route path="home" index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="zernoEcomers" element={<ZernoEcomers />} />
         <Route path="projectorLayout" element={<ProjectorLayout />} />

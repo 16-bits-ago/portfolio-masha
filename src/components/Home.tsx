@@ -61,7 +61,7 @@ const Home = () => {
             <span>
               <Link
                 className="home-link"
-                to="/portfolio-masha"
+                to="/home"
                 onClick={() =>
                   window.location.assign('mailto:mykhailovska.mariia@gmail.com')
                 }

@@ -21,8 +21,8 @@ const Layout = () => {
           <HeaderLayout />
           <Outlet />
           {pathname === '/about' ||
-          pathname === '/portfolio-masha' ||
-          pathname === '/portfolio-masha/' ? (
+          pathname === '/home' ||
+          pathname === '/home/' ? (
             <FooterMainPages />
           ) : (
             <FooterStudyCase />
