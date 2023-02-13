@@ -17,7 +17,12 @@ const ZernoStart = () => {
               </div>
               <div className="zerno-start-block1-left-content-row">
                 <span className="bold-text">Duration:</span>
-                <span>4 weeks (September 2022)</span>
+                <span className="zerno-start-block1-left-content-row-4week">
+                  4 weeks (September 2022)
+                </span>
+                <span className="zerno-start-block1-left-content-row-4week-1024">
+                  September 2022
+                </span>
               </div>
               <div className="zerno-start-block1-left-content-row">
                 <span className="bold-text">Tools:</span>
@@ -96,7 +101,7 @@ const ZernoStart = () => {
         </div>
       </div>
       <div className="zerno-start-block3">
-        <div className="zerno-start-block3-wrap display-none">
+        <div className="zerno-start-block3-wrap">
           <div className="zerno-start-block3-card">
             <div className="zerno-start-block3-card-inside">
               <div className="zerno-start-block3-card-inside-content">
@@ -169,7 +174,7 @@ const ZernoStart = () => {
           </div>
         </div>
         <div className="zerno-start-block3-wrap-1024">
-          <div className='zerno-start-block3-wrap-1024-rowup'>
+          <div className="zerno-start-block3-wrap-1024-rowup">
             <div className="zerno-start-block3-card">
               <div className="zerno-start-block3-card-inside">
                 <div className="zerno-start-block3-card-inside-content">
@@ -201,7 +206,7 @@ const ZernoStart = () => {
               </div>
             </div>
           </div>
-          <div className='zerno-start-block3-wrap-1024-rowdown'>
+          <div className="zerno-start-block3-wrap-1024-rowdown">
             <div className="zerno-start-block3-card">
               <div className="zerno-start-block3-card-inside">
                 <div className="zerno-start-block3-card-inside-content">
@@ -230,7 +235,7 @@ const ZernoStart = () => {
                 </div>
               </div>
             </div>
-            <div className="zerno-start-block3-card">
+            <div className="zerno-start-block3-card mt-650px">
               <div className="zerno-start-block3-card-inside">
                 <div className="zerno-start-block3-card-inside-content">
                   <span className="zerno-start-block3-card-inside-content-title">

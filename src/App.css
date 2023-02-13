@@ -586,6 +586,10 @@ ul {
   line-height: 24px;
 }
 
+.mt-650px {
+  display: none;
+}
+
 .footer-studycase1-link {
   text-decoration: none;
   color: #000000;
@@ -674,6 +678,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.zerno-start-block1-left-content-row-4week-1024 {
+  display: none;
 }
 
 .zerno-start-block1-right {
@@ -2246,6 +2254,10 @@ ul {
     display: none !important;
   }
 
+  .zerno-start-block3-wrap {
+    display: none;
+  }
+
   .home-cards {
     display: none;
   }
@@ -2288,6 +2300,18 @@ ul {
     font-size: 32px;
   }
 
+  .zerno-start-block1-left-content-row-4week {
+    display: none;
+  }
+
+  .zerno-start-block1-left-content-row-4week-1024 {
+    display: block;
+  }
+
+  .empatize-block7-card-wrap {
+    display: none;
+  }
+
   .zerno-start-block3-wrap-1024 {
     display: flex;
     flex-direction: column;
@@ -2297,15 +2321,19 @@ ul {
 
   .zerno-start-block3-wrap-1024-rowup {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 485px;
+    max-width: 485px;
+    width: 100%;
     margin: 50px auto;
   }
 
   .zerno-start-block3-wrap-1024-rowdown {
     display: flex;
-    justify-content: space-between;
-    width: 750px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 780px;
     margin:0px auto 50px;
   }
 
@@ -2319,14 +2347,18 @@ ul {
   .empatize-block7-card-wrap-1024-rowup {
     display: flex;
     justify-content: space-between;
-    width: 430px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 430px;
     margin: 50px auto 20px;
   }
 
   .empatize-block7-card-wrap-1024-rowdown {
     display: flex;
-    justify-content: space-between;
-    width: 655px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 675px;
     margin:0px auto 50px;
   }
 
@@ -2681,6 +2713,12 @@ ul {
   }
 }
 
+@media (max-width: 715px) {
+  .mt-715px {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 650px) {
 
   .home-intro-block div {
@@ -2728,6 +2766,11 @@ ul {
 
   .define-block1-content1-photo-block {
     height: 140px;
+  }
+
+  .mt-650px {
+    display: flex;
+    margin-top: 50px;
   }
 
   .define-block1-content1-text-block {
@@ -2950,6 +2993,25 @@ ul {
 
   .projector-emphathize-block2 {
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  }
+}
+
+@media (max-width: 510px) {
+  .zerno-start-block3-wrap-1024 {
+    display: none;
+  }
+
+  .zerno-start-block3-wrap {
+    display: grid;
+  }
+
+  .empatize-block7-card-wrap-1024 {
+    display: none;
+  }
+
+  .empatize-block7-card-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 

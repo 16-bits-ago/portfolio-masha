@@ -94,7 +94,7 @@ const ZernoIdeate = () => {
         </div>
       </div>
       <div className="container empatize-block7 mb-80">
-        <div className="empatize-block7-card-wrap display-none ">
+        <div className="empatize-block7-card-wrap">
           <div className="empatize-block7-card space-between-column">
             <div className="empatize-block7-card-content-title m-none">
               <span className="bold-text">Main Page</span>
@@ -243,7 +243,7 @@ const ZernoIdeate = () => {
                 </span>
               </div>
             </div>
-            <div className="empatize-block7-card space-between-column">
+            <div className="empatize-block7-card mt-715px space-between-column">
               <div className="empatize-block7-card-content-title m-none h-30">
                 <span className="bold-text">Cart</span>
               </div>

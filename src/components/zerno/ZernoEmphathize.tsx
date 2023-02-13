@@ -325,7 +325,7 @@ const ZernoEmphathize = () => {
       </div>
       <div className="container empatize-block7">
         <div className="empatize-block7-title">Insights:</div>
-        <div className="empatize-block7-card-wrap display-none">
+        <div className="empatize-block7-card-wrap">
           <div className="empatize-block7-card">
             <div className="empatize-block7-card-content-title">
               <span className="bold-text">
@@ -456,7 +456,7 @@ const ZernoEmphathize = () => {
                 </span>
               </div>
             </div>
-            <div className="empatize-block7-card">
+            <div className="empatize-block7-card mt-715px">
               <div className="empatize-block7-card-content-title">
                 <span className="bold-text">
                   5. Size guide must be clearly visible
