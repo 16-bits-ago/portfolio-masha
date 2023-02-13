@@ -92,7 +92,7 @@ const ZernoPrototype = () => {
           <span className="bold-text">E-Commerce website “ZERNO”</span>
         </div>
       </div>
-      <div className="container empatize-line mb-25"></div>
+      <div className="container empatize-line mb-25 mt-25"></div>
       <div className="container prototype-outcome">
         <div className="bold-text">Takeaways:</div>
         <div className="prototype-outcome-row-content">
@@ -136,7 +136,7 @@ const ZernoPrototype = () => {
           </span>
         </div>
       </div>
-      <div className="container empatize-line mb-25"></div>
+      <div className="container empatize-line mb-25 mt-25"></div>
       <div className="container prototype-outcome mb-100">
         <div className="bold-text">Reflections:</div>
         <div className="prototype-outcome-row-content">

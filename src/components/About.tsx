@@ -13,21 +13,21 @@ const About = () => {
                 <h1 className="margin-0">
                   Hi! <span className="span-orange">I'm Mariia,</span>
                 </h1>
-                <span>Junior UX/UI Designer</span>
+                <span className='about-block-left-junior'>Junior UX/UI Designer</span>
               </div>
               <a
                 className="about-download-link-768"
                 href={resume}
                 download="CV_Mariia_Mykhailovska.pdf"
               >
-                <button>DOWNOLAD MY RESUME</button>
+                <button>DOWNLOAD MY RESUME</button>
               </a>
             </div>
             <div>
               <img className="about-avatar" src={avatar} alt="" />
               <div className="about-download-link">
                 <a href={resume} download="CV_Mariia_Mykhailovska.pdf">
-                  <button>DOWNOLAD MY RESUME</button>
+                  <button>DOWNLOAD MY RESUME</button>
                 </a>
               </div>
             </div>

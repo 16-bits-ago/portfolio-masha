@@ -470,7 +470,7 @@ const ZernoDefine = () => {
           <div className="define-block3-left-orange-border">
             <div className="define-block3-left-content">Point Of View</div>
             <div className="define-block3-left-content">
-              How might we help users to know each product better?
+              User's one of the highest need is to be sure that the quality of the clothes is high.
             </div>
           </div>
         </div>

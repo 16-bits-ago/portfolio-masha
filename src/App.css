@@ -410,11 +410,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 30px;
 }
 
 .about-avatar {
   width: 271px;
-  height: 285px;
+  height: 295px;
 }
 
 .about-block-left {
@@ -422,8 +423,11 @@ ul {
   min-width: 275px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin-right: 70px;
+}
+
+.about-block-left-junior {
+  border-bottom: 1px solid #FB7756;
 }
 
 .about-block-left button {
@@ -449,6 +453,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+  margin-bottom: 45px;
 }
 
 .about-block-right {
@@ -461,7 +466,7 @@ ul {
 }
 
 .about-hard-skills {
-  height: 90px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -754,6 +759,10 @@ ul {
   font-size: 14px;
   line-height: 21px;
   margin: 14px 0 0 10px;
+}
+
+.empatize-block7-card-wrap-1024 {
+  display: none;
 }
 
 .zerno-start-block3-card-inside-content-title {
@@ -1418,6 +1427,10 @@ ul {
   margin-bottom: 25px !important;
 }
 
+.mt-25 {
+  margin-top: 25px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -1742,7 +1755,7 @@ ul {
 }
 
 .prototype-outcome-row-content {
-  width: 500px;
+  width: 570px;
   height: 100%;
   margin: 0 0 5px 0;
 }
@@ -2524,6 +2537,7 @@ ul {
 
   .about-block-left {
     flex-direction: row;
+    justify-content: space-between;
     margin-right: 0;
     margin-bottom: 40px;
     height: 200px;
