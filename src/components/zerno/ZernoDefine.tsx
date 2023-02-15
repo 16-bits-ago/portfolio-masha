@@ -195,6 +195,119 @@ const ZernoDefine = () => {
           </div>
         </div>
       </div>
+
+      <div className="container define-block1-1024">
+        <div className="define-block1-1024-row1-border">
+          <div className="define-block1-1024-row1-left">
+            <img
+              className="define-block1-content1-photo-block"
+              src={definePhoto}
+              alt=""
+            />
+          </div>
+          <div className="define-block1-1024-row1-right">
+            <div className="define-block1-1024-row1-right-row1">
+              <span className="bold-text">Viktoria Ivanivska</span>
+            </div>
+            <div className="define-block1-1024-row1-right-row2">
+              <span>Status: Married</span>
+              <span>Ukraine, Lviv</span>
+            </div>
+            <div className="define-block1-1024-row1-right-row2">
+              <span>Occupation: Lawyer</span>
+              <span>Age: 36</span>
+            </div>
+            <div className="define-block1-1024-row1-right-row3">
+              <Commas style={{ display: 'block' }} />
+              <div>
+                <span className="span-orange-background bold-text">
+                  “The first and most important thing I am proud of is that I am
+                  Ukrainian”
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="define-block1-1024-row2-border">
+          <div className="define-block1-1024-row2-left">
+            <span className="bold-text">Biography:</span>
+            <span>
+              Busy business owner, bright and confident
+              <br /> personality, house proud women with a big family.
+              <br /> She is someone who treats every aspect of life
+              <br /> seriously.
+            </span>
+          </div>
+          <div className="define-block1-1024-row2-right">
+            <span>
+              She loves read magazines, listen poetry and learn
+              <br /> history, feels involved to Ukrainian traditions
+              <br /> and culture.
+            </span>
+          </div>
+        </div>
+        <div className="define-block1-1024-row3">
+          <div className="define-block1-1024-row3-left">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Goals:</span>
+              <ul>
+                <li>
+                  To find a product that she would be <br /> satisfied with
+                </li>
+                <li>To find a product that is worth the money</li>
+                <li>
+                  To find clothes that fits her image\display her patriotism
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="define-block1-1024-row3-right">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Frustrations:</span>
+              <ul>
+                <li>
+                  No proofs that clothes fit her size, as no size guide on a
+                  website
+                </li>
+                <li>Lack of images to see the quality</li>
+                <li>Long checkout process</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="define-block1-1024-row3">
+          <div className="define-block1-1024-row3-left">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Needs:</span>
+              <ul>
+                <li>To know each product better</li>
+                <li>
+                  To reduce the time she spend on finding the right product
+                </li>
+                <li>Convenient navigation on the website she shopping on</li>
+                <li>To be sure that the quality of the clothes are high</li>
+              </ul>
+            </div>
+          </div>
+          <div className="define-block1-1024-row3-right">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Motivations:</span>
+              <ul>
+                <li>To save time making online purchases </li>
+                <li>
+                  Find the clothes for other family <br className="br-home" />{' '}
+                  members
+                </li>
+                <li>
+                  high quality and natural fabric of the{' '}
+                  <br className="br-home" /> clothes
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div className="container empatize-line"></div>
       <div className="container emphathize-block1-margin40 mb-60">
         <div className="emphathize-block1-left">
@@ -470,7 +583,8 @@ const ZernoDefine = () => {
           <div className="define-block3-left-orange-border">
             <div className="define-block3-left-content">Point Of View</div>
             <div className="define-block3-left-content">
-              User's one of the highest need is to be sure that the quality of the clothes is high.
+              User's one of the highest need is to be sure that the quality of
+              the clothes is high.
             </div>
           </div>
         </div>

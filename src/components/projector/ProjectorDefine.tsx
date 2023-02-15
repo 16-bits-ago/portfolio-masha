@@ -163,6 +163,125 @@ const ProjectorDefine = () => {
           </div>
         </div>
       </div>
+
+      <div className="container define-block1-1024">
+        <div className="define-block1-1024-row1-border projector-define-block1-border">
+          <div className="define-block1-1024-row1-left">
+            <img
+              className="define-block1-content1-photo-block"
+              src={projectorDefinePhoto}
+              alt=""
+            />
+          </div>
+          <div className="define-block1-1024-row1-right">
+            <div className="define-block1-1024-row1-right-row1">
+              <span className="bold-text">Alex Karovaninskiy</span>
+            </div>
+            <div className="define-block1-1024-row1-right-row2">
+              <div>
+                <span className="color-blue">Status:</span> Single
+              </div>
+              <div>
+                <span className="color-blue">City:</span> Ukraine, Kyiv
+              </div>
+            </div>
+            <div className="define-block1-1024-row1-right-row2">
+              <div>
+                <span className="color-blue">Occupation:</span> Student
+              </div>
+              <div>
+                <span className="color-blue">Age:</span> 19
+              </div>
+            </div>
+            <div className="define-block1-1024-row1-right-row3">
+              <Commas style={{ display: 'block' }} />
+              <div>
+                <span className="span-blue-background bold-text color-white">
+                  “Would be so cool to find ways to express myself in creative
+                  field”
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="define-block1-1024-row2-border projector-define-block1-border">
+          <div className="define-block1-1024-row2-left">
+            <span className="bold-text">Biography:</span>
+            <span>
+              Busy student, curious, looking for different ways to improve
+              personality. Creative person with a big ambitious. He is someone
+              who always looks to the future.
+            </span>
+          </div>
+          <div className="define-block1-1024-row2-right">
+            <span>
+              He loves to learn and read, listen podcasts<br /> and draw
+              illustrations.
+            </span>
+          </div>
+        </div>
+        <div className="define-block1-1024-row3">
+          <div className="define-block1-1024-row3-left projector-define-block1-border">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Goals:</span>
+              <ul>
+                <li>
+                  To find an online courses that he would be satisfied with
+                </li>
+                <li>To find way to find his calling and grow</li>
+                <li>To find online university that match with description.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="define-block1-1024-row3-right projector-define-block1-border">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Frustrations:</span>
+              <ul>
+                <li>
+                  No proofs on a website that the faculty of visual arts is
+                  match with his needs
+                </li>
+                <li>
+                  Not enough information on the website to explore all pros and
+                  cons
+                </li>
+                <li>Slow loading of the website</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="define-block1-1024-row3">
+          <div className="define-block1-1024-row3-left projector-define-block1-border">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Needs:</span>
+              <ul>
+                <li>To know each course better</li>
+                <li>
+                  To reduce the time he spends on finding the right faculty and
+                  course
+                </li>
+                <li>Convenient navigation on the website</li>
+                <li>
+                  Be sure that the quality of educational material is high
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="define-block1-1024-row3-right projector-define-block1-border">
+            <div className="define-block1-1024-row3-content-wrap">
+              <span className="bold-text">Motivations:</span>
+              <ul>
+                <li>
+                  To save money, as Alex doesn't work yet and for a moment
+                  materially dependent from parents
+                </li>
+                <li>Find the online course that friends advised</li>
+                <li>Opportunity to combine his school and learn new field</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container projector-start-block3-title">
         Empathy Map <ProjectorBlueClyaksa />
       </div>

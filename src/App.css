@@ -778,7 +778,7 @@ ul {
   font-size: 16px;
 }
 
-.zerno-start-block3-card-inside-content ul{
+.zerno-start-block3-card-inside-content ul {
   margin-top: 14px;
 }
 
@@ -1032,6 +1032,10 @@ ul {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
+}
+
+.define-block1-1024 {
+  display: none;
 }
 
 .define-block1 {
@@ -1768,7 +1772,7 @@ ul {
   margin: 0 0 5px 0;
 }
 
-.prototype-outcome-row-content div{
+.prototype-outcome-row-content div {
   margin-bottom: 25px;
 }
 
@@ -2103,7 +2107,7 @@ ul {
   .projector-start-block2-progress-wrap-rows {
     display: flex;
   }
-  
+
   .projector-start-block2-progress-wrap-init {
     display: none;
   }
@@ -2296,6 +2300,153 @@ ul {
     color: #FFFFFF;
   }
 
+  .define-block1 {
+    display: none;
+  }
+
+  .define-block1-1024 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 880px;
+    width: 100%;
+    max-width: 785px;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+
+  .define-block1-1024-row1-border {
+    width: 100%;
+    height: 260px;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .define-block1-1024-row2-border {
+    width: 100%;
+    height: 160px;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .define-block1-1024-row3 {
+    width: 100%;
+    height: 195px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .define-block1-1024-row3-left {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .define-block1-1024-row3-right {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .define-block1-1024-row3-content-wrap {
+    width:355px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .define-block1-1024-row3-content-wrap ul {
+    max-height: 100px;
+  }
+
+  .define-block1-1024-row1-left {
+    width: 360px;
+    height: 220px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 20px;
+  }
+
+  .define-block1-1024-row1-left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .define-block1-1024-row2-left {
+    width: 360px;
+    height: 120px;
+    margin: 20px 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .define-block1-1024-row1-right {
+    width: 365px;
+    height: 220px;
+    margin: 20px 20px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .define-block1-1024-row2-right {
+    width: 365px;
+    height: 120px;
+    margin: 20px 20px 20px 10px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .define-block1-1024-row1-right-row1 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .define-block1-1024-row1-right-row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .define-block1-1024-row1-right-row3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .define-block1-1024-row1-right-row3 div {
+    padding-left: 17px;
+  }
+
   .card-content-text-block h1 {
     font-size: 32px;
   }
@@ -2334,7 +2485,7 @@ ul {
     justify-content: space-around;
     width: 100%;
     max-width: 780px;
-    margin:0px auto 50px;
+    margin: 0px auto 50px;
   }
 
   .empatize-block7-card-wrap-1024 {
@@ -2359,7 +2510,7 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     max-width: 675px;
-    margin:0px auto 50px;
+    margin: 0px auto 50px;
   }
 
   .empatize-block7-card {
