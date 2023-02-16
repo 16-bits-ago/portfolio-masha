@@ -77,9 +77,9 @@ const ZernoStart = () => {
             <span className="bold-text">Background:</span>
             <span className="zerno-start-block2-row-right">
               The project is <span className="bold-text">my course work</span>{' '}
-              which was made within a bootcamp course, where I was learning to{' '}
-              <span className="bold-text">customer's needs</span> understand in
-              the field using latest methods of research and ideation.
+              which was made within a bootcamp course, where I was learning to
+              understand <span className="bold-text">customer's needs</span>,
+              using latest methods of research and ideation.
               <span className="bold-text">
                 The work was made for a real client
               </span>{' '}

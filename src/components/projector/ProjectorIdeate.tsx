@@ -15,7 +15,7 @@ const ProjectorIdeate = () => {
                 Insights +HMW
               </div>
               <div className="projector-empatize-block1-row-up-content">
-                <span className="bold-text"></span>I have entered the stage of
+                <span className="bold-text"></span>I have entered the stage of{' '}
                 <span className="bold-text">
                   summarizing all the pain points and needs
                 </span>{' '}

@@ -382,6 +382,15 @@ ul {
   background: #D9D9D9;
 }
 
+.arrow-btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .arrow-img {
   max-width: 50px;
   max-height: 24px;
@@ -1149,8 +1158,16 @@ ul {
   padding: 10px 15px;
 }
 
+.define-block1-content2-text-block2-left ul {
+  padding-top: 8px;
+}
+
 .define-block1-content2-text-block3-right {
   padding: 10px 15px;
+}
+
+.define-block1-content2-text-block3-right ul {
+  padding-top: 8px;
 }
 
 .define-block1-content2-down {
@@ -2373,7 +2390,7 @@ ul {
   }
 
   .define-block1-1024-row3-content-wrap {
-    width:355px;
+    width: 355px;
     height: 155px;
     display: flex;
     flex-direction: column;

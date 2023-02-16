@@ -82,9 +82,9 @@ const ProjectorEmpathize = () => {
                 <span className="bold-text">2. How you decide</span> which
                 online school/university website to visit? <br />{' '}
                 <span className="bold-text">3.</span> Tell me about{' '}
-                <span className="bold-text">your lastexperience</span> of buying
+                <span className="bold-text">your last experience</span> of buying
                 courses online <br /> <span className="bold-text">4.</span> Tell
-                me about a
+                me about a{' '}
                 <span className="bold-text">
                   pleasurable/frustrating experience
                 </span>{' '}
@@ -99,7 +99,7 @@ const ProjectorEmpathize = () => {
         <div className="projector-start-block3-title">
           Current state evaluation <ProjectorBlueClyaksa />
         </div>
-        <div className="container projector-emphathize-block2 mb-40">
+        <div className="container projector-emphathize-block2 mb-80">
           <div className="projector-emphathize-block2-card">
             <img src={currentStateEvaluation1} alt="" />
             <div className="empatize-block2-list">
@@ -113,7 +113,7 @@ const ProjectorEmpathize = () => {
             <img src={currentStateEvaluation2} alt="" />
             <div className="empatize-block2-list">
               <li>Nothing except of list of courses and filtration</li>
-              <li>o extra information about approach</li>
+              <li>No extra information about approach</li>
               <li>No reviews</li>
             </div>
           </div>

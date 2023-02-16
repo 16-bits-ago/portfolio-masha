@@ -468,10 +468,11 @@ const ZernoIdeate = () => {
       <div className="empatize-block3">
         <div className="container">
           <span>
-            I always spend enough time looking for references because looking
-            and borrowing ideas or inspiration from the work of other designers
-            is normal and right, it helps to know what is on trend and how it
-            looks.
+            Mid-Fi usability testing needed to find out what works and what
+            doesn't work, which solutions are appropriate, which needed to be
+            changed or removed at all. I've observed and have studied the
+            behavior and logic of the interviewees, found out which specific
+            elements in the design are not suitable for the task
           </span>
         </div>
       </div>

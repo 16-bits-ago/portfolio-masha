@@ -5,9 +5,14 @@ import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorHighRes.png'
 import { Link } from 'react-router-dom'
 import resumePDF from '../assets/Resume.pdf'
-import {HashLink} from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link'
+import { useRef } from 'react'
 
 const Home = () => {
+  const handleScrollToBottom = () => {
+    window.scrollTo(0, document.body.scrollHeight)
+  }
+
   return (
     <React.Fragment>
       <div className="container mt-80">
@@ -20,8 +25,7 @@ const Home = () => {
           </h1>
           <div className="home-intro-logo-text m-0">
             <p>
-              UX/UI designer with a background in Advertising.{' '}
-              <br />
+              UX/UI designer with a background in Advertising. <br />
               <span className="span-orange-background">
                 I love research,
               </span>{' '}
@@ -71,7 +75,9 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <ArrowDown className="arrow-img" />
+            <button className='arrow-btn' onClick={handleScrollToBottom}>
+              <ArrowDown className="arrow-img" />
+            </button>
           </div>
           <span className="home-intro-block-footer-right ">
             Cyprus. Limassol
@@ -108,7 +114,7 @@ const Home = () => {
         <HashLink to="/projectorLayout#start" className="home-cards-text2">
           <div className="card-content-text">
             <div className="card-content-text-block">
-              <h1 className='m-0'>Landing Page</h1>
+              <h1 className="m-0">Landing Page</h1>
               <div className="card-content-tag-block mt-40">
                 <span className="card-content-tag">User Interface</span>
                 <span className="card-content-tag2">Stylish</span>

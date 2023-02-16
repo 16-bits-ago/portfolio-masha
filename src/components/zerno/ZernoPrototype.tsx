@@ -113,7 +113,7 @@ const ZernoPrototype = () => {
           <br />
           <br />
           <span>
-            During my work on this project, I learned to first deeply
+            During my work on this project, I learned to first deeply{' '}
             <span className="bold-text">
               understand, and only then do it
             </span>{' '}

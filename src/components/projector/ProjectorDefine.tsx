@@ -29,18 +29,18 @@ const ProjectorDefine = () => {
                       </div>
                       <div className="define-block1-content1-text-block-row2">
                         <div>
-                          <span className="color-blue">Age</span>: 36
+                          <span className="color-blue">Age</span>: 19
                         </div>
                         <div>
-                          <span className="color-blue">City</span>Ukraine, Lviv
+                          <span className="color-blue">City</span>Ukraine, Kyiv
                         </div>
                       </div>
                       <div className="define-block1-content1-text-block-row3">
                         <div>
-                          <span className="color-blue">Status</span>: Married
+                          <span className="color-blue">Status</span>: Single
                         </div>
                         <div>
-                          <span className="color-blue">Occupation</span>: Lawyer
+                          <span className="color-blue">Occupation</span>: Student
                         </div>
                       </div>
                     </div>
@@ -79,28 +79,33 @@ const ProjectorDefine = () => {
                     <div className="define-block1-content2-text-block2 projector-define-block1-border">
                       <div className="define-block1-content2-text-block2-left">
                         <span className="bold-text">Goals:</span>
-                        <li>
-                          To find an online courses that he would be satisfied
-                          with
-                        </li>
-                        <li>To find way to find his calling and grow</li>
-                        <li>
-                          To find online university that match with description.
-                        </li>
+                        <ul>
+                          <li>
+                            To find an online courses that he would be satisfied
+                            with
+                          </li>
+                          <li>To find way to find his calling and grow</li>
+                          <li>
+                            To find online university that match with
+                            description.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                     <div className="define-block1-content2-text-block3 projector-define-block1-border">
                       <div className="define-block1-content2-text-block3-right">
                         <span className="bold-text">Frustrations:</span>
-                        <li>
-                          No proofs on a website that the faculty of visual arts
-                          is match with his needs
-                        </li>
-                        <li>
-                          Not enough information on the website to explore all
-                          pros and cons{' '}
-                        </li>
-                        <li>Slow loading of the website</li>
+                        <ul>
+                          <li>
+                            No proofs on a website that the faculty of visual
+                            arts is match with his needs
+                          </li>
+                          <li>
+                            Not enough information on the website to explore all
+                            pros and cons{' '}
+                          </li>
+                          <li>Slow loading of the website</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -215,8 +220,8 @@ const ProjectorDefine = () => {
           </div>
           <div className="define-block1-1024-row2-right">
             <span>
-              He loves to learn and read, listen podcasts<br /> and draw
-              illustrations.
+              He loves to learn and read, listen podcasts
+              <br /> and draw illustrations.
             </span>
           </div>
         </div>
