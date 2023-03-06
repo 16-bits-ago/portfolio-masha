@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-masha/static/css/main.fb5ffc26.css",
-    "main.js": "/portfolio-masha/static/js/main.7a199d37.js",
+    "main.js": "/portfolio-masha/static/js/main.dbfbfd88.js",
     "static/js/696.36821fe7.chunk.js": "/portfolio-masha/static/js/696.36821fe7.chunk.js",
     "static/js/409.d9581ecd.chunk.js": "/portfolio-masha/static/js/409.d9581ecd.chunk.js",
     "static/js/68.1bedc84c.chunk.js": "/portfolio-masha/static/js/68.1bedc84c.chunk.js",
@@ -19,8 +19,8 @@
     "static/js/762.de5cabe2.chunk.js": "/portfolio-masha/static/js/762.de5cabe2.chunk.js",
     "static/js/498.9b2670c1.chunk.js": "/portfolio-masha/static/js/498.9b2670c1.chunk.js",
     "static/media/empatizeCard3.png": "/portfolio-masha/static/media/empatizeCard3.38e6795a597d3449eed9.png",
+    "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.af93b1b51b77764d1a45.pdf",
     "static/media/ProjectorFinalDesign4.png": "/portfolio-masha/static/media/ProjectorFinalDesign4.5a0fcc4d2c850f03e30e.png",
-    "static/media/Resume.pdf": "/portfolio-masha/static/media/Resume.0b6f0e0f1fcb15bff320.pdf",
     "static/media/zernoHighRes.png": "/portfolio-masha/static/media/zernoHighRes.58772b8dbdbdd934f6e0.png",
     "static/media/ProjectorFinalDesign3.png": "/portfolio-masha/static/media/ProjectorFinalDesign3.d080ce0b0b46bf304120.png",
     "static/media/zernoMidFiLeft.png": "/portfolio-masha/static/media/zernoMidFiLeft.e2c1162a473aa5e08574.png",
@@ -78,7 +78,7 @@
     "static/media/ArrowDefine.svg": "/portfolio-masha/static/media/ArrowDefine.f3fb70df80c9413641ce6d802d1a4ae6.svg",
     "static/media/arrowDown.svg": "/portfolio-masha/static/media/arrowDown.4b08432db39b468c640ab32cfcb16e79.svg",
     "main.fb5ffc26.css.map": "/portfolio-masha/static/css/main.fb5ffc26.css.map",
-    "main.7a199d37.js.map": "/portfolio-masha/static/js/main.7a199d37.js.map",
+    "main.dbfbfd88.js.map": "/portfolio-masha/static/js/main.dbfbfd88.js.map",
     "696.36821fe7.chunk.js.map": "/portfolio-masha/static/js/696.36821fe7.chunk.js.map",
     "409.d9581ecd.chunk.js.map": "/portfolio-masha/static/js/409.d9581ecd.chunk.js.map",
     "68.1bedc84c.chunk.js.map": "/portfolio-masha/static/js/68.1bedc84c.chunk.js.map",
@@ -98,6 +98,6 @@
   },
   "entrypoints": [
     "static/css/main.fb5ffc26.css",
-    "static/js/main.7a199d37.js"
+    "static/js/main.dbfbfd88.js"
   ]
 }
