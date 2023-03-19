@@ -42,43 +42,31 @@ const ProjectorPrototype = () => {
 
       <div className="ideate-block2 mb-80">
         <div className="projector-prototype-block3-wrap">
-          <div className="projector-prototype-block3-wrap-div1">
-            {' '}
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign1}
               alt=""
             />
-          </div>
-          <div className="projector-prototype-block3-wrap-div2">
-            {' '}
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign2}
               alt=""
             />
-          </div>
-          <div className="projector-prototype-block3-wrap-div3">
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign3}
               alt=""
             />
-          </div>
-          <div className="projector-prototype-block3-wrap-div4">
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign4}
               alt=""
             />
-          </div>
-          <div className="projector-prototype-block3-wrap-div5">
             <img
               className="projectorFinalDesign"
               src={ProjectorFinalDesign5}
               alt=""
             />
-          </div>
         </div>
       </div>
 
