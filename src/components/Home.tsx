@@ -1,12 +1,12 @@
 import * as React from 'react'
 import { ReactComponent as ReactLogo } from '../assets/mashaLogo.svg'
 import { ReactComponent as ArrowDown } from '../assets/arrowDown.svg'
+import { ReactComponent as ArrowDown768 } from '../assets/home_arrow_down_768.svg'
 import zernoFrame from '../assets/zernoHighRes.png'
 import projectorFrame from '../assets/projectorHighRes.png'
 import { Link } from 'react-router-dom'
 import resumePDF from '../assets/Resume.pdf'
 import { HashLink } from 'react-router-hash-link'
-import { useRef } from 'react'
 
 const Home = () => {
   const handleScrollToBottom = () => {
@@ -53,16 +53,6 @@ const Home = () => {
               </a>
             </span>
             <span>
-              <a
-                className="home-link"
-                href={resumePDF}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
-            </span>
-            <span>
               <Link
                 className="home-link"
                 to="/home"
@@ -73,10 +63,23 @@ const Home = () => {
                 Email
               </Link>
             </span>
+            <span>
+              <a
+                className="home-link"
+                href={resumePDF}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+            </span>
           </div>
           <div>
-            <button className='arrow-btn' onClick={handleScrollToBottom}>
+            <button className="arrow-btn" onClick={handleScrollToBottom}>
               <ArrowDown className="arrow-img" />
+            </button>
+            <button className="arrow-btn-768" onClick={handleScrollToBottom}>
+              <ArrowDown768 className="arrow-img" />
             </button>
           </div>
           <span className="home-intro-block-footer-right ">
@@ -91,7 +94,7 @@ const Home = () => {
           </div>
         </div>
 
-        <HashLink to="/zernoEcomers#start" className="home-cards-text ">
+        <HashLink to="/zernoEcomers#start" className="home-cards-text">
           <div className="card-content-text ">
             <div className="card-content-text-block ">
               <h1 className="m-0">E-Commerce</h1>
@@ -105,6 +108,39 @@ const Home = () => {
                 minimalistic website for an online store of Ukrainian clothes.
               </p>
               <span className="tap-button-block">TAP TO EXPLORE</span>
+            </div>
+          </div>
+        </HashLink>
+
+        <HashLink to="/zernoEcomers#start" className="home-cards-text-768">
+          <div className="home-cards-text-768-img">
+            <img className="card-img-size" src={zernoFrame} alt="" />
+          </div>
+          <div className="home-cards-text-768-content">
+            <div className="home-cards-text-768-content-up">
+              <div className="home-cards-text-768-content-up-left">
+                E-Commerce
+              </div>
+              <div className="home-cards-text-768-content-up-right">
+                <span className="home-cards-text-768-content-tag">
+                  UX research
+                </span>
+                <span className="home-cards-text-768-content-tag2">
+                  Redesign
+                </span>
+                <span className="home-cards-text-768-content-tag3">
+                  User Interface
+                </span>
+              </div>
+            </div>
+            <div className="home-cards-text-768-content-down">
+              <div className="home-cards-text-768-content-down-left">
+                Scrutiny careful research, deep analysis and creating beautiful
+                minimalistic website for an online store of Ukrainian clothes.
+              </div>
+              <div className="home-cards-text-768-content-down-right">
+                <span>TAP TO EXPLORE</span>
+              </div>
             </div>
           </div>
         </HashLink>
@@ -133,6 +169,39 @@ const Home = () => {
             <img className="card-img-size" src={projectorFrame} alt="" />
           </div>
         </div>
+
+        <HashLink to="/projectorLayout#start" className="home-cards-text2-768">
+          <div className="home-cards-text-768-img">
+            <img className="card-img-size" src={projectorFrame} alt="" />
+          </div>
+          <div className="home-cards-text-768-content">
+            <div className="home-cards-text-768-content-up">
+              <div className="home-cards-text-768-content-up-left">
+                Landing Page
+              </div>
+              <div className="home-cards-text-768-content-up-right">
+                <span className="home-cards-text-768-content-tag2">
+                  User Interface
+                </span>
+                <span className="home-cards-text-768-content-tag3">
+                  Stylish
+                </span>
+                <span className="home-cards-text-768-content-tag">
+                  User Experience
+                </span>
+              </div>
+            </div>
+            <div className="home-cards-text-768-content-down">
+              <div className="home-cards-text-768-content-down-left">
+                Crafting redesign of page of faculty for an online university
+                with its own taste and unique style.
+              </div>
+              <div className="home-cards-text-768-content-down-right">
+                <span>TAP TO EXPLORE</span>
+              </div>
+            </div>
+          </div>
+        </HashLink>
       </div>
     </React.Fragment>
   )

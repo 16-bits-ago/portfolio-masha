@@ -171,6 +171,14 @@ ul {
   color: #000000;
 }
 
+.home-cards-text-768 {
+  display: none;
+}
+
+.home-cards-text2-768 {
+  display: none;
+}
+
 .home-cards-text:hover {
   background: rgba(34, 34, 34, 0.54);
   cursor: pointer;
@@ -338,6 +346,10 @@ ul {
   height: calc(100% - 8px);
 }
 
+.footer-768 {
+  display: none;
+}
+
 .footer {
   height: 170px;
   display: flex;
@@ -383,6 +395,16 @@ ul {
 }
 
 .arrow-btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow-btn-768 {
+  display: none;
   padding: 0;
   border: none;
   font: inherit;
@@ -2691,7 +2713,192 @@ ul {
   }
 
   .home-card-block {
-    margin: 0 50px 20px;
+    margin: 0 50px 50px;
+  }
+
+  .home-intro-block-footer{
+    margin: 30px 0 30px;
+    flex-direction: column;
+    height: 80px;
+  }
+
+  .home-intro-block-footer-right {
+    display: none;
+  }
+
+  .arrow-btn-768 {
+    display: block;
+  }
+
+  .arrow-btn {
+    display: none;
+  }
+
+  .home-intro-logo {
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .home-card-block {
+    max-height: none;
+  }
+
+  .home-cards-text {
+    display: none;
+  }
+
+  .home-cards-text-768 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #D9D9D9;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .home-cards-text-768-img {
+    height: 360px;
+  }
+
+  .home-cards-text-768-content {
+    height: 200px;
+    margin: 0 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-cards-text-768-content-up {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .home-cards-text-768-content-up-left {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .home-cards-text-768-content-up-right {
+    height: 100%;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-cards-text-768-content-tag {
+    color: #FF8A80;
+    padding: 4px 11px;
+    border-radius: 20px;
+    border: 1px solid #FF8A80;
+  }
+
+  .home-cards-text-768-content-tag2 {
+    color: #7961BC;
+    padding: 4px 11px;
+    border-radius: 20px;
+    border: 1px solid #7961BC;
+  }
+
+  .home-cards-text-768-content-tag3 {
+    color: #61BC92;
+    padding: 4px 11px;
+    border-radius: 20px;
+    border: 1px solid #61BC92;
+  }
+
+  .home-cards-text-768-content-down {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home-cards-text-768-content-down-left {
+    width: 350px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-cards-text-768-content-down-right {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7878;
+    border-bottom: 2px solid #FB7756;
+  }
+
+  .home-cards-text2 {
+    display: none;
+  }
+
+  .home-cards-text2-768 {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .footer-768 {
+    display: flex;
+    height: 140px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-768-up {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7878;
+    margin-top: 25px;
+  }
+
+  .footer-768-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-768-down button {
+    width: 114px;
+    height: 32px;
+    background: #fbe5df;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .footer {
+    display: none;
   }
 
   .about-wrapper {
